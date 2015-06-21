@@ -1,6 +1,6 @@
 <?php
 // Heading
-$_['heading_title']            = 'Настройки Блога';
+$_['heading_title']            = 'Настройки Новостей';
 
 // Text
 $_['text_success']             = 'Настройки успешно изменены!';

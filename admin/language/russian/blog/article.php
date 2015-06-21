@@ -1,6 +1,6 @@
 <?php
 // Heading
-$_['heading_title']          = 'Статьи Блога';
+$_['heading_title']          = 'Статьи Новостей';
 
 // Text
 $_['text_success']           = 'Список статей обновлен!';

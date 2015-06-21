@@ -1,7 +1,7 @@
 <div id="cart">
   <div class="heading">
     <div class="heading-title"><i class="fa fa-shopping-cart fa-lg"></i> <?php echo $heading_title; ?></div>
-    <a><span id="cart-total"><?php echo $text_items; ?></span><i class="fa fa-sort-asc fa-lg"></i></a></div>
+    <a class="cart-total-a"><span id="cart-total"><?php echo $text_items; ?></span><i class="fa fa-sort-asc fa-lg"></i></a></div>
   <div class="content">
     <?php if ($products || $vouchers) { ?>
     <div class="mini-cart-info">

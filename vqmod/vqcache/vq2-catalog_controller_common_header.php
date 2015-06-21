@@ -212,8 +212,10 @@ class ControllerCommonHeader extends Controller {
 				);
 			}
 		}
-		
-		
+
+//		$this->template = 'default/template/common/amenu.tpl';;
+//		$this->data['amenu'] = $this->render();
+
 
 
 			if ($cacheconfig['menu']['status']) {
@@ -227,6 +229,7 @@ class ControllerCommonHeader extends Controller {
 		$this->children = array(
 			'module/language',
 			'module/currency',
+			'common/amenu',
 			'module/cart'
 		);
 
