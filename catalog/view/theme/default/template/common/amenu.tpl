@@ -11,12 +11,14 @@
             <div class="acontent">
                 <div class="left-col">
                     <?php //var_dump($category['info']); ?>
-                    <h1><?php echo html_entity_decode($category['info']['seo_h1'], ENT_QUOTES, 'UTF-8'); ?></h1>
-                    <p class="description"><?php echo html_entity_decode($category['info']['description'], ENT_QUOTES, 'UTF-8'); ?></p>
-                    <?php if($category['info']['seo_h1']): ?>
-                        <button class="to-category" onclick="window.location='<?php echo $category["href"]; ?>'">
-                        <?php echo html_entity_decode($category['info']['seo_h1'], ENT_QUOTES, 'UTF-8'); ?>
-                        </button>
+                    <h1><?php echo $category['info']['name']; ?></h1>
+
+                    <p class="description"><?php echo $category['info']['description']; ?></p>
+                    <?php if($category['info']['name']): ?>
+                    <button class="to-category" onclick="window.location='<?php echo $category[" href
+                    "]; ?>'">
+                    <?php echo $category['info']['name']; ?>
+                    </button>
                     <hr/>
                     <?php endif; ?>
 
@@ -34,66 +36,123 @@
                     <?php } ?>
                 </div>
                 <div class="right-col">
-                    <?php //var_dump($category['products']); ?>
-                    <div class="slider-container">
-                        <div class="jcarousel-container">
-                            <div class="jcarousel-clip">
-                                <ul id="slider-1">
-                                    <li class="item  quick-view-container jcarousel-item">
-                                        <a href="http://ascari.com.ua/krossovki-new-balance-580-serye.html"
-                                           title="Кроссовки New Balance 580" class="product-image">
-                                            <img class="regular_img"
-                                                 src="http://ascari.com.ua/media/catalog/product/cache/1/small_image/217x217/9df78eab33525d08d6e5fb8d27136e95/j/c/jclmpbwheva_1_.jpg"
-                                                 data-srcx2="http://ascari.com.ua/media/catalog/product/cache/1/small_image/434x434/9df78eab33525d08d6e5fb8d27136e95/j/c/jclmpbwheva_1_.jpg"
-                                                 width="217" height="217" alt="Кроссовки New Balance 580"> </a>
+                    <div class="modulcarousel acarousel">
+                        <ul class="jcarousel-skin-opencart">
+                                <?php foreach ($category['products'] as $product) { ?>
+                                <li>
+                                    <div>
+                                        <?php if ($product['thumb']) { ?>
+                                        <div class="image"><?php echo $product['sticker']; ?><a
+                                                    href="<?php echo $product['href']; ?>">
+                                                <img class="thumb" src="<?php echo $product['thumb']; ?>"
+                                                     width="<?php echo $product['thumbwidth']; ?>"
+                                                     height="<?php echo $product['thumbheight']; ?>"
+                                                     data-src="<?php echo $product['thumb']; ?>"
+                                                     title="<?php echo $product['name']; ?>"
+                                                     alt="<?php echo $product['name']; ?>"/>
 
-                                        <div class="product-hover">
-                                            <h2 class="product-name"><a
-                                                        href="http://ascari.com.ua/krossovki-new-balance-580-serye.html"
-                                                        title="Кроссовки New Balance 580">Кроссовки New Balance 580</a>
-                                            </h2><br>
-
-
-                                            <div class="price-box">
-                                                                <span class="regular-price" id="product-price-120">
-                                            <span class="price">2&nbsp;660,00&nbsp;грн</span>                                    </span>
-
-                                            </div>
-
+                                            </a></div>
+                                        <?php } ?>
+                                        <div class="name"><a
+                                                    href="<?php echo $product['href']; ?>"><?php echo $product['name']; ?></a>
                                         </div>
-                                        <div class="name">
-
-                                            <div class="actions">
-                                                <ul class="add-to-links">
-                                                    <li class="">
-                                                        <button type="button" title="В Корзину"
-                                                                class="button btn-cart icon-white" onclick=""
-                                                                data-click="setLocation('http://ascari.com.ua/krossovki-new-balance-580-serye.html')">
-                                                            <span><span>В Корзину</span></span></button>
-                                                    </li>
-                                                    <li class=""><a title="В избранное"
-                                                                    href="http://ascari.com.ua/wishlist/index/add/product/120/form_key/25XKDTBox14mZNXV/"
-                                                                    class="link-wishlist icon-white" onclick="">В
-                                                            избранное</a></li>
-                                                    <li class=""><span class="separator">|</span> <a title="В сравнение"
-                                                                                                     href="http://ascari.com.ua/catalog/product_compare/add/product/120/uenc/aHR0cDovL2FzY2FyaS5jb20udWEvbmlrZS1haXItbWF4LWx1bmFyLTkwLWtyYXNueWUuaHRtbA,,/form_key/25XKDTBox14mZNXV/"
-                                                                                                     class="link-compare icon-white">В
-                                                            сравнение</a></li>
-                                                </ul>
-                                                <div class="clear"></div>
-                                                <button type="button" class="button quick-view">
-                                                    <span><span>Просмотр</span></span></button>
-                                            </div>
-
+                                        <div class="description">
+                                            <?php if (!$product['description_mini']) { ?>
+                                            <?php echo $product['description']; ?>
+                                            <?php } else { ?>
+                                            <?php echo $product['description_mini']; ?>
+                                            <?php } ?>
                                         </div>
-                                    </li>
-                                </ul>
-                            </div>
-                        </div>
+                                        <?php if ($product['price']) { ?>
+                                        <div class="price">
+                                            <?php if (!$product['special']) { ?>
+                                            <?php echo $product['price']; ?>
+                                            <?php } else { ?>
+                                            <span class="price-old"><?php echo $product['price']; ?></span><br/><span
+                                                    class="price-new"><?php echo $product['special']; ?></span>
+                                            <?php } ?>
+                                            <?php if ($product['tax']) { ?>
+                                            <br/>
+                                            <span class="price-tax"><?php echo $text_tax; ?> <?php echo $product['tax']; ?></span>
+                                            <?php } ?>
+                                        </div>
+                                        <?php } ?>
+                                        <div class="cart">
+                                            <input type="button" value="<?php echo $button_cart; ?>"
+                                                   onclick="addToCart('<?php echo $product['product_id']; ?>');"
+                                                   class="button"/>
+                                        </div>
+                                        <div class="wishlist"><a
+                                                    onclick="addToWishList('<?php echo $product['product_id']; ?>');"><i
+                                                        class="fa fa-heart-o"></i><?php echo $button_wishlist; ?>
+                                            </a></div>
+                                        <div class="compare"><a
+                                                    onclick="addToCompare('<?php echo $product['product_id']; ?>');"><i
+                                                        class="fa fa-files-o"></i><?php echo $button_compare; ?></a>
+                                        </div>
+                                        <div class="rating">
+                                            <?php for ($i = 1; $i <= 5; $i++) { ?>
+                                            <?php if ($product['rating'] < $i) { ?>
+                                                <span class="fa fa-stack"><i
+                                                            class="fa fa-star-o fa-stack-2x"></i></span>
+                                            <?php } else { ?>
+                                                <span class="fa fa-stack"><i class="fa fa-star fa-stack-2x"></i><i
+                                                            class="fa fa-star-o fa-stack-2x"></i></span>
+                                            <?php } ?>
+                                            <?php } ?>
+                                        </div>
+                                        <?php if ($product['benefits']) { ?>
+                                        <div class="benefit-text"><?php echo $text_benefits; ?></div>
+                                        <div class="benefits">
+                                            <ul class="benefit">
+                                                <?php foreach ($product['benefits'] as $benefit) { ?>
+                                                <?php if ($benefit['type'] == 1) { ?>
+                                                <li>
+                                                    <?php if (!$benefit['link']) { ?>
+                                                        <span class="thumb"><img src="<?php echo $benefit['thumb']; ?>"
+                                                                                 alt="<?php echo $benefit['name']; ?>"/></span>
+                                                    <?php } else { ?>
+                                                    <a href="<?php echo $benefit['link']; ?>" target="_blank"
+                                                       title="<?php echo $benefit['name']; ?>"><span
+                                                                class="thumb"><img
+                                                                    src="<?php echo $benefit['thumb']; ?>"
+                                                                    alt="<?php echo $benefit['name']; ?>"/></span></a>
+                                                    <?php } ?>
+                                                    <?php if ($benefit['description']) { ?>
+                                                    <div class="benefit_description"><?php echo $benefit['description']; ?></div>
+                                                    <?php } ?>
+                                                </li>
+                                                <?php } ?>
+                                                <?php } ?>
+                                            </ul>
+                                        </div>
+                                        <div class="present">
+                                            <?php foreach ($product['benefits'] as $benefit) { ?>
+                                            <?php if ($benefit['type'] == 0) { ?>
+                                            <div>
+                                                <?php if (!$benefit['link']) { ?>
+                                                    <span class="thumb"><img src="<?php echo $benefit['thumb']; ?>"
+                                                                             alt="<?php echo $benefit['name']; ?>"/></span>
+                                                <?php } else { ?>
+                                                <a href="<?php echo $benefit['link']; ?>" target="_blank"
+                                                   title="<?php echo $benefit['name']; ?>"><span class="thumb"><img
+                                                                src="<?php echo $benefit['thumb']; ?>"
+                                                                alt="<?php echo $benefit['name']; ?>"/></span></a>
+                                                <?php } ?>
+                                            </div>
+                                            <?php } ?>
+                                            <?php } ?>
+                                        </div>
+                                        <?php } ?>
+                                    </div>
+                                </li>
+                                <?php } ?>
+                        </ul>
                     </div>
                 </div>
                 <hr/>
                 <a class="description-btn" href="<?php echo $category['href']; ?>"><?php echo $category['name']; ?></a>
+
                 <p class="description-bottom"><?php echo html_entity_decode($category['info']['description_bottom'], ENT_QUOTES, 'UTF-8'); ?></p>
             </div>
             <?php } ?>
@@ -120,3 +179,16 @@
     </ul>
 </div>
 <?php } ?>
+<script type="text/javascript"><!--
+    $('.acarousel ul').jcarousel({
+        vertical: false,
+        visible: 2,
+        scroll: 1
+    });
+
+    $( document ).ready(function() {
+        $('.acarousel .jcarousel-prev').html('<i class="fa fa-chevron-circle-left fa-2x"></i>');
+        $('.acarousel .jcarousel-next').html('<i class="fa fa-chevron-circle-right fa-2x"></i>');
+        $('.acarousel .jcarousel-list').css('width', 500);
+    });
+    //--></script>
