@@ -1,0 +1,28 @@
+---------- Date: 2015-07-02 21:49:50 ~ IP : 127.0.0.1 ----------
+REQUEST URI : /admin/index.php?route=common/home&amp;token=5b751e32ef328a428d3c2d9208b6a8e1
+MOD DETAILS:
+   modFile   : /var/www/ascari/vqmod/xml/reviews-stars-v2.1.xml
+   id        : reviews-stars
+   version   : 2.1
+   vqmver    : 2.4.1
+   author    : vivivor
+
+File Name    : admin/model/catalog/review.php(1)
+VQModObject::applyMod - SEARCH NOT FOUND (ABORTING MOD): date_added = NOW()");
+----------------------------------------------------------------------
+
+
+---------- Date: 2015-07-02 21:50:08 ~ IP : 127.0.0.1 ----------
+REQUEST URI : /admin/index.php?route=common/home&amp;token=5b751e32ef328a428d3c2d9208b6a8e1
+MOD DETAILS:
+   modFile   : /var/www/ascari/vqmod/xml/reviews-stars-v2.1.xml
+   id        : reviews-stars
+   version   : 2.1
+   vqmver    : 2.4.1
+   author    : vivivor
+
+File Name    : admin/model/catalog/review.php(1)
+VQModObject::applyMod - SEARCH NOT FOUND (ABORTING MOD): date_added = NOW()");
+----------------------------------------------------------------------
+
+

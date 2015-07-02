@@ -1,68 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ceaa1954-5aab-4e34-98cb-ad6c3f1707f4" name="Default" comment="2.07.2015">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/system/cache/cache.article.total.1.0.1.13377733a43daf0c5160b1ced8edea39.1435603001" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/system/cache/cache.article.total.1.0.1.5042be095a6c1b4d45bc0803b662f7a8.1435602945" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/system/cache/cache.article.total.1.0.1.cdbe6df7ddb012c3530113459d118144.1435602945" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/system/cache/cache.category.all.1.0.1435521588" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/system/cache/cache.category_tree.1.1435798069" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/system/cache/cache.country.status.1435794279" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/system/cache/cache.currency.1435869763" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/system/cache/cache.get_children_categorie.70efdf2ec9b086079795c442636b55fb.1.1435697537" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/system/cache/cache.get_children_categorie.98f13708210194c475687be6106a3b84.1.1435795560" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/system/cache/cache.get_manufacter_items_names.53d9f4927a5a66303451cce0c289adf7.1.1435697537" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/system/cache/cache.get_manufacter_items_names.8588dd1342a6c0681c0d9152e8243d3d.1.1435795560" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/system/cache/cache.information.1.1435791422" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/system/cache/cache.language.1435869763" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/system/cache/cache.length_class.1.1435785517" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/system/cache/cache.option.1.1.1435795560" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/system/cache/cache.poll.1.0.1435795560" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/system/cache/cache.poll_response.1.0.1.1435795560" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/system/cache/cache.product.bestseller.1.0.1.5.1435869763" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/system/cache/cache.stock_status.1.1435785517" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/system/cache/cache.store.1435795357" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/system/cache/cache.weight_class.1.1435785517" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/system/cache/cache.zone.220.1435794279" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/image/data/payment_icons/alfabank.png" afterPath="$PROJECT_DIR$/image/data/payment_icons/alfabank.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/system/cache/cache.get_children_categorie.72b32a1f754ba1c09b3695e0cb6cde7f.1.1435798069" afterPath="$PROJECT_DIR$/system/cache/cache.get_children_categorie.72b32a1f754ba1c09b3695e0cb6cde7f.1.1435798069" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/system/cache/cache.get_manufacter_items_names.72b32a1f754ba1c09b3695e0cb6cde7f.1.1435798069" afterPath="$PROJECT_DIR$/system/cache/cache.get_manufacter_items_names.72b32a1f754ba1c09b3695e0cb6cde7f.1.1435798069" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/image/data/payment_icons/elecsnet.png" afterPath="$PROJECT_DIR$/image/data/payment_icons/elecsnet.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/image/cache/data/demo/htc_touch_hd_1-47x47.jpg" afterPath="$PROJECT_DIR$/image/cache/data/demo/htc_touch_hd_1-47x47.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/image/data/payment_icons/qiwi.png" afterPath="$PROJECT_DIR$/image/data/payment_icons/qiwi.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/image/cache/data/demo/samsung_tab_1-47x47.jpg" afterPath="$PROJECT_DIR$/image/cache/data/demo/samsung_tab_1-47x47.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/image/data/payment_icons/sberbank.png" afterPath="$PROJECT_DIR$/image/data/payment_icons/sberbank.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/image/data/payment_icons/telemoney.png" afterPath="$PROJECT_DIR$/image/data/payment_icons/telemoney.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin/view/image/payment/transfer_plus.png" afterPath="$PROJECT_DIR$/admin/view/image/payment/transfer_plus.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/image/data/payment_icons/visa.png" afterPath="$PROJECT_DIR$/image/data/payment_icons/visa.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/image/data/payment_icons/webmoney.png" afterPath="$PROJECT_DIR$/image/data/payment_icons/webmoney.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/image/data/payment_icons/yandexmoney.png" afterPath="$PROJECT_DIR$/image/data/payment_icons/yandexmoney.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/catalog/language/russian/module/alternative.php" afterPath="$PROJECT_DIR$/catalog/language/russian/module/alternative.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/catalog/language/russian/module/blog_category.php" afterPath="$PROJECT_DIR$/catalog/language/russian/module/blog_category.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/system/logs/error.txt" afterPath="$PROJECT_DIR$/system/logs/error.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/catalog/language/russian/module/latest.php" afterPath="$PROJECT_DIR$/catalog/language/russian/module/latest.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/catalog/view/theme/default/template/product/product.tpl" afterPath="$PROJECT_DIR$/catalog/view/theme/default/template/product/product.tpl" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/catalog/view/theme/default/template/product/search.tpl" afterPath="$PROJECT_DIR$/catalog/view/theme/default/template/product/search.tpl" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vqmod/xml/simple_plus.xml" afterPath="$PROJECT_DIR$/vqmod/xml/simple_plus.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/catalog/view/theme/default/template/checkout/simplecheckout_payment.tpl" afterPath="$PROJECT_DIR$/catalog/view/theme/default/template/checkout/simplecheckout_payment.tpl" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/catalog/controller/module/subscribe.php" afterPath="$PROJECT_DIR$/catalog/controller/module/subscribe.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/catalog/language/russian/module/subscribe.php" afterPath="$PROJECT_DIR$/catalog/language/russian/module/subscribe.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/catalog/view/theme/default/template/module/subscribe.tpl" afterPath="$PROJECT_DIR$/catalog/view/theme/default/template/module/subscribe.tpl" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin/controller/payment/transfer_plus.php" afterPath="$PROJECT_DIR$/admin/controller/payment/transfer_plus.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin/language/english/payment/transfer_plus.php" afterPath="$PROJECT_DIR$/admin/language/english/payment/transfer_plus.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin/language/russian/payment/transfer_plus.php" afterPath="$PROJECT_DIR$/admin/language/russian/payment/transfer_plus.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/catalog/controller/payment/transfer_plus.php" afterPath="$PROJECT_DIR$/catalog/controller/payment/transfer_plus.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/catalog/language/english/payment/transfer_plus.php" afterPath="$PROJECT_DIR$/catalog/language/english/payment/transfer_plus.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/catalog/language/russian/payment/transfer_plus.php" afterPath="$PROJECT_DIR$/catalog/language/russian/payment/transfer_plus.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/catalog/model/payment/transfer_plus.php" afterPath="$PROJECT_DIR$/catalog/model/payment/transfer_plus.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin/view/template/payment/transfer_plus.tpl" afterPath="$PROJECT_DIR$/admin/view/template/payment/transfer_plus.tpl" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/catalog/view/theme/default/template/payment/transfer_plus.tpl" afterPath="$PROJECT_DIR$/catalog/view/theme/default/template/payment/transfer_plus.tpl" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vqmod/xml/transfer_plus.xml" afterPath="$PROJECT_DIR$/vqmod/xml/transfer_plus.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/catalog/language/russian/module/viewed.php" afterPath="$PROJECT_DIR$/catalog/language/russian/module/viewed.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vqmod/vqcache/vq2-catalog_controller_checkout_payment_method.php" afterPath="$PROJECT_DIR$/vqmod/vqcache/vq2-catalog_controller_checkout_payment_method.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vqmod/vqcache/vq2-catalog_view_theme_default_template_checkout_payment_method.tpl" afterPath="$PROJECT_DIR$/vqmod/vqcache/vq2-catalog_view_theme_default_template_checkout_payment_method.tpl" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vqmod/vqcache/vq2-catalog_view_theme_default_template_checkout_simplecheckout_payment.tpl" afterPath="$PROJECT_DIR$/vqmod/vqcache/vq2-catalog_view_theme_default_template_checkout_simplecheckout_payment.tpl" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vqmod/vqcache/vq2-catalog_view_theme_default_template_product_product.tpl" afterPath="$PROJECT_DIR$/vqmod/vqcache/vq2-catalog_view_theme_default_template_product_product.tpl" />
+    <list default="true" id="ceaa1954-5aab-4e34-98cb-ad6c3f1707f4" name="Default" comment="2.07.2015-II">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="ascari.iws" />
@@ -156,8 +95,8 @@
       <file leaf-file-name="transfer_plus.tpl" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/admin/view/template/payment/transfer_plus.tpl">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-0.37634408" vertical-offset="858" max-vertical-offset="6354">
-              <caret line="36" column="45" selection-start-line="36" selection-start-column="45" selection-end-line="36" selection-end-column="45" />
+            <state vertical-scroll-proportion="0.43010753" vertical-offset="1092" max-vertical-offset="6354">
+              <caret line="74" column="15" selection-start-line="74" selection-start-column="15" selection-end-line="74" selection-end-column="15" />
               <folding>
                 <marker date="1396793422000" expanded="true" signature="18022:18047" placeholder="..." />
               </folding>
@@ -494,7 +433,13 @@
       <option name="project" value="LOCAL" />
       <updated>1435870925215</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="2.07.2015-II">
+      <created>1435876729271</created>
+      <option name="number" value="00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1435876729271</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -540,7 +485,8 @@
       <TodoPanelSettings />
     </option>
     <MESSAGE value="2.07.2015" />
-    <option name="LAST_COMMIT_MESSAGE" value="2.07.2015" />
+    <MESSAGE value="2.07.2015-II" />
+    <option name="LAST_COMMIT_MESSAGE" value="2.07.2015-II" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -944,8 +890,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/admin/view/template/payment/transfer_plus.tpl">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.37634408" vertical-offset="858" max-vertical-offset="6354">
-          <caret line="36" column="45" selection-start-line="36" selection-start-column="45" selection-end-line="36" selection-end-column="45" />
+        <state vertical-scroll-proportion="0.43010753" vertical-offset="1092" max-vertical-offset="6354">
+          <caret line="74" column="15" selection-start-line="74" selection-start-column="15" selection-end-line="74" selection-end-column="15" />
           <folding>
             <marker date="1396793422000" expanded="true" signature="18022:18047" placeholder="..." />
           </folding>
