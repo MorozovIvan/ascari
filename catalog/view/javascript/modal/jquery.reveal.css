@@ -1,0 +1,197 @@
+
+.reveal-modal-bg { 
+						position: fixed; 
+						height: 100%;
+						width: 100%;
+						background: #000;
+						background: rgba(0,0,0,.6);
+						z-index: 500;
+						display: none;
+						top: 0;
+						left: 0; 
+					}
+					.reveal-modal {
+						visibility: hidden;
+						top: 100px; 
+						left: 50%;
+						width: 800px; 
+						margin-left: -400px;
+						background: #e5e5e5;
+						position: absolute;
+						z-index: 2000;
+						border: 1px solid #8e8e8e;
+					}
+					.reveal-modal .modal {
+						background: #4F4F4F;
+						padding: 7px;
+					}
+					.reveal-modal .modal .contents {
+						padding: 0px 10px 20px 10px;
+						background: #F8F8F8;
+						-webkit-border-radius: 2px 2px 2px 2px;
+						-moz-border-radius: 2px 2px 2px 2px;
+						-khtml-border-radius: 2px 2px 2px 2px;
+						border-radius: 2px 2px 2px 2px;
+						-webkit-box-shadow: 0px 0px 4px #000;
+						-moz-box-shadow: 0px 0px 4px #000;
+						box-shadow: 0px 0px 4px #000;
+						height:600px;
+						text-align: left;
+					}
+					.reveal-modal .modal .contents > .left {
+						float: left;
+						margin-right: 15px;
+					}
+					.reveal-modal .modal .contents > .left + .right {
+						margin-left: 265px;
+					}
+					.reveal-modal .modal .contents .name {
+						background: #e6e5e5;
+						color: #00539B;
+						text-shadow: 0 1px 0 #fff;
+						font-size: 12px;
+						font-weight: bold;
+						text-align: center;
+						margin: 0 -10px 10px -10px;
+						padding: 10px;
+						border-bottom: 1px solid #cecece;
+						-webkit-border-radius: 2px 2px 0px 0px;
+						-moz-border-radius: 2px 2px 0px 0px;
+						-khtml-border-radius: 2px 2px 0px 0px;
+						border-radius: 2px 2px 0px 0px;
+					}
+					.reveal-modal .modal .contents .images {
+						border: 1px solid #d0e3ee;
+						float: left;
+						margin-bottom: 20px;
+						padding: 10px;
+						text-align: center;
+					}
+					.reveal-modal .modal .contents .description {
+						border-top: 1px solid #d0e3ee;
+						border-bottom: 1px solid #d0e3ee;
+						padding: 5px 5px 10px 5px;
+						margin-bottom: 10px;
+						line-height: 20px;
+						color: #005dad;
+						font-weight: bold;
+					}
+					.reveal-modal .modal .contents .description span {
+						color: #005dad;
+						font-weight: normal;
+					}
+					.reveal-modal .modal .contents .description a {
+						color: #005dad;
+						text-decoration: underline;
+					}
+					.reveal-modal .modal .contents .description a:hover {
+						text-decoration: none;
+					}
+					.reveal-modal .modal .contents .price {
+						overflow: auto;
+						border-bottom: 1px solid #d0e3ee;
+						padding: 0px 5px 10px 5px;
+						margin-bottom: 10px;
+						font-size: 15px;
+						font-weight: bold;
+						color: #005dad;
+					}
+					.reveal-modal .modal .contents .price-old {
+						color: #F00;
+						text-decoration: line-through;
+					}
+					.reveal-modal .modal .contents .price-new {
+					}
+					.reveal-modal .modal .contents .price-tax {
+						font-size: 12px;
+						font-weight: normal;
+						color: #86b2d9;
+					}
+					.reveal-modal .modal .contents .price .reward {
+						font-size: 12px;
+						font-weight: normal;
+						color: #86b2d9;
+					}
+					.reveal-modal .modal .contents .cart {
+						border-bottom: 1px solid #d0e3ee;
+						padding: 3px 5px 13px 5px;
+						margin-bottom: 20px;
+						color: #005dad;
+						overflow: auto;
+					}
+					.reveal-modal .modal .contents .cart div {
+						float: left;
+						vertical-align: middle;
+					}
+					.reveal-modal .modal .contents .cart div > span {
+						padding-top: 7px;
+						display: block;
+						color: #86b2d9;
+					}
+					.reveal-modal .modal .contents .cart .minimum {
+						padding-top: 5px;
+						font-size: 11px;
+						color: #86b2d9;
+						clear: both;
+					}
+					.reveal-modal .modal .contents .htabs {
+						height: 30px;		
+						line-height: 16px;
+						border-bottom: 1px solid #d0e3ee;
+						clear: both;
+					}
+					.reveal-modal .close-reveal-modal {
+						position: absolute;
+						display: block;
+						top: 12px;
+						right: 11px;
+						height: 24px;
+						width: 24px;
+						cursor: pointer;
+						background: url('../image/closes.png') center bottom no-repeat;
+					} 
+					.reveal-modal .close-reveal-modal:hover {
+						background: url('../image/closes.png') center top no-repeat;
+					} 
+					.reveal-modal .saving {
+						font-size: 12px;
+			}
+			.box-product div .boxcaption a{
+				color: #fff;
+				background: #38B0E3;
+				border-radius: 10px;
+				padding: 2px 7px 4px 7px;
+				font-weight: bold;
+				text-decoration: none;
+				font-size: 10px;
+			}
+			.box-product div .boxcaption a:hover{
+				text-decoration: underline;
+			}
+			.box-product div .boxcaption {
+                text-align: center;
+                position: relative;
+                top: 241px;
+                left: -21px;
+                opacity: 0;
+			}
+			.box-product div:hover .boxcaption {
+				opacity: 1;
+			}
+			.tab-content {
+	border-left: 1px solid #d0e3ee;
+	border-right: 1px solid #d0e3ee;
+	border-bottom: 1px solid #d0e3ee;
+	padding: 10px;
+	margin-bottom: 20px;
+	z-index: 2;
+	overflow: auto;
+}
+.tab-content-2 {
+	border: 1px solid #d0e3ee;
+	padding: 10px;
+	margin-bottom: 20px;
+	z-index: 2;
+	overflow: auto;
+	max-height: 350px;
+}

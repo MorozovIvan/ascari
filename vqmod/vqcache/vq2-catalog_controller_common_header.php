@@ -17,10 +17,6 @@ class ControllerCommonHeader extends Controller {
 			$this->data['error'] = '';
 		}
 
-					
-			$this->document->addScript('catalog/view/javascript/jquery/colorbox/jquery.colorbox-min.js');
-		    $this->document->addStyle('catalog/view/javascript/jquery/colorbox/colorbox.css');				
-				
 		$this->data['base'] = $server;
 		$this->data['description'] = $this->document->getDescription();
 		$this->data['keywords'] = $this->document->getKeywords();
@@ -234,6 +230,7 @@ class ControllerCommonHeader extends Controller {
 			'module/language',
 			'module/currency',
 			'common/amenu',
+            'common/content_header',
 			'module/cart'
 		);
 

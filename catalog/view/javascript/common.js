@@ -83,8 +83,116 @@ $(document).ready(function() {
 		$(this).parent().fadeOut('slow', function() {
 			$(this).remove();
 		});
-	});	
+	});
+
+    // CUSTOM BY IVAN BEGIN
+
+    var htmlModalQView = '<div id="quickViewModal" class="reveal-modal">'+
+                            '<div id="modal-inner">'+
+                                '<h1>Modal Title</h1>'+
+                                '<p>Any content could go in here.</p>'+
+                                '<a class="close-reveal-modal">&#215;</a>'+
+                            '</div>'+
+                        '</div>';
+
+    var htmlModalCart = '<div id="cartModal" class="reveal-modal">'+
+                            '<div id="modal-inner">'+
+                                '<h1>Modal Title</h1>'+
+                                '<p>Any content could go in here.</p>'+
+                                '<a class="close-reveal-modal">&#215;</a>'+
+                            '</div>'+
+                        '</div>';
+    $body = $('body');
+    $body.append(htmlModalQView);
+    $body.append(htmlModalCart);
+
+    $(document).on('click', '.add-quick-view', function(){
+        $('#quickViewModal').reveal({
+            animation: 'fadeAndPop',                   //fade, fadeAndPop, none
+            animationspeed: 300,                       //how fast animtions are
+            closeonbackgroundclick: true,              //if you click background will modal close?
+            dismissmodalclass: 'close-reveal-modal'    //the class of a button or element that will close an open modal
+        });
+    });
+
+    nodeToButton();
+
+    $(document).on('click', '.quick-view-btn', function(){
+        loadProductInfo('#quickViewModal #modal-inner', $(this).data('product-id'));
+    });
+
+    // CUSTOM BY IVAN END
+
 });
+
+// CUSTOM BY IVAN BEGIN
+
+function nodeToButton(){
+    var buttonName = 'My Quick Show';
+    $('.add-quick-view').each(function(index, value){
+        var productId = $(this).data('id');
+        if (!$(this).next().hasClass('quick-view-btn')){
+            $(this).after('<a class="quick-view-btn" href="#" data-reveal-id="quickViewModal" data-product-id="' + productId + '">' + buttonName + '</a>');
+        }
+    });
+}
+
+function loadProductInfo(node, id){
+    $.ajax({
+        method: "GET",
+        url: "index.php?route=product/product&product_id=" + id
+    }) .done(function( productPageHtml ) {
+        $(node).html($(productPageHtml).find('.product-info').html());
+        $(document).ready(function() {
+            $('.colorbox').colorbox({
+                overlayClose: true,
+                opacity: 0.5,
+                rel: "colorbox"
+            });
+        });
+        $(document).on('click', '#button-cart', function() {
+            addToCart2($('.right input[type=\'text\'], .right input[type=\'hidden\'], .right input[type=\'radio\']:checked, .right input[type=\'checkbox\']:checked, .right select, .right textarea'));
+        });
+
+    });
+}
+
+function addToCart2(p_data){
+    $.ajax({
+        url: 'index.php?route=checkout/cart/add',
+        type: 'post',
+        data: p_data,
+        dataType: 'json',
+        success: function(json) {
+            $('.success, .warning, .attention, information, .error').remove();
+
+            if (json['error']) {
+                if (json['error']['option']) {
+                    for (i in json['error']['option']) {
+                        $('#option-' + i).after('<span class="error">' + json['error']['option'][i] + '</span>');
+                    }
+                }
+
+                if (json['error']['profile']) {
+                    $('select[name="profile_id"]').after('<span class="error">' + json['error']['profile'] + '</span>');
+                }
+            }
+
+            if (json['success']) {
+                $('.close-reveal-modal').trigger('click');
+                $('#cartModal #modal-inner').html(json['success']);
+                $('#cartModal').reveal({
+                    animation: 'fadeAndPop',                   //fade, fadeAndPop, none
+                    animationspeed: 300,                       //how fast animtions are
+                    closeonbackgroundclick: true,              //if you click background will modal close?
+                    dismissmodalclass: 'close-reveal-modal'    //the class of a button or element that will close an open modal
+                });
+            }
+        }
+    });
+}
+
+// CUSTOM BY IVAN END
 
 function getURLVar(key) {
 	var value = [];
@@ -126,13 +234,13 @@ function addToCart(product_id, quantity) {
 			}
 			
 			if (json['success']) {
-				$('#notification').html('<div class="success" style="display: none;">' + json['success'] + '<img src="catalog/view/theme/default/image/close.png" alt="" class="close" /></div>');
-				
-				$('.success').fadeIn('slow');
-				
-				$('#cart-total').html(json['total']);
-				
-				$('html, body').animate({ scrollTop: 0 }, 'slow'); 
+                $('#cartModal #modal-inner').html(json['success']);
+                $('#cartModal').reveal({
+                    animation: 'fadeAndPop',                   //fade, fadeAndPop, none
+                    animationspeed: 300,                       //how fast animtions are
+                    closeonbackgroundclick: true,              //if you click background will modal close?
+                    dismissmodalclass: 'close-reveal-modal'    //the class of a button or element that will close an open modal
+                });
 			}	
 		}
 	});

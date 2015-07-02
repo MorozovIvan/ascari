@@ -1,2 +1,0 @@
-# ascari
-Magento to Opencart

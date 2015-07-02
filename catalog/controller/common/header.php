@@ -203,6 +203,7 @@ class ControllerCommonHeader extends Controller {
 			'module/language',
 			'module/currency',
 			'common/amenu',
+            'common/content_header',
 			'module/cart'
 		);
 

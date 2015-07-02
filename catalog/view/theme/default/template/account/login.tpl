@@ -5,7 +5,7 @@
 <?php if ($error_warning) { ?>
 <div class="warning"><?php echo $error_warning; ?></div>
 <?php } ?>
-<?php echo $column_left; ?><?php echo $column_right; ?>
+<?php echo $column_left; ?><?php //echo $column_right; ?>
 <div id="content"><?php echo $content_top; ?>
   <div class="breadcrumb">
     <?php foreach ($breadcrumbs as $breadcrumb) { ?>
@@ -50,5 +50,6 @@ $('#login input').keydown(function(e) {
 		$('#login').submit();
 	}
 });
+    $('body').addClass('account-bg');
 //--></script> 
 <?php echo $footer; ?>

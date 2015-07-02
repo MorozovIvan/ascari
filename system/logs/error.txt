@@ -1,0 +1,633 @@
+2015-06-21 20:39:30 - PHP Notice:  Undefined variable: amenu in /var/www/ascari/catalog/view/theme/default/template/common/header.tpl on line 103
+2015-06-21 20:40:05 - PHP Notice:  Undefined variable: amenu in /var/www/ascari/catalog/view/theme/default/template/common/header.tpl on line 103
+2015-06-21 20:40:24 - PHP Notice:  Undefined index:  href
+                     in /var/www/ascari/catalog/view/theme/default/template/common/amenu.tpl on line 19
+2015-06-21 20:41:17 - PHP Notice:  Undefined index:  href
+                     in /var/www/ascari/catalog/view/theme/default/template/common/amenu.tpl on line 19
+2015-06-21 20:41:39 - PHP Notice:  Undefined index:  href
+                     in /var/www/ascari/catalog/view/theme/default/template/common/amenu.tpl on line 19
+2015-06-21 20:42:19 - PHP Notice:  Undefined index:  href
+                     in /var/www/ascari/catalog/view/theme/default/template/common/amenu.tpl on line 19
+2015-06-21 20:45:19 - PHP Notice:  Undefined index:  href
+                     in /var/www/ascari/catalog/view/theme/default/template/common/amenu.tpl on line 19
+2015-06-21 20:49:17 - PHP Notice:  Undefined index:  href
+                     in /var/www/ascari/catalog/view/theme/default/template/common/amenu.tpl on line 19
+2015-06-21 20:58:20 - PHP Notice:  Undefined index:  href
+                     in /var/www/ascari/catalog/view/theme/default/template/common/amenu.tpl on line 19
+2015-06-21 21:00:48 - PHP Notice:  Undefined index:  href
+                     in /var/www/ascari/catalog/view/theme/default/template/common/amenu.tpl on line 19
+2015-06-21 21:01:08 - PHP Notice:  Undefined index:  href
+                     in /var/www/ascari/catalog/view/theme/default/template/common/amenu.tpl on line 19
+2015-06-21 21:05:25 - PHP Notice:  Undefined index:  href
+                     in /var/www/ascari/catalog/view/theme/default/template/common/amenu.tpl on line 19
+2015-06-21 21:05:54 - PHP Notice:  Undefined index:  href
+                     in /var/www/ascari/catalog/view/theme/default/template/common/amenu.tpl on line 19
+2015-06-21 21:11:19 - PHP Notice:  Undefined index:  href
+                     in /var/www/ascari/catalog/view/theme/default/template/common/amenu.tpl on line 19
+2015-06-21 21:19:08 - PHP Notice:  Undefined index:  href
+                     in /var/www/ascari/catalog/view/theme/default/template/common/amenu.tpl on line 19
+2015-06-21 21:20:02 - PHP Notice:  Undefined index:  href
+                     in /var/www/ascari/catalog/view/theme/default/template/common/amenu.tpl on line 19
+2015-06-21 21:22:25 - PHP Notice:  Undefined index:  href
+                     in /var/www/ascari/catalog/view/theme/default/template/common/amenu.tpl on line 19
+2015-06-21 21:23:36 - PHP Notice:  Undefined index:  href
+                     in /var/www/ascari/catalog/view/theme/default/template/common/amenu.tpl on line 19
+2015-06-21 21:23:48 - PHP Notice:  Undefined index:  href
+                     in /var/www/ascari/catalog/view/theme/default/template/common/amenu.tpl on line 19
+2015-06-21 21:26:41 - PHP Notice:  Undefined index:  href
+                     in /var/www/ascari/catalog/view/theme/default/template/common/amenu.tpl on line 19
+2015-06-21 21:39:22 - PHP Notice:  Undefined index:  href
+                     in /var/www/ascari/catalog/view/theme/default/template/common/amenu.tpl on line 19
+2015-06-21 21:40:25 - PHP Notice:  Undefined index:  href
+                     in /var/www/ascari/catalog/view/theme/default/template/common/amenu.tpl on line 19
+2015-06-21 21:43:00 - PHP Notice:  Undefined index:  href
+                     in /var/www/ascari/catalog/view/theme/default/template/common/amenu.tpl on line 19
+2015-06-21 21:43:16 - PHP Notice:  Undefined index:  href
+                     in /var/www/ascari/catalog/view/theme/default/template/common/amenu.tpl on line 19
+2015-06-21 21:43:34 - PHP Notice:  Undefined index:  href
+                     in /var/www/ascari/catalog/view/theme/default/template/common/amenu.tpl on line 19
+2015-06-21 21:44:27 - PHP Notice:  Undefined index:  href
+                     in /var/www/ascari/catalog/view/theme/default/template/common/amenu.tpl on line 19
+2015-06-21 21:44:31 - PHP Notice:  Error: Could not load controller module/subscribe! in /var/www/ascari/vqmod/vqcache/vq2-system_engine_controller.php on line 47
+2015-06-21 21:44:39 - PHP Notice:  Undefined index:  href
+                     in /var/www/ascari/catalog/view/theme/default/template/common/amenu.tpl on line 19
+2015-06-21 21:45:53 - PHP Notice:  Undefined index:  href
+                     in /var/www/ascari/catalog/view/theme/default/template/common/amenu.tpl on line 19
+2015-06-21 21:46:11 - PHP Notice:  Undefined index:  href
+                     in /var/www/ascari/catalog/view/theme/default/template/common/amenu.tpl on line 19
+2015-06-21 21:46:46 - PHP Notice:  Undefined index:  href
+                     in /var/www/ascari/catalog/view/theme/default/template/common/amenu.tpl on line 19
+2015-06-21 21:47:22 - PHP Notice:  Undefined index:  href
+                     in /var/www/ascari/catalog/view/theme/default/template/common/amenu.tpl on line 19
+2015-06-21 21:47:47 - PHP Notice:  Undefined index:  href
+                     in /var/www/ascari/catalog/view/theme/default/template/common/amenu.tpl on line 19
+2015-06-21 21:48:06 - PHP Notice:  Undefined index:  href
+                     in /var/www/ascari/catalog/view/theme/default/template/common/amenu.tpl on line 19
+2015-06-21 21:48:14 - PHP Notice:  Undefined index:  href
+                     in /var/www/ascari/catalog/view/theme/default/template/common/amenu.tpl on line 19
+2015-06-21 21:49:05 - PHP Notice:  Undefined index:  href
+                     in /var/www/ascari/catalog/view/theme/default/template/common/amenu.tpl on line 19
+2015-06-21 21:50:05 - PHP Notice:  Undefined index:  href
+                     in /var/www/ascari/catalog/view/theme/default/template/common/amenu.tpl on line 19
+2015-06-21 21:51:02 - PHP Notice:  Undefined index:  href
+                     in /var/www/ascari/catalog/view/theme/default/template/common/amenu.tpl on line 19
+2015-06-21 21:53:41 - PHP Notice:  Undefined index:  href
+                     in /var/www/ascari/catalog/view/theme/default/template/common/amenu.tpl on line 19
+2015-06-21 21:55:31 - PHP Notice:  Undefined index:  href
+                     in /var/www/ascari/catalog/view/theme/default/template/common/amenu.tpl on line 19
+2015-06-21 21:55:55 - PHP Notice:  Undefined index:  href
+                     in /var/www/ascari/catalog/view/theme/default/template/common/amenu.tpl on line 19
+2015-06-21 22:00:08 - PHP Notice:  Error: Could not load controller module/subscribe! in /var/www/ascari/vqmod/vqcache/vq2-system_engine_controller.php on line 47
+2015-06-21 22:00:13 - PHP Notice:  Undefined index:  href
+                     in /var/www/ascari/catalog/view/theme/default/template/common/amenu.tpl on line 19
+2015-06-21 22:01:02 - PHP Notice:  Undefined index:  href
+                     in /var/www/ascari/catalog/view/theme/default/template/common/amenu.tpl on line 19
+2015-06-21 22:01:43 - PHP Notice:  Undefined index:  href
+                     in /var/www/ascari/catalog/view/theme/default/template/common/amenu.tpl on line 19
+2015-06-21 22:01:54 - PHP Notice:  Undefined index:  href
+                     in /var/www/ascari/catalog/view/theme/default/template/common/amenu.tpl on line 19
+2015-06-21 22:06:33 - PHP Notice:  Undefined index:  href
+                     in /var/www/ascari/catalog/view/theme/default/template/common/amenu.tpl on line 19
+2015-06-21 22:07:16 - PHP Notice:  Undefined index:  href
+                     in /var/www/ascari/catalog/view/theme/default/template/common/amenu.tpl on line 19
+2015-06-21 22:09:19 - PHP Notice:  Undefined index:  href
+                     in /var/www/ascari/catalog/view/theme/default/template/common/amenu.tpl on line 19
+2015-06-21 22:14:42 - PHP Notice:  Undefined index:  href
+                     in /var/www/ascari/catalog/view/theme/default/template/common/amenu.tpl on line 19
+2015-06-21 22:15:51 - PHP Notice:  Undefined index:  href
+                     in /var/www/ascari/catalog/view/theme/default/template/common/amenu.tpl on line 19
+2015-06-21 22:17:41 - PHP Notice:  Undefined index:  href
+                     in /var/www/ascari/catalog/view/theme/default/template/common/amenu.tpl on line 19
+2015-06-21 22:18:57 - PHP Notice:  Undefined index:  href
+                     in /var/www/ascari/catalog/view/theme/default/template/common/amenu.tpl on line 19
+2015-06-21 22:19:51 - PHP Notice:  Undefined index:  href
+                     in /var/www/ascari/catalog/view/theme/default/template/common/amenu.tpl on line 19
+2015-06-21 22:22:07 - PHP Notice:  Error: Could not load controller module/subscribe! in /var/www/ascari/vqmod/vqcache/vq2-system_engine_controller.php on line 47
+2015-06-21 22:27:35 - PHP Notice:  Undefined index:  href
+                     in /var/www/ascari/catalog/view/theme/default/template/common/amenu.tpl on line 19
+2015-06-21 22:27:57 - PHP Notice:  Undefined index:  href
+                     in /var/www/ascari/catalog/view/theme/default/template/common/amenu.tpl on line 19
+2015-06-21 22:28:12 - PHP Notice:  Undefined index:  href
+                     in /var/www/ascari/catalog/view/theme/default/template/common/amenu.tpl on line 19
+2015-06-21 22:30:23 - PHP Notice:  Undefined index: href in /var/www/ascari/catalog/view/theme/default/template/common/amenu.tpl on line 18
+2015-06-21 22:30:30 - PHP Notice:  Undefined index: href in /var/www/ascari/catalog/view/theme/default/template/common/amenu.tpl on line 18
+2015-06-21 22:32:39 - PHP Notice:  Error: Could not load controller module/alternative! in /var/www/ascari/vqmod/vqcache/vq2-system_engine_controller.php on line 47
+2015-06-21 22:59:21 - PHP Notice:  Undefined variable: cloud in /var/www/ascari/catalog/model/module/tagcloud.php on line 74
+2015-06-21 22:59:31 - PHP Notice:  Error: Could not load model module/tagcloud! in /var/www/ascari/vqmod/vqcache/vq2-system_engine_loader.php on line 48
+2015-06-21 23:02:16 - PHP Notice:  Undefined variable: cloud in /var/www/ascari/catalog/model/module/tagcloud.php on line 74
+2015-06-21 23:02:24 - PHP Notice:  Undefined variable: cloud in /var/www/ascari/catalog/model/module/tagcloud.php on line 74
+2015-06-21 23:09:07 - PHP Notice:  Undefined variable: cloud in /var/www/ascari/catalog/model/module/tagcloud.php on line 74
+2015-06-21 23:11:49 - PHP Notice:  Undefined variable: cloud in /var/www/ascari/catalog/model/module/tagcloud.php on line 74
+2015-06-21 23:12:05 - PHP Notice:  Error: Could not load model fido/poll! in /var/www/ascari/vqmod/vqcache/vq2-system_engine_loader.php on line 48
+2015-06-21 23:12:23 - PHP Notice:  Undefined variable: cloud in /var/www/ascari/catalog/model/module/tagcloud.php on line 74
+2015-06-21 23:12:25 - PHP Notice:  Undefined variable: cloud in /var/www/ascari/catalog/model/module/tagcloud.php on line 74
+2015-06-21 23:12:25 - PHP Notice:  Undefined variable: button_detail in /var/www/ascari/vqmod/vqcache/vq2-catalog_view_theme_default_template_product_category.tpl on line 141
+2015-06-21 23:12:25 - PHP Notice:  Undefined variable: button_quick_view in /var/www/ascari/vqmod/vqcache/vq2-catalog_view_theme_default_template_product_category.tpl on line 153
+2015-06-21 23:12:25 - PHP Notice:  Undefined variable: button_detail in /var/www/ascari/vqmod/vqcache/vq2-catalog_view_theme_default_template_product_category.tpl on line 141
+2015-06-21 23:12:25 - PHP Notice:  Undefined variable: button_quick_view in /var/www/ascari/vqmod/vqcache/vq2-catalog_view_theme_default_template_product_category.tpl on line 153
+2015-06-21 23:12:52 - PHP Notice:  Undefined variable: cloud in /var/www/ascari/catalog/model/module/tagcloud.php on line 74
+2015-06-21 23:12:56 - PHP Notice:  Undefined variable: cloud in /var/www/ascari/catalog/model/module/tagcloud.php on line 74
+2015-06-21 23:12:57 - PHP Notice:  Undefined variable: cloud in /var/www/ascari/catalog/model/module/tagcloud.php on line 74
+2015-06-21 23:16:52 - PHP Notice:  Undefined variable: cloud in /var/www/ascari/catalog/model/module/tagcloud.php on line 74
+2015-06-21 23:16:56 - PHP Notice:  Undefined variable: cloud in /var/www/ascari/catalog/model/module/tagcloud.php on line 74
+2015-06-21 23:16:58 - PHP Notice:  Undefined variable: cloud in /var/www/ascari/catalog/model/module/tagcloud.php on line 74
+2015-06-21 23:17:24 - PHP Notice:  Undefined variable: cloud in /var/www/ascari/catalog/model/module/tagcloud.php on line 74
+2015-06-21 23:17:39 - PHP Notice:  Undefined variable: cloud in /var/www/ascari/catalog/model/module/tagcloud.php on line 74
+2015-06-21 23:17:41 - PHP Notice:  Undefined variable: cloud in /var/www/ascari/catalog/model/module/tagcloud.php on line 74
+2015-06-21 23:17:56 - PHP Notice:  Undefined variable: cloud in /var/www/ascari/catalog/model/module/tagcloud.php on line 74
+2015-06-21 23:18:02 - PHP Notice:  Undefined variable: cloud in /var/www/ascari/catalog/model/module/tagcloud.php on line 74
+2015-06-21 23:18:06 - PHP Notice:  Undefined variable: cloud in /var/www/ascari/catalog/model/module/tagcloud.php on line 74
+2015-06-21 23:18:06 - PHP Notice:  Undefined variable: button_detail in /var/www/ascari/vqmod/vqcache/vq2-catalog_view_theme_default_template_product_category.tpl on line 141
+2015-06-21 23:18:06 - PHP Notice:  Undefined variable: button_quick_view in /var/www/ascari/vqmod/vqcache/vq2-catalog_view_theme_default_template_product_category.tpl on line 153
+2015-06-21 23:18:06 - PHP Notice:  Undefined variable: button_detail in /var/www/ascari/vqmod/vqcache/vq2-catalog_view_theme_default_template_product_category.tpl on line 141
+2015-06-21 23:18:06 - PHP Notice:  Undefined variable: button_quick_view in /var/www/ascari/vqmod/vqcache/vq2-catalog_view_theme_default_template_product_category.tpl on line 153
+2015-06-21 23:18:54 - PHP Notice:  Undefined variable: cloud in /var/www/ascari/catalog/model/module/tagcloud.php on line 74
+2015-06-21 23:18:54 - PHP Notice:  Undefined variable: button_detail in /var/www/ascari/vqmod/vqcache/vq2-catalog_view_theme_default_template_product_category.tpl on line 141
+2015-06-21 23:18:54 - PHP Notice:  Undefined variable: button_quick_view in /var/www/ascari/vqmod/vqcache/vq2-catalog_view_theme_default_template_product_category.tpl on line 153
+2015-06-21 23:18:54 - PHP Notice:  Undefined variable: button_detail in /var/www/ascari/vqmod/vqcache/vq2-catalog_view_theme_default_template_product_category.tpl on line 141
+2015-06-21 23:18:54 - PHP Notice:  Undefined variable: button_quick_view in /var/www/ascari/vqmod/vqcache/vq2-catalog_view_theme_default_template_product_category.tpl on line 153
+2015-06-21 23:19:14 - PHP Notice:  Undefined variable: cloud in /var/www/ascari/catalog/model/module/tagcloud.php on line 74
+2015-06-21 23:19:21 - PHP Notice:  Undefined variable: cloud in /var/www/ascari/catalog/model/module/tagcloud.php on line 74
+2015-06-21 23:19:29 - PHP Notice:  Undefined variable: cloud in /var/www/ascari/catalog/model/module/tagcloud.php on line 74
+2015-06-21 23:19:38 - PHP Notice:  Undefined variable: cloud in /var/www/ascari/catalog/model/module/tagcloud.php on line 74
+2015-06-21 23:19:42 - PHP Notice:  Undefined variable: cloud in /var/www/ascari/catalog/model/module/tagcloud.php on line 74
+2015-06-21 23:19:44 - PHP Notice:  Undefined variable: cloud in /var/www/ascari/catalog/model/module/tagcloud.php on line 74
+2015-06-21 23:20:45 - PHP Notice:  Undefined variable: cloud in /var/www/ascari/catalog/model/module/tagcloud.php on line 74
+2015-06-21 23:20:49 - PHP Notice:  Undefined variable: cloud in /var/www/ascari/catalog/model/module/tagcloud.php on line 74
+2015-06-21 23:20:52 - PHP Notice:  Undefined variable: cloud in /var/www/ascari/catalog/model/module/tagcloud.php on line 74
+2015-06-21 23:21:24 - PHP Notice:  Undefined variable: cloud in /var/www/ascari/catalog/model/module/tagcloud.php on line 74
+2015-06-21 23:21:44 - PHP Notice:  Undefined variable: cloud in /var/www/ascari/catalog/model/module/tagcloud.php on line 74
+2015-06-22 16:55:30 - PHP Warning:  require_once(/var/www/ascari/system/addist/startup.php): failed to open stream: No such file or directory in /var/www/ascari/admin/controller/module/ext_manager.php on line 3
+2015-06-22 16:56:01 - PHP Warning:  require_once(/var/www/ascari/system/addist/startup.php): failed to open stream: No such file or directory in /var/www/ascari/admin/controller/module/ext_manager.php on line 3
+2015-06-22 16:57:41 - PHP Warning:  require_once(/var/www/ascari/system/addist/startup.php): failed to open stream: No such file or directory in /var/www/ascari/admin/controller/module/ext_manager.php on line 3
+2015-06-22 16:59:41 - PHP Warning:  require_once(/var/www/ascari/admin): failed to open stream: Permission denied in /var/www/ascari/system/addist/helper.php on line 17
+2015-06-22 16:59:59 - PHP Warning:  require_once(/var/www/ascari/admin): failed to open stream: Permission denied in /var/www/ascari/system/addist/helper.php on line 17
+2015-06-22 17:00:05 - PHP Notice:  Error: Could not load controller addist/error! in /var/www/ascari/vqmod/vqcache/vq2-system_engine_controller.php on line 47
+2015-06-22 17:01:58 - PHP Notice:  Error: Could not load controller addist/error! in /var/www/ascari/vqmod/vqcache/vq2-system_engine_controller.php on line 47
+2015-06-22 17:02:06 - PHP Notice:  Error: Could not load controller addist/error! in /var/www/ascari/vqmod/vqcache/vq2-system_engine_controller.php on line 47
+2015-06-22 17:06:40 - PHP Notice:  Error: Could not load controller addist/error! in /var/www/ascari/vqmod/vqcache/vq2-system_engine_controller.php on line 47
+2015-06-22 17:06:41 - PHP Notice:  Error: Could not load controller addist/error! in /var/www/ascari/vqmod/vqcache/vq2-system_engine_controller.php on line 47
+2015-06-22 17:06:41 - PHP Notice:  Error: Could not load controller addist/error! in /var/www/ascari/vqmod/vqcache/vq2-system_engine_controller.php on line 47
+2015-06-22 17:06:47 - PHP Notice:  Error: Could not load controller addist/error! in /var/www/ascari/vqmod/vqcache/vq2-system_engine_controller.php on line 47
+2015-06-22 17:09:32 - PHP Notice:  Error: Could not load controller addist/error! in /var/www/ascari/vqmod/vqcache/vq2-system_engine_controller.php on line 47
+2015-06-22 17:40:05 - PHP Notice:  Undefined variable: cloud in /var/www/ascari/catalog/model/module/tagcloud.php on line 74
+2015-06-22 17:40:56 - PHP Notice:  Undefined variable: cloud in /var/www/ascari/catalog/model/module/tagcloud.php on line 74
+2015-06-22 17:43:12 - PHP Notice:  Undefined variable: cloud in /var/www/ascari/catalog/model/module/tagcloud.php on line 74
+2015-06-22 18:51:52 - PHP Notice:  Undefined variable: button_detail in /var/www/ascari/vqmod/vqcache/vq2-catalog_view_theme_default_template_product_category.tpl on line 141
+2015-06-22 18:51:52 - PHP Notice:  Undefined variable: button_quick_view in /var/www/ascari/vqmod/vqcache/vq2-catalog_view_theme_default_template_product_category.tpl on line 153
+2015-06-22 18:51:52 - PHP Notice:  Undefined variable: button_detail in /var/www/ascari/vqmod/vqcache/vq2-catalog_view_theme_default_template_product_category.tpl on line 141
+2015-06-22 18:51:52 - PHP Notice:  Undefined variable: button_quick_view in /var/www/ascari/vqmod/vqcache/vq2-catalog_view_theme_default_template_product_category.tpl on line 153
+2015-06-22 18:55:26 - PHP Notice:  Undefined variable: button_detail in /var/www/ascari/vqmod/vqcache/vq2-catalog_view_theme_default_template_product_category.tpl on line 141
+2015-06-22 18:55:26 - PHP Notice:  Undefined variable: button_quick_view in /var/www/ascari/vqmod/vqcache/vq2-catalog_view_theme_default_template_product_category.tpl on line 153
+2015-06-22 18:55:26 - PHP Notice:  Undefined variable: button_detail in /var/www/ascari/vqmod/vqcache/vq2-catalog_view_theme_default_template_product_category.tpl on line 141
+2015-06-22 18:55:26 - PHP Notice:  Undefined variable: button_quick_view in /var/www/ascari/vqmod/vqcache/vq2-catalog_view_theme_default_template_product_category.tpl on line 153
+2015-06-22 18:56:19 - PHP Notice:  Undefined variable: button_detail in /var/www/ascari/vqmod/vqcache/vq2-catalog_view_theme_default_template_product_category.tpl on line 141
+2015-06-22 18:56:19 - PHP Notice:  Undefined variable: button_quick_view in /var/www/ascari/vqmod/vqcache/vq2-catalog_view_theme_default_template_product_category.tpl on line 153
+2015-06-22 18:56:19 - PHP Notice:  Undefined variable: button_detail in /var/www/ascari/vqmod/vqcache/vq2-catalog_view_theme_default_template_product_category.tpl on line 141
+2015-06-22 18:56:19 - PHP Notice:  Undefined variable: button_quick_view in /var/www/ascari/vqmod/vqcache/vq2-catalog_view_theme_default_template_product_category.tpl on line 153
+2015-06-22 18:57:16 - PHP Notice:  Undefined variable: button_detail in /var/www/ascari/vqmod/vqcache/vq2-catalog_view_theme_default_template_product_category.tpl on line 141
+2015-06-22 18:57:16 - PHP Notice:  Undefined variable: button_quick_view in /var/www/ascari/vqmod/vqcache/vq2-catalog_view_theme_default_template_product_category.tpl on line 153
+2015-06-22 18:57:16 - PHP Notice:  Undefined variable: button_detail in /var/www/ascari/vqmod/vqcache/vq2-catalog_view_theme_default_template_product_category.tpl on line 141
+2015-06-22 18:57:16 - PHP Notice:  Undefined variable: button_quick_view in /var/www/ascari/vqmod/vqcache/vq2-catalog_view_theme_default_template_product_category.tpl on line 153
+2015-06-22 19:00:26 - PHP Notice:  Undefined variable: content_header in /var/www/ascari/vqmod/vqcache/vq2-catalog_view_theme_default_template_common_header.tpl on line 126
+2015-06-22 19:13:07 - PHP Warning:  fopen(/var/www/ascari/image/test): failed to open stream: Permission denied in /var/www/ascari/admin/controller/common/home.php on line 48
+2015-06-22 19:13:07 - PHP Warning:  fwrite() expects parameter 1 to be resource, boolean given in /var/www/ascari/admin/controller/common/home.php on line 50
+2015-06-22 19:13:07 - PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in /var/www/ascari/admin/controller/common/home.php on line 52
+2015-06-22 19:14:47 - PHP Notice:  Undefined variable: text_content_header in /var/www/ascari/admin/view/template/module/blockhtml.tpl on line 50
+2015-06-22 19:14:47 - PHP Notice:  Undefined variable: text_content_header in /var/www/ascari/admin/view/template/module/blockhtml.tpl on line 50
+2015-06-22 19:15:35 - PHP Notice:  Undefined variable: text_content_header in /var/www/ascari/admin/view/template/module/blockhtml.tpl on line 50
+2015-06-22 19:15:35 - PHP Notice:  Undefined variable: text_content_header in /var/www/ascari/admin/view/template/module/blockhtml.tpl on line 50
+2015-06-22 20:38:59 - PHP Notice:  Undefined variable: blog in /var/www/ascari/catalog/view/theme/default/template/common/footer.tpl on line 55
+2015-06-22 20:39:11 - PHP Notice:  Undefined variable: blog in /var/www/ascari/catalog/view/theme/default/template/common/footer.tpl on line 55
+2015-06-22 22:02:13 - PHP Warning:  imagecreatetruecolor() expects parameter 1 to be long, string given in /var/www/ascari/vqmod/vqcache/vq2-system_library_image.php on line 86
+2015-06-22 22:02:13 - PHP Warning:  imagecolorallocate() expects parameter 1 to be resource, null given in /var/www/ascari/vqmod/vqcache/vq2-system_library_image.php on line 105
+2015-06-22 22:02:13 - PHP Warning:  imagefilledrectangle() expects parameter 1 to be resource, null given in /var/www/ascari/vqmod/vqcache/vq2-system_library_image.php on line 110
+2015-06-22 22:02:13 - PHP Warning:  imagecopyresampled() expects parameter 1 to be resource, null given in /var/www/ascari/vqmod/vqcache/vq2-system_library_image.php on line 112
+2015-06-22 22:02:13 - PHP Warning:  substr() expects parameter 3 to be long, string given in /var/www/ascari/catalog/controller/module/yaslider.php on line 75
+2015-06-22 22:23:31 - PHP Notice:  Use of undefined constant text_content_header - assumed 'text_content_header' in /var/www/ascari/admin/view/template/module/coin_slider.tpl on line 87
+2015-06-22 22:23:32 - PHP Notice:  Use of undefined constant text_content_header - assumed 'text_content_header' in /var/www/ascari/admin/view/template/module/coin_slider.tpl on line 87
+2015-06-22 22:24:10 - PHP Notice:  Use of undefined constant text_content_header - assumed 'text_content_header' in /var/www/ascari/admin/view/template/module/coin_slider.tpl on line 87
+2015-06-22 22:31:25 - PHP Warning:  imagecreatetruecolor() expects parameter 1 to be long, string given in /var/www/ascari/vqmod/vqcache/vq2-system_library_image.php on line 86
+2015-06-22 22:31:25 - PHP Warning:  imagealphablending() expects parameter 1 to be resource, null given in /var/www/ascari/vqmod/vqcache/vq2-system_library_image.php on line 90
+2015-06-22 22:31:25 - PHP Warning:  imagesavealpha() expects parameter 1 to be resource, null given in /var/www/ascari/vqmod/vqcache/vq2-system_library_image.php on line 91
+2015-06-22 22:31:25 - PHP Warning:  imagecolorallocatealpha() expects parameter 1 to be resource, null given in /var/www/ascari/vqmod/vqcache/vq2-system_library_image.php on line 94
+2015-06-22 22:31:25 - PHP Warning:  imagecolortransparent() expects parameter 1 to be resource, null given in /var/www/ascari/vqmod/vqcache/vq2-system_library_image.php on line 99
+2015-06-22 22:31:25 - PHP Warning:  imagefilledrectangle() expects parameter 1 to be resource, null given in /var/www/ascari/vqmod/vqcache/vq2-system_library_image.php on line 110
+2015-06-22 22:31:25 - PHP Warning:  imagecopyresampled() expects parameter 1 to be resource, null given in /var/www/ascari/vqmod/vqcache/vq2-system_library_image.php on line 112
+2015-06-22 22:31:25 - PHP Warning:  imagecreatetruecolor() expects parameter 1 to be long, string given in /var/www/ascari/vqmod/vqcache/vq2-system_library_image.php on line 86
+2015-06-22 22:31:25 - PHP Warning:  imagealphablending() expects parameter 1 to be resource, null given in /var/www/ascari/vqmod/vqcache/vq2-system_library_image.php on line 90
+2015-06-22 22:31:25 - PHP Warning:  imagesavealpha() expects parameter 1 to be resource, null given in /var/www/ascari/vqmod/vqcache/vq2-system_library_image.php on line 91
+2015-06-22 22:31:25 - PHP Warning:  imagecolorallocatealpha() expects parameter 1 to be resource, null given in /var/www/ascari/vqmod/vqcache/vq2-system_library_image.php on line 94
+2015-06-22 22:31:25 - PHP Warning:  imagecolortransparent() expects parameter 1 to be resource, null given in /var/www/ascari/vqmod/vqcache/vq2-system_library_image.php on line 99
+2015-06-22 22:31:25 - PHP Warning:  imagefilledrectangle() expects parameter 1 to be resource, null given in /var/www/ascari/vqmod/vqcache/vq2-system_library_image.php on line 110
+2015-06-22 22:31:25 - PHP Warning:  imagecopyresampled() expects parameter 1 to be resource, null given in /var/www/ascari/vqmod/vqcache/vq2-system_library_image.php on line 112
+2015-06-23 18:00:31 - PHP Warning:  fopen(/var/www/ascari/image/test): failed to open stream: Permission denied in /var/www/ascari/admin/controller/common/home.php on line 48
+2015-06-23 18:00:32 - PHP Warning:  fwrite() expects parameter 1 to be resource, boolean given in /var/www/ascari/admin/controller/common/home.php on line 50
+2015-06-23 18:00:32 - PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in /var/www/ascari/admin/controller/common/home.php on line 52
+2015-06-23 18:00:32 - PHP Warning:  fopen(/var/www/ascari/image/test): failed to open stream: Permission denied in /var/www/ascari/admin/controller/common/home.php on line 48
+2015-06-23 18:00:32 - PHP Warning:  fwrite() expects parameter 1 to be resource, boolean given in /var/www/ascari/admin/controller/common/home.php on line 50
+2015-06-23 18:00:32 - PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in /var/www/ascari/admin/controller/common/home.php on line 52
+2015-06-23 19:01:18 - PHP Warning:  imagecreatetruecolor() expects parameter 2 to be long, string given in /var/www/ascari/vqmod/vqcache/vq2-system_library_image.php on line 86
+2015-06-23 19:01:18 - PHP Warning:  imagealphablending() expects parameter 1 to be resource, null given in /var/www/ascari/vqmod/vqcache/vq2-system_library_image.php on line 90
+2015-06-23 19:01:18 - PHP Warning:  imagesavealpha() expects parameter 1 to be resource, null given in /var/www/ascari/vqmod/vqcache/vq2-system_library_image.php on line 91
+2015-06-23 19:01:18 - PHP Warning:  imagecolorallocatealpha() expects parameter 1 to be resource, null given in /var/www/ascari/vqmod/vqcache/vq2-system_library_image.php on line 94
+2015-06-23 19:01:18 - PHP Warning:  imagecolortransparent() expects parameter 1 to be resource, null given in /var/www/ascari/vqmod/vqcache/vq2-system_library_image.php on line 99
+2015-06-23 19:01:18 - PHP Warning:  imagefilledrectangle() expects parameter 1 to be resource, null given in /var/www/ascari/vqmod/vqcache/vq2-system_library_image.php on line 110
+2015-06-23 19:01:18 - PHP Warning:  imagecopyresampled() expects parameter 1 to be resource, null given in /var/www/ascari/vqmod/vqcache/vq2-system_library_image.php on line 112
+2015-06-23 19:01:18 - PHP Warning:  imagecreatetruecolor() expects parameter 2 to be long, string given in /var/www/ascari/vqmod/vqcache/vq2-system_library_image.php on line 86
+2015-06-23 19:01:18 - PHP Warning:  imagealphablending() expects parameter 1 to be resource, null given in /var/www/ascari/vqmod/vqcache/vq2-system_library_image.php on line 90
+2015-06-23 19:01:18 - PHP Warning:  imagesavealpha() expects parameter 1 to be resource, null given in /var/www/ascari/vqmod/vqcache/vq2-system_library_image.php on line 91
+2015-06-23 19:01:18 - PHP Warning:  imagecolorallocatealpha() expects parameter 1 to be resource, null given in /var/www/ascari/vqmod/vqcache/vq2-system_library_image.php on line 94
+2015-06-23 19:01:18 - PHP Warning:  imagecolortransparent() expects parameter 1 to be resource, null given in /var/www/ascari/vqmod/vqcache/vq2-system_library_image.php on line 99
+2015-06-23 19:01:18 - PHP Warning:  imagefilledrectangle() expects parameter 1 to be resource, null given in /var/www/ascari/vqmod/vqcache/vq2-system_library_image.php on line 110
+2015-06-23 19:01:18 - PHP Warning:  imagecopyresampled() expects parameter 1 to be resource, null given in /var/www/ascari/vqmod/vqcache/vq2-system_library_image.php on line 112
+2015-06-23 19:05:37 - PHP Warning:  Missing argument 2 for ModelToolImage::resize(), called in /var/www/ascari/catalog/controller/module/coin_slider.php on line 34 and defined in /var/www/ascari/vqmod/vqcache/vq2-catalog_model_tool_image.php on line 14
+2015-06-23 19:05:37 - PHP Warning:  Missing argument 3 for ModelToolImage::resize(), called in /var/www/ascari/catalog/controller/module/coin_slider.php on line 34 and defined in /var/www/ascari/vqmod/vqcache/vq2-catalog_model_tool_image.php on line 14
+2015-06-23 19:05:37 - PHP Notice:  Undefined variable: width in /var/www/ascari/vqmod/vqcache/vq2-catalog_model_tool_image.php on line 24
+2015-06-23 19:05:37 - PHP Notice:  Undefined variable: height in /var/www/ascari/vqmod/vqcache/vq2-catalog_model_tool_image.php on line 24
+2015-06-23 19:05:37 - PHP Notice:  Undefined variable: width in /var/www/ascari/vqmod/vqcache/vq2-catalog_model_tool_image.php on line 41
+2015-06-23 19:05:37 - PHP Notice:  Undefined variable: width in /var/www/ascari/vqmod/vqcache/vq2-catalog_model_tool_image.php on line 43
+2015-06-23 19:05:37 - PHP Notice:  Undefined variable: height in /var/www/ascari/vqmod/vqcache/vq2-catalog_model_tool_image.php on line 43
+2015-06-23 19:05:37 - PHP Warning:  imagecreatetruecolor(): Invalid image dimensions in /var/www/ascari/vqmod/vqcache/vq2-system_library_image.php on line 86
+2015-06-23 19:05:37 - PHP Warning:  imagealphablending() expects parameter 1 to be resource, boolean given in /var/www/ascari/vqmod/vqcache/vq2-system_library_image.php on line 90
+2015-06-23 19:05:37 - PHP Warning:  imagesavealpha() expects parameter 1 to be resource, boolean given in /var/www/ascari/vqmod/vqcache/vq2-system_library_image.php on line 91
+2015-06-23 19:05:37 - PHP Warning:  imagecolorallocatealpha() expects parameter 1 to be resource, boolean given in /var/www/ascari/vqmod/vqcache/vq2-system_library_image.php on line 96
+2015-06-23 19:05:37 - PHP Warning:  imagecolortransparent() expects parameter 1 to be resource, boolean given in /var/www/ascari/vqmod/vqcache/vq2-system_library_image.php on line 99
+2015-06-23 19:05:37 - PHP Warning:  imagefilledrectangle() expects parameter 1 to be resource, boolean given in /var/www/ascari/vqmod/vqcache/vq2-system_library_image.php on line 110
+2015-06-23 19:05:37 - PHP Warning:  imagecopyresampled() expects parameter 1 to be resource, boolean given in /var/www/ascari/vqmod/vqcache/vq2-system_library_image.php on line 112
+2015-06-23 19:05:37 - PHP Warning:  Missing argument 2 for ModelToolImage::resize(), called in /var/www/ascari/catalog/controller/module/coin_slider.php on line 34 and defined in /var/www/ascari/vqmod/vqcache/vq2-catalog_model_tool_image.php on line 14
+2015-06-23 19:05:37 - PHP Warning:  Missing argument 3 for ModelToolImage::resize(), called in /var/www/ascari/catalog/controller/module/coin_slider.php on line 34 and defined in /var/www/ascari/vqmod/vqcache/vq2-catalog_model_tool_image.php on line 14
+2015-06-23 19:05:37 - PHP Notice:  Undefined variable: width in /var/www/ascari/vqmod/vqcache/vq2-catalog_model_tool_image.php on line 24
+2015-06-23 19:05:37 - PHP Notice:  Undefined variable: height in /var/www/ascari/vqmod/vqcache/vq2-catalog_model_tool_image.php on line 24
+2015-06-23 19:05:37 - PHP Notice:  Undefined variable: width in /var/www/ascari/vqmod/vqcache/vq2-catalog_model_tool_image.php on line 41
+2015-06-23 19:05:37 - PHP Notice:  Undefined variable: width in /var/www/ascari/vqmod/vqcache/vq2-catalog_model_tool_image.php on line 43
+2015-06-23 19:05:37 - PHP Notice:  Undefined variable: height in /var/www/ascari/vqmod/vqcache/vq2-catalog_model_tool_image.php on line 43
+2015-06-23 19:05:37 - PHP Warning:  imagecreatetruecolor(): Invalid image dimensions in /var/www/ascari/vqmod/vqcache/vq2-system_library_image.php on line 86
+2015-06-23 19:05:37 - PHP Warning:  imagealphablending() expects parameter 1 to be resource, boolean given in /var/www/ascari/vqmod/vqcache/vq2-system_library_image.php on line 90
+2015-06-23 19:05:37 - PHP Warning:  imagesavealpha() expects parameter 1 to be resource, boolean given in /var/www/ascari/vqmod/vqcache/vq2-system_library_image.php on line 91
+2015-06-23 19:05:37 - PHP Warning:  imagecolorallocatealpha() expects parameter 1 to be resource, boolean given in /var/www/ascari/vqmod/vqcache/vq2-system_library_image.php on line 96
+2015-06-23 19:05:37 - PHP Warning:  imagecolortransparent() expects parameter 1 to be resource, boolean given in /var/www/ascari/vqmod/vqcache/vq2-system_library_image.php on line 99
+2015-06-23 19:05:37 - PHP Warning:  imagefilledrectangle() expects parameter 1 to be resource, boolean given in /var/www/ascari/vqmod/vqcache/vq2-system_library_image.php on line 110
+2015-06-23 19:05:37 - PHP Warning:  imagecopyresampled() expects parameter 1 to be resource, boolean given in /var/www/ascari/vqmod/vqcache/vq2-system_library_image.php on line 112
+2015-06-23 20:08:25 - PHP Warning:  fopen(/var/www/ascari/image/test): failed to open stream: Permission denied in /var/www/ascari/admin/controller/common/home.php on line 48
+2015-06-23 20:08:25 - PHP Warning:  fwrite() expects parameter 1 to be resource, boolean given in /var/www/ascari/admin/controller/common/home.php on line 50
+2015-06-23 20:08:25 - PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in /var/www/ascari/admin/controller/common/home.php on line 52
+2015-06-23 20:08:58 - PHP Notice:  Undefined index: show_buttons_bottom in /var/www/ascari/admin/model/design/coin_slider.php on line 70
+2015-06-23 20:46:44 - PHP Notice:  Undefined index: show_buttons_bottom in /var/www/ascari/admin/model/design/coin_slider.php on line 70
+2015-06-23 21:05:26 - PHP Notice:  Undefined index: show_buttons_bottom in /var/www/ascari/admin/model/design/coin_slider.php on line 70
+2015-06-24 17:32:35 - PHP Warning:  fopen(/var/www/ascari/image/test): failed to open stream: Permission denied in /var/www/ascari/admin/controller/common/home.php on line 48
+2015-06-24 17:32:35 - PHP Warning:  fwrite() expects parameter 1 to be resource, boolean given in /var/www/ascari/admin/controller/common/home.php on line 50
+2015-06-24 17:32:35 - PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in /var/www/ascari/admin/controller/common/home.php on line 52
+2015-06-24 17:58:55 - PHP Warning:  fopen(/var/www/ascari/image/test): failed to open stream: Permission denied in /var/www/ascari/admin/controller/common/home.php on line 48
+2015-06-24 17:58:55 - PHP Warning:  fwrite() expects parameter 1 to be resource, boolean given in /var/www/ascari/admin/controller/common/home.php on line 50
+2015-06-24 17:58:55 - PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in /var/www/ascari/admin/controller/common/home.php on line 52
+2015-06-24 19:13:12 - PHP Warning:  fopen(/var/www/ascari/image/test): failed to open stream: Permission denied in /var/www/ascari/admin/controller/common/home.php on line 48
+2015-06-24 19:13:12 - PHP Warning:  fwrite() expects parameter 1 to be resource, boolean given in /var/www/ascari/admin/controller/common/home.php on line 50
+2015-06-24 19:13:12 - PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in /var/www/ascari/admin/controller/common/home.php on line 52
+2015-06-24 19:15:37 - PHP Notice:  Undefined index: seo_h1 in /var/www/ascari/catalog/view/theme/default/template/module/categorywall.tpl on line 16
+2015-06-24 19:15:37 - PHP Notice:  Undefined index: seo_title in /var/www/ascari/catalog/view/theme/default/template/module/categorywall.tpl on line 17
+2015-06-24 19:15:37 - PHP Notice:  Undefined index: seo_h1 in /var/www/ascari/catalog/view/theme/default/template/module/categorywall.tpl on line 16
+2015-06-24 19:15:37 - PHP Notice:  Undefined index: seo_title in /var/www/ascari/catalog/view/theme/default/template/module/categorywall.tpl on line 17
+2015-06-24 19:15:37 - PHP Notice:  Undefined index: seo_h1 in /var/www/ascari/catalog/view/theme/default/template/module/categorywall.tpl on line 16
+2015-06-24 19:15:37 - PHP Notice:  Undefined index: seo_title in /var/www/ascari/catalog/view/theme/default/template/module/categorywall.tpl on line 17
+2015-06-24 19:15:37 - PHP Notice:  Undefined index: seo_h1 in /var/www/ascari/catalog/view/theme/default/template/module/categorywall.tpl on line 16
+2015-06-24 19:15:37 - PHP Notice:  Undefined index: seo_title in /var/www/ascari/catalog/view/theme/default/template/module/categorywall.tpl on line 17
+2015-06-24 19:15:37 - PHP Notice:  Undefined index: seo_h1 in /var/www/ascari/catalog/view/theme/default/template/module/categorywall.tpl on line 16
+2015-06-24 19:15:37 - PHP Notice:  Undefined index: seo_title in /var/www/ascari/catalog/view/theme/default/template/module/categorywall.tpl on line 17
+2015-06-24 19:16:33 - PHP Notice:  Undefined index: seo_h1 in /var/www/ascari/catalog/view/theme/default/template/module/categorywall.tpl on line 16
+2015-06-24 19:16:33 - PHP Notice:  Undefined index: seo_title in /var/www/ascari/catalog/view/theme/default/template/module/categorywall.tpl on line 17
+2015-06-24 19:16:33 - PHP Notice:  Undefined index: seo_h1 in /var/www/ascari/catalog/view/theme/default/template/module/categorywall.tpl on line 16
+2015-06-24 19:16:33 - PHP Notice:  Undefined index: seo_title in /var/www/ascari/catalog/view/theme/default/template/module/categorywall.tpl on line 17
+2015-06-24 19:16:33 - PHP Notice:  Undefined index: seo_h1 in /var/www/ascari/catalog/view/theme/default/template/module/categorywall.tpl on line 16
+2015-06-24 19:16:33 - PHP Notice:  Undefined index: seo_title in /var/www/ascari/catalog/view/theme/default/template/module/categorywall.tpl on line 17
+2015-06-24 19:16:33 - PHP Notice:  Undefined index: seo_h1 in /var/www/ascari/catalog/view/theme/default/template/module/categorywall.tpl on line 16
+2015-06-24 19:16:33 - PHP Notice:  Undefined index: seo_title in /var/www/ascari/catalog/view/theme/default/template/module/categorywall.tpl on line 17
+2015-06-24 19:16:33 - PHP Notice:  Undefined index: seo_h1 in /var/www/ascari/catalog/view/theme/default/template/module/categorywall.tpl on line 16
+2015-06-24 19:16:33 - PHP Notice:  Undefined index: seo_title in /var/www/ascari/catalog/view/theme/default/template/module/categorywall.tpl on line 17
+2015-06-24 19:50:20 - PHP Notice:  Undefined variable: button_detail in /var/www/ascari/vqmod/vqcache/vq2-catalog_view_theme_default_template_product_category.tpl on line 141
+2015-06-24 19:50:20 - PHP Notice:  Undefined variable: button_quick_view in /var/www/ascari/vqmod/vqcache/vq2-catalog_view_theme_default_template_product_category.tpl on line 153
+2015-06-24 19:50:20 - PHP Notice:  Undefined variable: button_detail in /var/www/ascari/vqmod/vqcache/vq2-catalog_view_theme_default_template_product_category.tpl on line 141
+2015-06-24 19:50:20 - PHP Notice:  Undefined variable: button_quick_view in /var/www/ascari/vqmod/vqcache/vq2-catalog_view_theme_default_template_product_category.tpl on line 153
+2015-06-24 19:50:20 - PHP Notice:  Undefined variable: button_detail in /var/www/ascari/vqmod/vqcache/vq2-catalog_view_theme_default_template_product_category.tpl on line 141
+2015-06-24 19:50:20 - PHP Notice:  Undefined variable: button_quick_view in /var/www/ascari/vqmod/vqcache/vq2-catalog_view_theme_default_template_product_category.tpl on line 153
+2015-06-24 19:50:20 - PHP Notice:  Undefined variable: button_detail in /var/www/ascari/vqmod/vqcache/vq2-catalog_view_theme_default_template_product_category.tpl on line 141
+2015-06-24 19:50:20 - PHP Notice:  Undefined variable: button_quick_view in /var/www/ascari/vqmod/vqcache/vq2-catalog_view_theme_default_template_product_category.tpl on line 153
+2015-06-24 19:50:20 - PHP Notice:  Undefined variable: button_detail in /var/www/ascari/vqmod/vqcache/vq2-catalog_view_theme_default_template_product_category.tpl on line 141
+2015-06-24 19:50:20 - PHP Notice:  Undefined variable: button_quick_view in /var/www/ascari/vqmod/vqcache/vq2-catalog_view_theme_default_template_product_category.tpl on line 153
+2015-06-24 19:50:20 - PHP Notice:  Undefined variable: button_detail in /var/www/ascari/vqmod/vqcache/vq2-catalog_view_theme_default_template_product_category.tpl on line 141
+2015-06-24 19:50:20 - PHP Notice:  Undefined variable: button_quick_view in /var/www/ascari/vqmod/vqcache/vq2-catalog_view_theme_default_template_product_category.tpl on line 153
+2015-06-24 19:50:20 - PHP Notice:  Undefined variable: button_detail in /var/www/ascari/vqmod/vqcache/vq2-catalog_view_theme_default_template_product_category.tpl on line 141
+2015-06-24 19:50:20 - PHP Notice:  Undefined variable: button_quick_view in /var/www/ascari/vqmod/vqcache/vq2-catalog_view_theme_default_template_product_category.tpl on line 153
+2015-06-24 19:50:20 - PHP Notice:  Undefined variable: button_detail in /var/www/ascari/vqmod/vqcache/vq2-catalog_view_theme_default_template_product_category.tpl on line 141
+2015-06-24 19:50:20 - PHP Notice:  Undefined variable: button_quick_view in /var/www/ascari/vqmod/vqcache/vq2-catalog_view_theme_default_template_product_category.tpl on line 153
+2015-06-24 19:50:20 - PHP Notice:  Undefined variable: button_detail in /var/www/ascari/vqmod/vqcache/vq2-catalog_view_theme_default_template_product_category.tpl on line 141
+2015-06-24 19:50:20 - PHP Notice:  Undefined variable: button_quick_view in /var/www/ascari/vqmod/vqcache/vq2-catalog_view_theme_default_template_product_category.tpl on line 153
+2015-06-24 19:50:20 - PHP Notice:  Undefined variable: button_detail in /var/www/ascari/vqmod/vqcache/vq2-catalog_view_theme_default_template_product_category.tpl on line 141
+2015-06-24 19:50:20 - PHP Notice:  Undefined variable: button_quick_view in /var/www/ascari/vqmod/vqcache/vq2-catalog_view_theme_default_template_product_category.tpl on line 153
+2015-06-24 19:50:20 - PHP Notice:  Undefined variable: button_detail in /var/www/ascari/vqmod/vqcache/vq2-catalog_view_theme_default_template_product_category.tpl on line 141
+2015-06-24 19:50:20 - PHP Notice:  Undefined variable: button_quick_view in /var/www/ascari/vqmod/vqcache/vq2-catalog_view_theme_default_template_product_category.tpl on line 153
+2015-06-24 19:50:20 - PHP Notice:  Undefined variable: button_detail in /var/www/ascari/vqmod/vqcache/vq2-catalog_view_theme_default_template_product_category.tpl on line 141
+2015-06-24 19:50:20 - PHP Notice:  Undefined variable: button_quick_view in /var/www/ascari/vqmod/vqcache/vq2-catalog_view_theme_default_template_product_category.tpl on line 153
+2015-06-24 19:50:35 - PHP Notice:  Undefined variable: button_detail in /var/www/ascari/vqmod/vqcache/vq2-catalog_view_theme_default_template_product_category.tpl on line 141
+2015-06-24 19:50:35 - PHP Notice:  Undefined variable: button_quick_view in /var/www/ascari/vqmod/vqcache/vq2-catalog_view_theme_default_template_product_category.tpl on line 153
+2015-06-24 19:50:35 - PHP Notice:  Undefined variable: button_detail in /var/www/ascari/vqmod/vqcache/vq2-catalog_view_theme_default_template_product_category.tpl on line 141
+2015-06-24 19:50:35 - PHP Notice:  Undefined variable: button_quick_view in /var/www/ascari/vqmod/vqcache/vq2-catalog_view_theme_default_template_product_category.tpl on line 153
+2015-06-24 19:50:35 - PHP Notice:  Undefined variable: button_detail in /var/www/ascari/vqmod/vqcache/vq2-catalog_view_theme_default_template_product_category.tpl on line 141
+2015-06-24 19:50:35 - PHP Notice:  Undefined variable: button_quick_view in /var/www/ascari/vqmod/vqcache/vq2-catalog_view_theme_default_template_product_category.tpl on line 153
+2015-06-24 19:50:35 - PHP Notice:  Undefined variable: button_detail in /var/www/ascari/vqmod/vqcache/vq2-catalog_view_theme_default_template_product_category.tpl on line 141
+2015-06-24 19:50:35 - PHP Notice:  Undefined variable: button_quick_view in /var/www/ascari/vqmod/vqcache/vq2-catalog_view_theme_default_template_product_category.tpl on line 153
+2015-06-24 19:50:35 - PHP Notice:  Undefined variable: button_detail in /var/www/ascari/vqmod/vqcache/vq2-catalog_view_theme_default_template_product_category.tpl on line 141
+2015-06-24 19:50:35 - PHP Notice:  Undefined variable: button_quick_view in /var/www/ascari/vqmod/vqcache/vq2-catalog_view_theme_default_template_product_category.tpl on line 153
+2015-06-24 19:50:35 - PHP Notice:  Undefined variable: button_detail in /var/www/ascari/vqmod/vqcache/vq2-catalog_view_theme_default_template_product_category.tpl on line 141
+2015-06-24 19:50:35 - PHP Notice:  Undefined variable: button_quick_view in /var/www/ascari/vqmod/vqcache/vq2-catalog_view_theme_default_template_product_category.tpl on line 153
+2015-06-24 19:50:35 - PHP Notice:  Undefined variable: button_detail in /var/www/ascari/vqmod/vqcache/vq2-catalog_view_theme_default_template_product_category.tpl on line 141
+2015-06-24 19:50:35 - PHP Notice:  Undefined variable: button_quick_view in /var/www/ascari/vqmod/vqcache/vq2-catalog_view_theme_default_template_product_category.tpl on line 153
+2015-06-24 19:50:35 - PHP Notice:  Undefined variable: button_detail in /var/www/ascari/vqmod/vqcache/vq2-catalog_view_theme_default_template_product_category.tpl on line 141
+2015-06-24 19:50:35 - PHP Notice:  Undefined variable: button_quick_view in /var/www/ascari/vqmod/vqcache/vq2-catalog_view_theme_default_template_product_category.tpl on line 153
+2015-06-24 19:50:35 - PHP Notice:  Undefined variable: button_detail in /var/www/ascari/vqmod/vqcache/vq2-catalog_view_theme_default_template_product_category.tpl on line 141
+2015-06-24 19:50:35 - PHP Notice:  Undefined variable: button_quick_view in /var/www/ascari/vqmod/vqcache/vq2-catalog_view_theme_default_template_product_category.tpl on line 153
+2015-06-24 19:50:35 - PHP Notice:  Undefined variable: button_detail in /var/www/ascari/vqmod/vqcache/vq2-catalog_view_theme_default_template_product_category.tpl on line 141
+2015-06-24 19:50:35 - PHP Notice:  Undefined variable: button_quick_view in /var/www/ascari/vqmod/vqcache/vq2-catalog_view_theme_default_template_product_category.tpl on line 153
+2015-06-24 19:50:35 - PHP Notice:  Undefined variable: button_detail in /var/www/ascari/vqmod/vqcache/vq2-catalog_view_theme_default_template_product_category.tpl on line 141
+2015-06-24 19:50:35 - PHP Notice:  Undefined variable: button_quick_view in /var/www/ascari/vqmod/vqcache/vq2-catalog_view_theme_default_template_product_category.tpl on line 153
+2015-06-24 19:50:35 - PHP Notice:  Undefined variable: button_detail in /var/www/ascari/vqmod/vqcache/vq2-catalog_view_theme_default_template_product_category.tpl on line 141
+2015-06-24 19:50:35 - PHP Notice:  Undefined variable: button_quick_view in /var/www/ascari/vqmod/vqcache/vq2-catalog_view_theme_default_template_product_category.tpl on line 153
+2015-06-24 19:50:38 - PHP Notice:  Undefined variable: button_detail in /var/www/ascari/vqmod/vqcache/vq2-catalog_view_theme_default_template_product_category.tpl on line 141
+2015-06-24 19:50:38 - PHP Notice:  Undefined variable: button_quick_view in /var/www/ascari/vqmod/vqcache/vq2-catalog_view_theme_default_template_product_category.tpl on line 153
+2015-06-24 19:50:38 - PHP Notice:  Undefined variable: button_detail in /var/www/ascari/vqmod/vqcache/vq2-catalog_view_theme_default_template_product_category.tpl on line 141
+2015-06-24 19:50:38 - PHP Notice:  Undefined variable: button_quick_view in /var/www/ascari/vqmod/vqcache/vq2-catalog_view_theme_default_template_product_category.tpl on line 153
+2015-06-24 19:50:38 - PHP Notice:  Undefined variable: button_detail in /var/www/ascari/vqmod/vqcache/vq2-catalog_view_theme_default_template_product_category.tpl on line 141
+2015-06-24 19:50:38 - PHP Notice:  Undefined variable: button_quick_view in /var/www/ascari/vqmod/vqcache/vq2-catalog_view_theme_default_template_product_category.tpl on line 153
+2015-06-24 19:50:38 - PHP Notice:  Undefined variable: button_detail in /var/www/ascari/vqmod/vqcache/vq2-catalog_view_theme_default_template_product_category.tpl on line 141
+2015-06-24 19:50:38 - PHP Notice:  Undefined variable: button_quick_view in /var/www/ascari/vqmod/vqcache/vq2-catalog_view_theme_default_template_product_category.tpl on line 153
+2015-06-24 19:50:38 - PHP Notice:  Undefined variable: button_detail in /var/www/ascari/vqmod/vqcache/vq2-catalog_view_theme_default_template_product_category.tpl on line 141
+2015-06-24 19:50:38 - PHP Notice:  Undefined variable: button_quick_view in /var/www/ascari/vqmod/vqcache/vq2-catalog_view_theme_default_template_product_category.tpl on line 153
+2015-06-24 19:50:38 - PHP Notice:  Undefined variable: button_detail in /var/www/ascari/vqmod/vqcache/vq2-catalog_view_theme_default_template_product_category.tpl on line 141
+2015-06-24 19:50:38 - PHP Notice:  Undefined variable: button_quick_view in /var/www/ascari/vqmod/vqcache/vq2-catalog_view_theme_default_template_product_category.tpl on line 153
+2015-06-24 19:50:38 - PHP Notice:  Undefined variable: button_detail in /var/www/ascari/vqmod/vqcache/vq2-catalog_view_theme_default_template_product_category.tpl on line 141
+2015-06-24 19:50:38 - PHP Notice:  Undefined variable: button_quick_view in /var/www/ascari/vqmod/vqcache/vq2-catalog_view_theme_default_template_product_category.tpl on line 153
+2015-06-24 19:50:38 - PHP Notice:  Undefined variable: button_detail in /var/www/ascari/vqmod/vqcache/vq2-catalog_view_theme_default_template_product_category.tpl on line 141
+2015-06-24 19:50:38 - PHP Notice:  Undefined variable: button_quick_view in /var/www/ascari/vqmod/vqcache/vq2-catalog_view_theme_default_template_product_category.tpl on line 153
+2015-06-24 19:50:38 - PHP Notice:  Undefined variable: button_detail in /var/www/ascari/vqmod/vqcache/vq2-catalog_view_theme_default_template_product_category.tpl on line 141
+2015-06-24 19:50:38 - PHP Notice:  Undefined variable: button_quick_view in /var/www/ascari/vqmod/vqcache/vq2-catalog_view_theme_default_template_product_category.tpl on line 153
+2015-06-24 19:50:38 - PHP Notice:  Undefined variable: button_detail in /var/www/ascari/vqmod/vqcache/vq2-catalog_view_theme_default_template_product_category.tpl on line 141
+2015-06-24 19:50:38 - PHP Notice:  Undefined variable: button_quick_view in /var/www/ascari/vqmod/vqcache/vq2-catalog_view_theme_default_template_product_category.tpl on line 153
+2015-06-24 19:50:38 - PHP Notice:  Undefined variable: button_detail in /var/www/ascari/vqmod/vqcache/vq2-catalog_view_theme_default_template_product_category.tpl on line 141
+2015-06-24 19:50:38 - PHP Notice:  Undefined variable: button_quick_view in /var/www/ascari/vqmod/vqcache/vq2-catalog_view_theme_default_template_product_category.tpl on line 153
+2015-06-24 19:50:38 - PHP Notice:  Undefined variable: button_detail in /var/www/ascari/vqmod/vqcache/vq2-catalog_view_theme_default_template_product_category.tpl on line 141
+2015-06-24 19:50:38 - PHP Notice:  Undefined variable: button_quick_view in /var/www/ascari/vqmod/vqcache/vq2-catalog_view_theme_default_template_product_category.tpl on line 153
+2015-06-24 19:50:43 - PHP Notice:  Undefined variable: button_detail in /var/www/ascari/vqmod/vqcache/vq2-catalog_view_theme_default_template_product_category.tpl on line 141
+2015-06-24 19:50:43 - PHP Notice:  Undefined variable: button_quick_view in /var/www/ascari/vqmod/vqcache/vq2-catalog_view_theme_default_template_product_category.tpl on line 153
+2015-06-24 19:50:43 - PHP Notice:  Undefined variable: button_detail in /var/www/ascari/vqmod/vqcache/vq2-catalog_view_theme_default_template_product_category.tpl on line 141
+2015-06-24 19:50:43 - PHP Notice:  Undefined variable: button_quick_view in /var/www/ascari/vqmod/vqcache/vq2-catalog_view_theme_default_template_product_category.tpl on line 153
+2015-06-24 19:53:46 - PHP Notice:  Undefined variable: button_detail in /var/www/ascari/vqmod/vqcache/vq2-catalog_view_theme_default_template_product_category.tpl on line 141
+2015-06-24 19:53:46 - PHP Notice:  Undefined variable: button_quick_view in /var/www/ascari/vqmod/vqcache/vq2-catalog_view_theme_default_template_product_category.tpl on line 153
+2015-06-24 19:53:46 - PHP Notice:  Undefined variable: button_detail in /var/www/ascari/vqmod/vqcache/vq2-catalog_view_theme_default_template_product_category.tpl on line 141
+2015-06-24 19:53:46 - PHP Notice:  Undefined variable: button_quick_view in /var/www/ascari/vqmod/vqcache/vq2-catalog_view_theme_default_template_product_category.tpl on line 153
+2015-06-24 19:53:47 - PHP Notice:  Undefined variable: button_detail in /var/www/ascari/vqmod/vqcache/vq2-catalog_view_theme_default_template_product_category.tpl on line 141
+2015-06-24 19:53:47 - PHP Notice:  Undefined variable: button_quick_view in /var/www/ascari/vqmod/vqcache/vq2-catalog_view_theme_default_template_product_category.tpl on line 153
+2015-06-24 19:53:47 - PHP Notice:  Undefined variable: button_detail in /var/www/ascari/vqmod/vqcache/vq2-catalog_view_theme_default_template_product_category.tpl on line 141
+2015-06-24 19:53:47 - PHP Notice:  Undefined variable: button_quick_view in /var/www/ascari/vqmod/vqcache/vq2-catalog_view_theme_default_template_product_category.tpl on line 153
+2015-06-24 19:53:49 - PHP Notice:  Undefined variable: button_detail in /var/www/ascari/vqmod/vqcache/vq2-catalog_view_theme_default_template_product_category.tpl on line 141
+2015-06-24 19:53:49 - PHP Notice:  Undefined variable: button_quick_view in /var/www/ascari/vqmod/vqcache/vq2-catalog_view_theme_default_template_product_category.tpl on line 153
+2015-06-24 19:53:49 - PHP Notice:  Undefined variable: button_detail in /var/www/ascari/vqmod/vqcache/vq2-catalog_view_theme_default_template_product_category.tpl on line 141
+2015-06-24 19:53:49 - PHP Notice:  Undefined variable: button_quick_view in /var/www/ascari/vqmod/vqcache/vq2-catalog_view_theme_default_template_product_category.tpl on line 153
+2015-06-24 19:54:17 - PHP Notice:  Undefined variable: button_detail in /var/www/ascari/vqmod/vqcache/vq2-catalog_view_theme_default_template_product_category.tpl on line 141
+2015-06-24 19:54:17 - PHP Notice:  Undefined variable: button_quick_view in /var/www/ascari/vqmod/vqcache/vq2-catalog_view_theme_default_template_product_category.tpl on line 153
+2015-06-24 19:54:17 - PHP Notice:  Undefined variable: button_detail in /var/www/ascari/vqmod/vqcache/vq2-catalog_view_theme_default_template_product_category.tpl on line 141
+2015-06-24 19:54:17 - PHP Notice:  Undefined variable: button_quick_view in /var/www/ascari/vqmod/vqcache/vq2-catalog_view_theme_default_template_product_category.tpl on line 153
+2015-06-24 19:54:19 - PHP Notice:  Undefined variable: button_detail in /var/www/ascari/vqmod/vqcache/vq2-catalog_view_theme_default_template_product_category.tpl on line 141
+2015-06-24 19:54:19 - PHP Notice:  Undefined variable: button_quick_view in /var/www/ascari/vqmod/vqcache/vq2-catalog_view_theme_default_template_product_category.tpl on line 153
+2015-06-24 19:54:19 - PHP Notice:  Undefined variable: button_detail in /var/www/ascari/vqmod/vqcache/vq2-catalog_view_theme_default_template_product_category.tpl on line 141
+2015-06-24 19:54:19 - PHP Notice:  Undefined variable: button_quick_view in /var/www/ascari/vqmod/vqcache/vq2-catalog_view_theme_default_template_product_category.tpl on line 153
+2015-06-24 19:54:25 - PHP Notice:  Undefined variable: button_detail in /var/www/ascari/vqmod/vqcache/vq2-catalog_view_theme_default_template_product_category.tpl on line 141
+2015-06-24 19:54:25 - PHP Notice:  Undefined variable: button_quick_view in /var/www/ascari/vqmod/vqcache/vq2-catalog_view_theme_default_template_product_category.tpl on line 153
+2015-06-24 19:54:25 - PHP Notice:  Undefined variable: button_detail in /var/www/ascari/vqmod/vqcache/vq2-catalog_view_theme_default_template_product_category.tpl on line 141
+2015-06-24 19:54:25 - PHP Notice:  Undefined variable: button_quick_view in /var/www/ascari/vqmod/vqcache/vq2-catalog_view_theme_default_template_product_category.tpl on line 153
+2015-06-24 19:56:05 - PHP Notice:  Undefined variable: button_detail in /var/www/ascari/vqmod/vqcache/vq2-catalog_view_theme_default_template_product_category.tpl on line 141
+2015-06-24 19:56:05 - PHP Notice:  Undefined variable: button_quick_view in /var/www/ascari/vqmod/vqcache/vq2-catalog_view_theme_default_template_product_category.tpl on line 153
+2015-06-24 19:56:05 - PHP Notice:  Undefined variable: button_detail in /var/www/ascari/vqmod/vqcache/vq2-catalog_view_theme_default_template_product_category.tpl on line 141
+2015-06-24 19:56:05 - PHP Notice:  Undefined variable: button_quick_view in /var/www/ascari/vqmod/vqcache/vq2-catalog_view_theme_default_template_product_category.tpl on line 153
+2015-06-24 19:56:42 - PHP Notice:  Undefined variable: button_detail in /var/www/ascari/vqmod/vqcache/vq2-catalog_view_theme_default_template_product_category.tpl on line 141
+2015-06-24 19:56:42 - PHP Notice:  Undefined variable: button_detail in /var/www/ascari/vqmod/vqcache/vq2-catalog_view_theme_default_template_product_category.tpl on line 141
+2015-06-24 21:17:23 - PHP Notice:  Undefined variable: product in /var/www/ascari/vqmod/vqcache/vq2-catalog_view_theme_default_template_module_latest.tpl on line 6
+2015-06-24 21:17:23 - PHP Notice:  Undefined variable: product in /var/www/ascari/vqmod/vqcache/vq2-catalog_view_theme_default_template_module_latest.tpl on line 9
+2015-06-24 21:17:23 - PHP Notice:  Undefined variable: product in /var/www/ascari/vqmod/vqcache/vq2-catalog_view_theme_default_template_module_latest.tpl on line 10
+2015-06-24 21:17:23 - PHP Notice:  Undefined variable: product in /var/www/ascari/vqmod/vqcache/vq2-catalog_view_theme_default_template_module_latest.tpl on line 18
+2015-06-24 21:17:23 - PHP Notice:  Undefined variable: product in /var/www/ascari/vqmod/vqcache/vq2-catalog_view_theme_default_template_module_latest.tpl on line 21
+2015-06-24 21:17:23 - PHP Notice:  Undefined variable: product in /var/www/ascari/vqmod/vqcache/vq2-catalog_view_theme_default_template_module_latest.tpl on line 23
+2015-06-24 21:17:23 - PHP Notice:  Undefined variable: product in /var/www/ascari/vqmod/vqcache/vq2-catalog_view_theme_default_template_module_latest.tpl on line 34
+2015-06-24 21:17:23 - PHP Notice:  Undefined variable: product in /var/www/ascari/vqmod/vqcache/vq2-catalog_view_theme_default_template_module_latest.tpl on line 36
+2015-06-24 21:17:23 - PHP Notice:  Undefined variable: product in /var/www/ascari/vqmod/vqcache/vq2-catalog_view_theme_default_template_module_latest.tpl on line 38
+2015-06-24 21:17:23 - PHP Notice:  Undefined variable: product in /var/www/ascari/vqmod/vqcache/vq2-catalog_view_theme_default_template_module_latest.tpl on line 40
+2015-06-24 21:17:23 - PHP Notice:  Undefined variable: product in /var/www/ascari/vqmod/vqcache/vq2-catalog_view_theme_default_template_module_latest.tpl on line 46
+2015-06-24 21:44:23 - PHP Notice:  Undefined index: id in /var/www/ascari/catalog/view/theme/default/template/module/latest.tpl on line 30
+2015-06-24 21:44:23 - PHP Notice:  Undefined index: id in /var/www/ascari/catalog/view/theme/default/template/module/latest.tpl on line 30
+2015-06-24 21:44:23 - PHP Notice:  Undefined index: id in /var/www/ascari/catalog/view/theme/default/template/module/latest.tpl on line 30
+2015-06-24 21:44:23 - PHP Notice:  Undefined index: id in /var/www/ascari/catalog/view/theme/default/template/module/latest.tpl on line 30
+2015-06-24 21:44:23 - PHP Notice:  Undefined index: id in /var/www/ascari/catalog/view/theme/default/template/module/latest.tpl on line 30
+2015-06-24 22:55:28 - PHP Notice:  Undefined index: category_id in /var/www/ascari/catalog/model/module/alternative.php on line 114
+2015-06-26 21:13:24 - PHP Notice:  Undefined variable: button_wishlist in /var/www/ascari/catalog/view/theme/default/template/module/latest.tpl on line 21
+2015-06-26 21:13:24 - PHP Notice:  Undefined variable: button_compare in /var/www/ascari/catalog/view/theme/default/template/module/latest.tpl on line 22
+2015-06-26 21:13:24 - PHP Notice:  Undefined variable: button_wishlist in /var/www/ascari/catalog/view/theme/default/template/module/latest.tpl on line 21
+2015-06-26 21:13:24 - PHP Notice:  Undefined variable: button_compare in /var/www/ascari/catalog/view/theme/default/template/module/latest.tpl on line 22
+2015-06-26 21:13:24 - PHP Notice:  Undefined variable: button_wishlist in /var/www/ascari/catalog/view/theme/default/template/module/latest.tpl on line 21
+2015-06-26 21:13:24 - PHP Notice:  Undefined variable: button_compare in /var/www/ascari/catalog/view/theme/default/template/module/latest.tpl on line 22
+2015-06-26 21:13:24 - PHP Notice:  Undefined variable: button_wishlist in /var/www/ascari/catalog/view/theme/default/template/module/latest.tpl on line 21
+2015-06-26 21:13:24 - PHP Notice:  Undefined variable: button_compare in /var/www/ascari/catalog/view/theme/default/template/module/latest.tpl on line 22
+2015-06-26 21:13:24 - PHP Notice:  Undefined variable: button_wishlist in /var/www/ascari/catalog/view/theme/default/template/module/latest.tpl on line 21
+2015-06-26 21:13:24 - PHP Notice:  Undefined variable: button_compare in /var/www/ascari/catalog/view/theme/default/template/module/latest.tpl on line 22
+2015-06-26 22:16:05 - PHP Notice:  Undefined index: category_id in /var/www/ascari/catalog/model/module/alternative.php on line 114
+2015-06-26 22:16:13 - PHP Notice:  Undefined index: category_id in /var/www/ascari/catalog/model/module/alternative.php on line 114
+2015-06-26 22:17:01 - PHP Notice:  Undefined index: category_id in /var/www/ascari/catalog/model/module/alternative.php on line 114
+2015-06-26 22:17:39 - PHP Notice:  Undefined index: category_id in /var/www/ascari/catalog/model/module/alternative.php on line 114
+2015-06-26 22:37:55 - PHP Warning:  fopen(/var/www/ascari/image/test): failed to open stream: Permission denied in /var/www/ascari/admin/controller/common/home.php on line 48
+2015-06-26 22:37:55 - PHP Warning:  fwrite() expects parameter 1 to be resource, boolean given in /var/www/ascari/admin/controller/common/home.php on line 50
+2015-06-26 22:37:55 - PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in /var/www/ascari/admin/controller/common/home.php on line 52
+2015-06-26 22:38:56 - PHP Warning:  simplexml_load_file(/var/www/ascari/vqmod/xml/khaled_djokage_valuable_reviews.xml): failed to open stream: Permission denied in /var/www/ascari/admin/controller/tool/vqmod_manager.php on line 153
+2015-06-26 22:39:10 - PHP Warning:  simplexml_load_file(/var/www/ascari/vqmod/xml/khaled_djokage_valuable_reviews.xml_): failed to open stream: Permission denied in /var/www/ascari/admin/controller/tool/vqmod_manager.php on line 153
+2015-06-26 22:44:06 - PHP Warning:  sha1_file(/var/www/ascari/admin/language/english/module/yotpo.php): failed to open stream: Permission denied in /var/www/ascari/vqmod/vqmod.php on line 120
+2015-06-26 22:44:06 - PHP Warning:  file_get_contents(/var/www/ascari/admin/language/english/module/yotpo.php): failed to open stream: Permission denied in /var/www/ascari/vqmod/vqmod.php on line 121
+2015-06-26 22:45:01 - PHP Warning:  simplexml_load_file(/var/www/ascari/vqmod/xml/vqmod_yotpo.xml): failed to open stream: Permission denied in /var/www/ascari/admin/controller/tool/vqmod_manager.php on line 153
+2015-06-26 22:45:01 - PHP Warning:  simplexml_load_file(/var/www/ascari/vqmod/xml/khaled_djokage_valuable_reviews.xml_): failed to open stream: Permission denied in /var/www/ascari/admin/controller/tool/vqmod_manager.php on line 153
+2015-06-26 22:45:07 - PHP Warning:  simplexml_load_file(/var/www/ascari/vqmod/xml/khaled_djokage_valuable_reviews.xml_): failed to open stream: Permission denied in /var/www/ascari/admin/controller/tool/vqmod_manager.php on line 153
+2015-06-26 22:45:07 - PHP Warning:  simplexml_load_file(/var/www/ascari/vqmod/xml/vqmod_yotpo.xml_): failed to open stream: Permission denied in /var/www/ascari/admin/controller/tool/vqmod_manager.php on line 153
+2015-06-26 22:50:52 - PHP Warning:  simplexml_load_file(/var/www/ascari/vqmod/xml/reviews-stars-v2.1.xml): failed to open stream: Permission denied in /var/www/ascari/admin/controller/tool/vqmod_manager.php on line 153
+2015-06-26 22:56:35 - PHP Warning:  simplexml_load_file(/var/www/ascari/vqmod/xml/reviews-stars-v2.1.xml): failed to open stream: Permission denied in /var/www/ascari/admin/controller/tool/vqmod_manager.php on line 153
+2015-06-26 22:59:07 - PHP Warning:  simplexml_load_file(/var/www/ascari/vqmod/xml/reviews-stars-v2.1.xml): failed to open stream: Permission denied in /var/www/ascari/admin/controller/tool/vqmod_manager.php on line 153
+2015-06-28 18:51:26 - PHP Warning:  simplexml_load_file(/var/www/ascari/vqmod/xml/reviews-stars-v2.1.xml): failed to open stream: Permission denied in /var/www/ascari/admin/controller/tool/vqmod_manager.php on line 153
+2015-06-29 9:38:47 - PHP Notice:  Undefined index: purchased in /var/www/ascari/vqmod/vqcache/vq2-admin_controller_catalog_review.php on line 215
+2015-06-29 9:38:48 - PHP Notice:  Undefined index: addimage in /var/www/ascari/vqmod/vqcache/vq2-admin_controller_catalog_review.php on line 216
+2015-06-29 9:38:48 - PHP Notice:  Undefined index: html_status in /var/www/ascari/vqmod/vqcache/vq2-admin_controller_catalog_review.php on line 217
+2015-06-29 9:38:48 - PHP Notice:  Undefined index: purchased in /var/www/ascari/vqmod/vqcache/vq2-admin_controller_catalog_review.php on line 215
+2015-06-29 9:38:48 - PHP Notice:  Undefined index: addimage in /var/www/ascari/vqmod/vqcache/vq2-admin_controller_catalog_review.php on line 216
+2015-06-29 9:38:48 - PHP Notice:  Undefined index: html_status in /var/www/ascari/vqmod/vqcache/vq2-admin_controller_catalog_review.php on line 217
+2015-06-29 9:39:11 - PHP Notice:  Undefined index: purchased in /var/www/ascari/vqmod/vqcache/vq2-admin_controller_catalog_review.php on line 215
+2015-06-29 9:39:11 - PHP Notice:  Undefined index: addimage in /var/www/ascari/vqmod/vqcache/vq2-admin_controller_catalog_review.php on line 216
+2015-06-29 9:39:11 - PHP Notice:  Undefined index: html_status in /var/www/ascari/vqmod/vqcache/vq2-admin_controller_catalog_review.php on line 217
+2015-06-29 9:39:11 - PHP Notice:  Undefined index: purchased in /var/www/ascari/vqmod/vqcache/vq2-admin_controller_catalog_review.php on line 215
+2015-06-29 9:39:11 - PHP Notice:  Undefined index: addimage in /var/www/ascari/vqmod/vqcache/vq2-admin_controller_catalog_review.php on line 216
+2015-06-29 9:39:11 - PHP Notice:  Undefined index: html_status in /var/www/ascari/vqmod/vqcache/vq2-admin_controller_catalog_review.php on line 217
+2015-06-29 9:39:11 - PHP Notice:  Undefined index: purchased in /var/www/ascari/vqmod/vqcache/vq2-admin_controller_catalog_review.php on line 215
+2015-06-29 9:39:11 - PHP Notice:  Undefined index: addimage in /var/www/ascari/vqmod/vqcache/vq2-admin_controller_catalog_review.php on line 216
+2015-06-29 9:39:11 - PHP Notice:  Undefined index: html_status in /var/www/ascari/vqmod/vqcache/vq2-admin_controller_catalog_review.php on line 217
+2015-06-29 9:40:27 - PHP Notice:  Undefined index: purchased in /var/www/ascari/vqmod/vqcache/vq2-admin_controller_catalog_review.php on line 215
+2015-06-29 9:40:27 - PHP Notice:  Undefined index: addimage in /var/www/ascari/vqmod/vqcache/vq2-admin_controller_catalog_review.php on line 216
+2015-06-29 9:40:27 - PHP Notice:  Undefined index: html_status in /var/www/ascari/vqmod/vqcache/vq2-admin_controller_catalog_review.php on line 217
+2015-06-29 9:40:27 - PHP Notice:  Undefined index: purchased in /var/www/ascari/vqmod/vqcache/vq2-admin_controller_catalog_review.php on line 215
+2015-06-29 9:40:27 - PHP Notice:  Undefined index: addimage in /var/www/ascari/vqmod/vqcache/vq2-admin_controller_catalog_review.php on line 216
+2015-06-29 9:40:27 - PHP Notice:  Undefined index: html_status in /var/www/ascari/vqmod/vqcache/vq2-admin_controller_catalog_review.php on line 217
+2015-06-29 9:40:27 - PHP Notice:  Undefined index: purchased in /var/www/ascari/vqmod/vqcache/vq2-admin_controller_catalog_review.php on line 215
+2015-06-29 9:40:27 - PHP Notice:  Undefined index: addimage in /var/www/ascari/vqmod/vqcache/vq2-admin_controller_catalog_review.php on line 216
+2015-06-29 9:40:27 - PHP Notice:  Undefined index: html_status in /var/www/ascari/vqmod/vqcache/vq2-admin_controller_catalog_review.php on line 217
+2015-06-29 9:40:35 - PHP Notice:  Undefined index: purchased in /var/www/ascari/vqmod/vqcache/vq2-admin_controller_catalog_review.php on line 215
+2015-06-29 9:40:35 - PHP Notice:  Undefined index: addimage in /var/www/ascari/vqmod/vqcache/vq2-admin_controller_catalog_review.php on line 216
+2015-06-29 9:40:35 - PHP Notice:  Undefined index: html_status in /var/www/ascari/vqmod/vqcache/vq2-admin_controller_catalog_review.php on line 217
+2015-06-29 9:40:35 - PHP Notice:  Undefined index: purchased in /var/www/ascari/vqmod/vqcache/vq2-admin_controller_catalog_review.php on line 215
+2015-06-29 9:40:35 - PHP Notice:  Undefined index: addimage in /var/www/ascari/vqmod/vqcache/vq2-admin_controller_catalog_review.php on line 216
+2015-06-29 9:40:35 - PHP Notice:  Undefined index: html_status in /var/www/ascari/vqmod/vqcache/vq2-admin_controller_catalog_review.php on line 217
+2015-06-29 9:40:35 - PHP Notice:  Undefined index: purchased in /var/www/ascari/vqmod/vqcache/vq2-admin_controller_catalog_review.php on line 215
+2015-06-29 9:40:35 - PHP Notice:  Undefined index: addimage in /var/www/ascari/vqmod/vqcache/vq2-admin_controller_catalog_review.php on line 216
+2015-06-29 9:40:35 - PHP Notice:  Undefined index: html_status in /var/www/ascari/vqmod/vqcache/vq2-admin_controller_catalog_review.php on line 217
+2015-06-29 9:41:23 - PHP Notice:  Undefined index: purchased in /var/www/ascari/vqmod/vqcache/vq2-admin_controller_catalog_review.php on line 215
+2015-06-29 9:41:23 - PHP Notice:  Undefined index: addimage in /var/www/ascari/vqmod/vqcache/vq2-admin_controller_catalog_review.php on line 216
+2015-06-29 9:41:23 - PHP Notice:  Undefined index: html_status in /var/www/ascari/vqmod/vqcache/vq2-admin_controller_catalog_review.php on line 217
+2015-06-29 9:41:23 - PHP Notice:  Undefined index: purchased in /var/www/ascari/vqmod/vqcache/vq2-admin_controller_catalog_review.php on line 215
+2015-06-29 9:41:23 - PHP Notice:  Undefined index: addimage in /var/www/ascari/vqmod/vqcache/vq2-admin_controller_catalog_review.php on line 216
+2015-06-29 9:41:23 - PHP Notice:  Undefined index: html_status in /var/www/ascari/vqmod/vqcache/vq2-admin_controller_catalog_review.php on line 217
+2015-06-29 9:41:23 - PHP Notice:  Undefined index: purchased in /var/www/ascari/vqmod/vqcache/vq2-admin_controller_catalog_review.php on line 215
+2015-06-29 9:41:23 - PHP Notice:  Undefined index: addimage in /var/www/ascari/vqmod/vqcache/vq2-admin_controller_catalog_review.php on line 216
+2015-06-29 9:41:23 - PHP Notice:  Undefined index: html_status in /var/www/ascari/vqmod/vqcache/vq2-admin_controller_catalog_review.php on line 217
+2015-06-29 9:44:21 - http://ascari//admin/index.php
+2015-06-29 9:44:31 - PHP Notice:  Undefined index: purchased in /var/www/ascari/vqmod/vqcache/vq2-admin_controller_catalog_review.php on line 215
+2015-06-29 9:44:31 - PHP Notice:  Undefined index: addimage in /var/www/ascari/vqmod/vqcache/vq2-admin_controller_catalog_review.php on line 216
+2015-06-29 9:44:31 - PHP Notice:  Undefined index: html_status in /var/www/ascari/vqmod/vqcache/vq2-admin_controller_catalog_review.php on line 217
+2015-06-29 9:44:31 - PHP Notice:  Undefined index: purchased in /var/www/ascari/vqmod/vqcache/vq2-admin_controller_catalog_review.php on line 215
+2015-06-29 9:44:31 - PHP Notice:  Undefined index: addimage in /var/www/ascari/vqmod/vqcache/vq2-admin_controller_catalog_review.php on line 216
+2015-06-29 9:44:31 - PHP Notice:  Undefined index: html_status in /var/www/ascari/vqmod/vqcache/vq2-admin_controller_catalog_review.php on line 217
+2015-06-29 9:44:31 - PHP Notice:  Undefined index: purchased in /var/www/ascari/vqmod/vqcache/vq2-admin_controller_catalog_review.php on line 215
+2015-06-29 9:44:31 - PHP Notice:  Undefined index: addimage in /var/www/ascari/vqmod/vqcache/vq2-admin_controller_catalog_review.php on line 216
+2015-06-29 9:44:31 - PHP Notice:  Undefined index: html_status in /var/www/ascari/vqmod/vqcache/vq2-admin_controller_catalog_review.php on line 217
+2015-06-29 9:44:31 - PHP Notice:  Undefined index: purchased in /var/www/ascari/vqmod/vqcache/vq2-admin_controller_catalog_review.php on line 215
+2015-06-29 9:44:31 - PHP Notice:  Undefined index: addimage in /var/www/ascari/vqmod/vqcache/vq2-admin_controller_catalog_review.php on line 216
+2015-06-29 9:44:31 - PHP Notice:  Undefined index: html_status in /var/www/ascari/vqmod/vqcache/vq2-admin_controller_catalog_review.php on line 217
+2015-06-29 9:44:49 - PHP Notice:  Undefined index: purchased in /var/www/ascari/vqmod/vqcache/vq2-admin_controller_catalog_review.php on line 215
+2015-06-29 9:44:49 - PHP Notice:  Undefined index: addimage in /var/www/ascari/vqmod/vqcache/vq2-admin_controller_catalog_review.php on line 216
+2015-06-29 9:44:49 - PHP Notice:  Undefined index: html_status in /var/www/ascari/vqmod/vqcache/vq2-admin_controller_catalog_review.php on line 217
+2015-06-29 9:44:49 - PHP Notice:  Undefined index: purchased in /var/www/ascari/vqmod/vqcache/vq2-admin_controller_catalog_review.php on line 215
+2015-06-29 9:44:49 - PHP Notice:  Undefined index: addimage in /var/www/ascari/vqmod/vqcache/vq2-admin_controller_catalog_review.php on line 216
+2015-06-29 9:44:49 - PHP Notice:  Undefined index: html_status in /var/www/ascari/vqmod/vqcache/vq2-admin_controller_catalog_review.php on line 217
+2015-06-29 9:44:49 - PHP Notice:  Undefined index: purchased in /var/www/ascari/vqmod/vqcache/vq2-admin_controller_catalog_review.php on line 215
+2015-06-29 9:44:49 - PHP Notice:  Undefined index: addimage in /var/www/ascari/vqmod/vqcache/vq2-admin_controller_catalog_review.php on line 216
+2015-06-29 9:44:49 - PHP Notice:  Undefined index: html_status in /var/www/ascari/vqmod/vqcache/vq2-admin_controller_catalog_review.php on line 217
+2015-06-29 9:44:49 - PHP Notice:  Undefined index: purchased in /var/www/ascari/vqmod/vqcache/vq2-admin_controller_catalog_review.php on line 215
+2015-06-29 9:44:49 - PHP Notice:  Undefined index: addimage in /var/www/ascari/vqmod/vqcache/vq2-admin_controller_catalog_review.php on line 216
+2015-06-29 9:44:49 - PHP Notice:  Undefined index: html_status in /var/www/ascari/vqmod/vqcache/vq2-admin_controller_catalog_review.php on line 217
+2015-06-29 15:39:26 - PHP Notice:  Undefined variable: simple in /var/www/ascari/catalog/view/theme/default/template/account/simpleregister.tpl on line 3
+2015-06-29 15:41:10 - PHP Notice:  Undefined variable: column_right in /var/www/ascari/catalog/view/theme/default/template/common/simple_header.tpl on line 2
+2015-06-29 15:47:34 - PHP Notice:  Undefined index: sort_order in /var/www/ascari/vqmod/vqcache/vq2-admin_controller_design_banner.php on line 389
+2015-06-29 15:48:52 - PHP Notice:  Undefined index: sort_order in /var/www/ascari/vqmod/vqcache/vq2-admin_controller_design_banner.php on line 389
+2015-06-29 15:55:27 - PHP Notice:  Undefined index: sort_order in /var/www/ascari/vqmod/vqcache/vq2-admin_controller_design_banner.php on line 389
+2015-06-29 15:55:27 - PHP Notice:  Undefined index: sort_order in /var/www/ascari/vqmod/vqcache/vq2-admin_controller_design_banner.php on line 389
+2015-06-29 15:55:27 - PHP Notice:  Undefined index: sort_order in /var/www/ascari/vqmod/vqcache/vq2-admin_controller_design_banner.php on line 389
+2015-06-29 15:55:27 - PHP Notice:  Undefined index: sort_order in /var/www/ascari/vqmod/vqcache/vq2-admin_controller_design_banner.php on line 389
+2015-06-29 15:55:27 - PHP Notice:  Undefined index: sort_order in /var/www/ascari/vqmod/vqcache/vq2-admin_controller_design_banner.php on line 389
+2015-06-29 15:55:27 - PHP Notice:  Undefined index: sort_order in /var/www/ascari/vqmod/vqcache/vq2-admin_controller_design_banner.php on line 389
+2015-06-29 15:56:06 - PHP Notice:  Undefined index: sort_order in /var/www/ascari/vqmod/vqcache/vq2-admin_controller_design_banner.php on line 389
+2015-06-29 15:56:06 - PHP Notice:  Undefined index: sort_order in /var/www/ascari/vqmod/vqcache/vq2-admin_controller_design_banner.php on line 389
+2015-06-29 15:56:06 - PHP Notice:  Undefined index: sort_order in /var/www/ascari/vqmod/vqcache/vq2-admin_controller_design_banner.php on line 389
+2015-06-29 15:56:06 - PHP Notice:  Undefined index: sort_order in /var/www/ascari/vqmod/vqcache/vq2-admin_controller_design_banner.php on line 389
+2015-06-29 15:56:06 - PHP Notice:  Undefined index: sort_order in /var/www/ascari/vqmod/vqcache/vq2-admin_controller_design_banner.php on line 389
+2015-06-29 15:56:06 - PHP Notice:  Undefined index: sort_order in /var/www/ascari/vqmod/vqcache/vq2-admin_controller_design_banner.php on line 389
+2015-06-29 18:10:28 - PHP Warning:  Illegal string offset 'value' in /var/www/ascari/catalog/view/theme/default/template/product/category.tpl on line 161
+2015-06-29 18:10:28 - PHP Warning:  Illegal string offset 'href' in /var/www/ascari/catalog/view/theme/default/template/product/category.tpl on line 164
+2015-06-29 18:10:28 - PHP Warning:  Illegal string offset 'text' in /var/www/ascari/catalog/view/theme/default/template/product/category.tpl on line 164
+2015-06-29 18:10:28 - PHP Warning:  Illegal string offset 'value' in /var/www/ascari/catalog/view/theme/default/template/product/category.tpl on line 172
+2015-06-29 18:10:28 - PHP Warning:  Illegal string offset 'href' in /var/www/ascari/catalog/view/theme/default/template/product/category.tpl on line 175
+2015-06-29 18:10:28 - PHP Warning:  Illegal string offset 'text' in /var/www/ascari/catalog/view/theme/default/template/product/category.tpl on line 175
+2015-06-29 18:10:28 - PHP Warning:  Illegal string offset 'value' in /var/www/ascari/catalog/view/theme/default/template/product/category.tpl on line 172
+2015-06-29 18:10:28 - PHP Warning:  Illegal string offset 'href' in /var/www/ascari/catalog/view/theme/default/template/product/category.tpl on line 175
+2015-06-29 18:10:28 - PHP Warning:  Illegal string offset 'text' in /var/www/ascari/catalog/view/theme/default/template/product/category.tpl on line 175
+2015-06-29 18:10:28 - PHP Warning:  Illegal string offset 'value' in /var/www/ascari/catalog/view/theme/default/template/product/category.tpl on line 172
+2015-06-29 18:10:28 - PHP Warning:  Illegal string offset 'href' in /var/www/ascari/catalog/view/theme/default/template/product/category.tpl on line 175
+2015-06-29 18:10:28 - PHP Warning:  Illegal string offset 'text' in /var/www/ascari/catalog/view/theme/default/template/product/category.tpl on line 175
+2015-06-29 18:11:11 - PHP Warning:  Illegal string offset 'value' in /var/www/ascari/catalog/view/theme/default/template/product/category.tpl on line 161
+2015-06-29 18:11:11 - PHP Warning:  Illegal string offset 'href' in /var/www/ascari/catalog/view/theme/default/template/product/category.tpl on line 164
+2015-06-29 18:11:11 - PHP Warning:  Illegal string offset 'text' in /var/www/ascari/catalog/view/theme/default/template/product/category.tpl on line 164
+2015-06-29 18:11:11 - PHP Warning:  Illegal string offset 'value' in /var/www/ascari/catalog/view/theme/default/template/product/category.tpl on line 172
+2015-06-29 18:11:11 - PHP Warning:  Illegal string offset 'href' in /var/www/ascari/catalog/view/theme/default/template/product/category.tpl on line 175
+2015-06-29 18:11:11 - PHP Warning:  Illegal string offset 'value' in /var/www/ascari/catalog/view/theme/default/template/product/category.tpl on line 172
+2015-06-29 18:11:11 - PHP Warning:  Illegal string offset 'href' in /var/www/ascari/catalog/view/theme/default/template/product/category.tpl on line 175
+2015-06-29 18:11:11 - PHP Warning:  Illegal string offset 'value' in /var/www/ascari/catalog/view/theme/default/template/product/category.tpl on line 172
+2015-06-29 18:11:11 - PHP Warning:  Illegal string offset 'href' in /var/www/ascari/catalog/view/theme/default/template/product/category.tpl on line 175
+2015-06-29 18:11:13 - PHP Warning:  Illegal string offset 'value' in /var/www/ascari/catalog/view/theme/default/template/product/category.tpl on line 161
+2015-06-29 18:11:13 - PHP Warning:  Illegal string offset 'href' in /var/www/ascari/catalog/view/theme/default/template/product/category.tpl on line 164
+2015-06-29 18:11:13 - PHP Warning:  Illegal string offset 'text' in /var/www/ascari/catalog/view/theme/default/template/product/category.tpl on line 164
+2015-06-29 18:11:13 - PHP Warning:  Illegal string offset 'value' in /var/www/ascari/catalog/view/theme/default/template/product/category.tpl on line 172
+2015-06-29 18:11:13 - PHP Warning:  Illegal string offset 'href' in /var/www/ascari/catalog/view/theme/default/template/product/category.tpl on line 175
+2015-06-29 18:11:13 - PHP Warning:  Illegal string offset 'value' in /var/www/ascari/catalog/view/theme/default/template/product/category.tpl on line 172
+2015-06-29 18:11:13 - PHP Warning:  Illegal string offset 'href' in /var/www/ascari/catalog/view/theme/default/template/product/category.tpl on line 175
+2015-06-29 18:11:13 - PHP Warning:  Illegal string offset 'value' in /var/www/ascari/catalog/view/theme/default/template/product/category.tpl on line 172
+2015-06-29 18:11:13 - PHP Warning:  Illegal string offset 'href' in /var/www/ascari/catalog/view/theme/default/template/product/category.tpl on line 175
+2015-06-29 18:11:42 - PHP Warning:  Illegal string offset 'value' in /var/www/ascari/catalog/view/theme/default/template/product/category.tpl on line 159
+2015-06-29 18:11:42 - PHP Warning:  Illegal string offset 'href' in /var/www/ascari/catalog/view/theme/default/template/product/category.tpl on line 162
+2015-06-29 18:11:42 - PHP Warning:  Illegal string offset 'text' in /var/www/ascari/catalog/view/theme/default/template/product/category.tpl on line 162
+2015-06-29 18:11:42 - PHP Warning:  Illegal string offset 'value' in /var/www/ascari/catalog/view/theme/default/template/product/category.tpl on line 170
+2015-06-29 18:11:42 - PHP Warning:  Illegal string offset 'href' in /var/www/ascari/catalog/view/theme/default/template/product/category.tpl on line 173
+2015-06-29 18:11:42 - PHP Warning:  Illegal string offset 'text' in /var/www/ascari/catalog/view/theme/default/template/product/category.tpl on line 173
+2015-06-29 18:11:42 - PHP Warning:  Illegal string offset 'value' in /var/www/ascari/catalog/view/theme/default/template/product/category.tpl on line 170
+2015-06-29 18:11:42 - PHP Warning:  Illegal string offset 'href' in /var/www/ascari/catalog/view/theme/default/template/product/category.tpl on line 173
+2015-06-29 18:11:42 - PHP Warning:  Illegal string offset 'text' in /var/www/ascari/catalog/view/theme/default/template/product/category.tpl on line 173
+2015-06-29 18:11:42 - PHP Warning:  Illegal string offset 'value' in /var/www/ascari/catalog/view/theme/default/template/product/category.tpl on line 170
+2015-06-29 18:11:42 - PHP Warning:  Illegal string offset 'href' in /var/www/ascari/catalog/view/theme/default/template/product/category.tpl on line 173
+2015-06-29 18:11:42 - PHP Warning:  Illegal string offset 'text' in /var/www/ascari/catalog/view/theme/default/template/product/category.tpl on line 173
+2015-06-29 18:11:42 - PHP Warning:  Invalid argument supplied for foreach() in /var/www/ascari/catalog/view/theme/default/template/product/category.tpl on line 158
+2015-06-29 18:11:42 - PHP Warning:  Invalid argument supplied for foreach() in /var/www/ascari/catalog/view/theme/default/template/product/category.tpl on line 169
+2015-06-29 18:11:42 - PHP Warning:  Invalid argument supplied for foreach() in /var/www/ascari/catalog/view/theme/default/template/product/category.tpl on line 158
+2015-06-29 18:11:42 - PHP Warning:  Invalid argument supplied for foreach() in /var/www/ascari/catalog/view/theme/default/template/product/category.tpl on line 169
+2015-06-29 18:11:42 - PHP Warning:  Invalid argument supplied for foreach() in /var/www/ascari/catalog/view/theme/default/template/product/category.tpl on line 158
+2015-06-29 18:11:42 - PHP Warning:  Invalid argument supplied for foreach() in /var/www/ascari/catalog/view/theme/default/template/product/category.tpl on line 169
+2015-06-29 18:11:42 - PHP Warning:  Invalid argument supplied for foreach() in /var/www/ascari/catalog/view/theme/default/template/product/category.tpl on line 158
+2015-06-29 18:11:42 - PHP Warning:  Invalid argument supplied for foreach() in /var/www/ascari/catalog/view/theme/default/template/product/category.tpl on line 169
+2015-06-29 18:12:55 - PHP Warning:  Illegal string offset 'value' in /var/www/ascari/catalog/view/theme/default/template/product/category.tpl on line 77
+2015-06-29 18:12:55 - PHP Warning:  Illegal string offset 'href' in /var/www/ascari/catalog/view/theme/default/template/product/category.tpl on line 80
+2015-06-29 18:12:55 - PHP Warning:  Illegal string offset 'text' in /var/www/ascari/catalog/view/theme/default/template/product/category.tpl on line 80
+2015-06-29 18:12:55 - PHP Warning:  Illegal string offset 'value' in /var/www/ascari/catalog/view/theme/default/template/product/category.tpl on line 88
+2015-06-29 18:12:55 - PHP Warning:  Illegal string offset 'href' in /var/www/ascari/catalog/view/theme/default/template/product/category.tpl on line 91
+2015-06-29 18:12:55 - PHP Warning:  Illegal string offset 'text' in /var/www/ascari/catalog/view/theme/default/template/product/category.tpl on line 91
+2015-06-29 18:12:55 - PHP Warning:  Illegal string offset 'value' in /var/www/ascari/catalog/view/theme/default/template/product/category.tpl on line 88
+2015-06-29 18:12:55 - PHP Warning:  Illegal string offset 'href' in /var/www/ascari/catalog/view/theme/default/template/product/category.tpl on line 91
+2015-06-29 18:12:55 - PHP Warning:  Illegal string offset 'text' in /var/www/ascari/catalog/view/theme/default/template/product/category.tpl on line 91
+2015-06-29 18:12:55 - PHP Warning:  Illegal string offset 'value' in /var/www/ascari/catalog/view/theme/default/template/product/category.tpl on line 88
+2015-06-29 18:12:55 - PHP Warning:  Illegal string offset 'href' in /var/www/ascari/catalog/view/theme/default/template/product/category.tpl on line 91
+2015-06-29 18:12:55 - PHP Warning:  Illegal string offset 'text' in /var/www/ascari/catalog/view/theme/default/template/product/category.tpl on line 91
+2015-06-29 18:14:44 - PHP Warning:  Illegal string offset 'value' in /var/www/ascari/catalog/view/theme/default/template/product/category.tpl on line 77
+2015-06-29 18:14:44 - PHP Warning:  Illegal string offset 'href' in /var/www/ascari/catalog/view/theme/default/template/product/category.tpl on line 80
+2015-06-29 18:14:44 - PHP Warning:  Illegal string offset 'text' in /var/www/ascari/catalog/view/theme/default/template/product/category.tpl on line 80
+2015-06-29 18:14:44 - PHP Warning:  Illegal string offset 'value' in /var/www/ascari/catalog/view/theme/default/template/product/category.tpl on line 88
+2015-06-29 18:14:44 - PHP Warning:  Illegal string offset 'href' in /var/www/ascari/catalog/view/theme/default/template/product/category.tpl on line 91
+2015-06-29 18:14:44 - PHP Warning:  Illegal string offset 'text' in /var/www/ascari/catalog/view/theme/default/template/product/category.tpl on line 91
+2015-06-29 18:14:44 - PHP Warning:  Illegal string offset 'value' in /var/www/ascari/catalog/view/theme/default/template/product/category.tpl on line 88
+2015-06-29 18:14:44 - PHP Warning:  Illegal string offset 'href' in /var/www/ascari/catalog/view/theme/default/template/product/category.tpl on line 91
+2015-06-29 18:14:44 - PHP Warning:  Illegal string offset 'text' in /var/www/ascari/catalog/view/theme/default/template/product/category.tpl on line 91
+2015-06-29 18:14:44 - PHP Warning:  Illegal string offset 'value' in /var/www/ascari/catalog/view/theme/default/template/product/category.tpl on line 88
+2015-06-29 18:14:44 - PHP Warning:  Illegal string offset 'href' in /var/www/ascari/catalog/view/theme/default/template/product/category.tpl on line 91
+2015-06-29 18:14:44 - PHP Warning:  Illegal string offset 'text' in /var/www/ascari/catalog/view/theme/default/template/product/category.tpl on line 91
+2015-06-29 18:15:45 - PHP Warning:  Illegal string offset 'value' in /var/www/ascari/catalog/view/theme/default/template/product/category.tpl on line 71
+2015-06-29 18:15:45 - PHP Warning:  Illegal string offset 'href' in /var/www/ascari/catalog/view/theme/default/template/product/category.tpl on line 74
+2015-06-29 18:15:45 - PHP Warning:  Illegal string offset 'text' in /var/www/ascari/catalog/view/theme/default/template/product/category.tpl on line 74
+2015-06-29 18:15:45 - PHP Warning:  Illegal string offset 'value' in /var/www/ascari/catalog/view/theme/default/template/product/category.tpl on line 71
+2015-06-29 18:15:45 - PHP Warning:  Illegal string offset 'href' in /var/www/ascari/catalog/view/theme/default/template/product/category.tpl on line 74
+2015-06-29 18:15:45 - PHP Warning:  Illegal string offset 'text' in /var/www/ascari/catalog/view/theme/default/template/product/category.tpl on line 74
+2015-06-29 18:15:45 - PHP Warning:  Illegal string offset 'value' in /var/www/ascari/catalog/view/theme/default/template/product/category.tpl on line 71
+2015-06-29 18:15:45 - PHP Warning:  Illegal string offset 'href' in /var/www/ascari/catalog/view/theme/default/template/product/category.tpl on line 74
+2015-06-29 18:15:45 - PHP Warning:  Illegal string offset 'text' in /var/www/ascari/catalog/view/theme/default/template/product/category.tpl on line 74
+2015-06-29 18:17:35 - PHP Warning:  Illegal string offset 'value' in /var/www/ascari/catalog/view/theme/default/template/product/category.tpl on line 162
+2015-06-29 18:17:35 - PHP Warning:  Illegal string offset 'href' in /var/www/ascari/catalog/view/theme/default/template/product/category.tpl on line 165
+2015-06-29 18:17:35 - PHP Warning:  Illegal string offset 'text' in /var/www/ascari/catalog/view/theme/default/template/product/category.tpl on line 165
+2015-06-30 19:38:08 - PHP Notice:  Undefined variable: aw in /var/www/ascari/catalog/view/theme/default/template/product/category.tpl on line 72
+2015-06-30 19:38:08 - PHP Notice:  Undefined variable: aw in /var/www/ascari/catalog/view/theme/default/template/product/category.tpl on line 72
+2015-07-01 21:24:22 - PHP Notice:  Undefined index: id in /var/www/ascari/admin/controller/module/poll.php on line 211
+2015-07-01 21:24:22 - PHP Notice:  Undefined index: id in /var/www/ascari/admin/view/template/module/poll_list.tpl on line 103
+2015-07-01 21:24:54 - PHP Notice:  Undefined index: active in /var/www/ascari/admin/controller/module/poll.php on line 232
+2015-07-01 21:24:54 - PHP Notice:  Undefined index: name in /var/www/ascari/admin/controller/module/poll.php on line 233

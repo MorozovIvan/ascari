@@ -43,7 +43,12 @@
                 <option value="content_top" selected="selected"><?php echo $text_content_top; ?></option>
                 <?php } else { ?>
                 <option value="content_top"><?php echo $text_content_top; ?></option>
-                <?php } ?>  
+                <?php } ?>
+                <?php if ($module['position'] == 'content_header') { ?>
+                <option value="content_header" selected="selected"><?php echo $text_content_header; ?></option>
+                <?php } else { ?>
+                <option value="content_header"><?php echo $text_content_header; ?></option>
+                <?php } ?>
                 <?php if ($module['position'] == 'content_bottom') { ?>
                 <option value="content_bottom" selected="selected"><?php echo $text_content_bottom; ?></option>
                 <?php } else { ?>

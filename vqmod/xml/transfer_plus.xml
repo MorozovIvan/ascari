@@ -1,0 +1,573 @@
+<modification>
+    <id>Oplata Plus</id>
+	<version>2.8</version>
+    <vqmver>2.4.1</vqmver>
+    <author>louise170 (louise@ya.ru)</author>
+
+    <!-- STANDART -->
+    <file name="catalog/controller/checkout/confirm.php">
+        <operation error="skip">
+            <search position="replace">
+            <![CDATA[
+                $this->data['payment'] = $this->getChild('payment/' . $this->session->data['payment_method']['code']);
+            ]]>
+            </search>
+            <add>
+            <![CDATA[
+                $code = explode('.', $this->session->data['payment_method']['code']);
+                $this->data['payment'] = $this->getChild('payment/' . $code[0]);
+            ]]>
+            </add>
+        </operation>
+    </file>
+
+    <file name="catalog/controller/checkout/quick_confirm.php">
+        <operation error="skip">
+            <search position="replace">
+                <![CDATA[
+                $this->data['payment'] = $this->getChild('payment/' . $this->session->data['payment_method']['code']);
+            ]]>
+            </search>
+            <add>
+                <![CDATA[
+                $code = explode('.', $this->session->data['payment_method']['code']);
+                $this->data['payment'] = $this->getChild('payment/' . $code[0]);
+            ]]>
+            </add>
+        </operation>
+    </file>
+
+    <file name="catalog/controller/checkout/payment_method.php">
+        <operation error="skip">
+            <search position="replace">
+            <![CDATA[
+                $method_data[$result['code']] = $method;
+            ]]>
+            </search>
+            <add>
+            <![CDATA[
+                if (isset($method['quote'])) {
+                	foreach ($method['quote'] as $key => $val) {
+                        $method_data[$val['code']] = $val;
+                    }
+                }
+                else {
+                	$method_data[$result['code']] = $method;
+                }
+            ]]>
+            </add>
+        </operation>
+    </file>
+
+    <file name="catalog/controller/checkout/quick_payment_method.php">
+        <operation error="skip">
+            <search position="replace">
+                <![CDATA[
+                $method_data[$result['code']] = $method;
+            ]]>
+            </search>
+            <add>
+                <![CDATA[
+                if (isset($method['quote'])) {
+                	foreach ($method['quote'] as $key => $val) {
+                        $method_data[$val['code']] = $val;
+                    }
+                }
+                else {
+                	$method_data[$result['code']] = $method;
+                }
+            ]]>
+            </add>
+        </operation>
+    </file>
+
+    <file name="catalog/view/theme/*/template/checkout/payment_method.tpl">
+        <operation error="skip">
+            <search position="replace">
+            <![CDATA[
+                echo $payment_method['title'];
+            ]]>
+            </search>
+            <add>
+            <![CDATA[
+                if (isset($payment_method['image']) and !empty($payment_method['image']) ) {
+                    $pos = strpos($payment_method['image'], HTTP_IMAGE);
+                    if ($pos) {
+                        $payment_method['image'] = substr($payment_method['image'], ($pos+strlen(HTTP_IMAGE)) );
+                        $pos2 = strpos($payment_method['image'], '"');
+                        if ($pos2) {
+                            $payment_method['image'] = substr($payment_method['image'], 0, $pos2);
+                        }
+                    }
+                    ?>
+                    <img src="<?php echo HTTP_IMAGE.$payment_method['image'];?>"/>
+                <?php
+                    echo '<span style="vertical-align:10px;">'.$payment_method['title'].'</span>';
+                }
+                else {
+                    echo $payment_method['title'];
+                }
+            ]]>
+            </add>
+        </operation>
+    </file>
+
+    <file name="catalog/view/theme/*/template/checkout/quick_payment_method.tpl">
+        <operation error="skip">
+            <search position="replace">
+                <![CDATA[
+                echo $payment_method['title'];
+            ]]>
+            </search>
+            <add>
+                <![CDATA[
+                if (isset($payment_method['image']) and !empty($payment_method['image']) ) {
+                    $pos = strpos($payment_method['image'], HTTP_IMAGE);
+                    if ($pos) {
+                        $payment_method['image'] = substr($payment_method['image'], ($pos+strlen(HTTP_IMAGE)) );
+                        $pos2 = strpos($payment_method['image'], '"');
+                        if ($pos2) {
+                            $payment_method['image'] = substr($payment_method['image'], 0, $pos2);
+                        }
+                    }
+                    ?>
+                    <img src="<?php echo HTTP_IMAGE.$payment_method['image'];?>"/>
+                    <?php
+                    echo '<span style="vertical-align:10px;">'.$payment_method['title'].'</span>';
+                }
+                else {
+                    echo $payment_method['title'];
+                }
+            ]]>
+            </add>
+        </operation>
+    </file>
+	
+	<file name="catalog/controller/checkout/payment.php"> <!-- FOR OC 1.5.3.1 AND LOWER -->
+        <operation error="skip">
+            <search position="replace">
+                <![CDATA[
+                $method_data[$result['code']] = $method;
+            ]]>
+            </search>
+            <add>
+                <![CDATA[
+                if (isset($method['quote'])) {
+                	foreach ($method['quote'] as $key => $val) {
+                        $method_data[$val['code']] = $val;
+                    }
+                }
+                else {
+                	$method_data[$result['code']] = $method;
+                }
+            ]]>
+            </add>
+        </operation>
+    </file>
+
+    <file name="catalog/view/theme/*/template/checkout/payment.tpl"> <!-- FOR OC 1.5.3.1 AND LOWER -->
+        <operation error="skip">
+            <search position="replace">
+                <![CDATA[
+                echo $payment_method['title'];
+            ]]>
+            </search>
+            <add>
+                <![CDATA[
+                if (isset($payment_method['image']) and !empty($payment_method['image']) ) {
+                    $pos = strpos($payment_method['image'], HTTP_IMAGE);
+                    if ($pos) {
+                        $payment_method['image'] = substr($payment_method['image'], ($pos+strlen(HTTP_IMAGE)) );
+                        $pos2 = strpos($payment_method['image'], '"');
+                        if ($pos2) {
+                            $payment_method['image'] = substr($payment_method['image'], 0, $pos2);
+                        }
+                    }
+                    ?>
+                    <img src="<?php echo HTTP_IMAGE.$payment_method['image'];?>"/>
+                    <?php
+                    echo '<span style="vertical-align:10px;">'.$payment_method['title'].'</span>';
+                }
+                else {
+                    echo $payment_method['title'];
+                }
+            ]]>
+            </add>
+        </operation>
+    </file>
+    <!-- //STANDART -->
+
+    <!-- SIMPLE -->
+    <file name="catalog/controller/checkout/simplecheckout.php">
+        <operation error="skip">
+            <search position="replace">
+            <![CDATA[
+                $this->data['payment_form'] = $this->getChild('payment/' . $payment_method['code']);
+            ]]>
+            </search>
+            <add>
+            <![CDATA[
+                $code = explode('.',$payment_method['code']);
+                $this->data['payment_form'] = $this->getChild('payment/' . $code[0]);
+            ]]>
+            </add>
+        </operation>
+        <operation error="skip">
+            <search position="replace">
+            <![CDATA[
+                $this->data['simple_blocks']['payment_form'] = $this->getChild('payment/' . $payment_method['code']);
+            ]]>
+            </search>
+            <add>
+            <![CDATA[
+                $code = explode('.',$payment_method['code']);
+                $this->data['simple_blocks']['payment_form'] = $this->getChild('payment/' . $code[0]);
+            ]]>
+            </add>
+        </operation>
+    </file>
+	
+    <file name="catalog/controller/checkout/simplecheckout_payment.php">
+        <operation error="skip">
+            <search position="replace">
+            <![CDATA[
+                $method['description'] = !empty($simple_payment_titles[$result['code']]['use_description']) && !empty($simple_payment_titles[$result['code']]['description'][$this->simple->get_language_code()]) ? html_entity_decode($simple_payment_titles[$result['code']]['description'][$this->simple->get_language_code()]) : (!empty($method['description']) ? $method['description'] : '');
+            ]]>
+            </search>
+            <add><![CDATA[ ]]>
+            </add>
+        </operation>
+        <operation>
+            <search position="replace">
+            <![CDATA[
+                $method_data[$result['code']] = $method;
+            ]]>
+            </search>
+            <add><![CDATA[
+            if (isset($method['quote'])) {
+                foreach ($method['quote'] as $val) {
+                    $val['description'] = !empty($simple_payment_titles[$result['code']]['use_description']) && !empty($simple_payment_titles[$result['code']]['description'][$this->simple->get_language_code()]) ? html_entity_decode($simple_payment_titles[$result['code']]['description'][$this->simple->get_language_code()]) : (!empty($val['description']) ? $val['description'] : '');
+
+                    $method_data[$val['code']] = $val;
+                }
+            }
+            else {
+                $method['description'] = !empty($simple_payment_titles[$result['code']]['use_description']) && !empty($simple_payment_titles[$result['code']]['description'][$this->simple->get_language_code()]) ? html_entity_decode($simple_payment_titles[$result['code']]['description'][$this->simple->get_language_code()]) : (!empty($method['description']) ? $method['description'] : '');
+
+                $method_data[$result['code']] = $method;
+            }
+            ]]></add>
+        </operation>
+        <!--operation error="skip">
+            <search position="replace">
+            <![CDATA[
+                $sort_order = array();
+            ]]>
+            </search>
+            <add><![CDATA[ ]]>
+            </add>
+        </operation>
+        <operation error="skip">
+            <search position="replace">
+            <![CDATA[
+                foreach ($results as $result) {
+            ]]>
+            </search>
+            <add>
+            <![CDATA[
+            $sort_order = array();
+            foreach ($results as $result) {
+            ]]>
+            </add>
+        </operation-->
+    </file>
+
+    <file name="catalog/view/theme/*/template/checkout/simplecheckout_payment.tpl">
+        <operation error="skip">
+            <search position="replace">
+            <![CDATA[
+                echo $value['title'];
+            ]]>
+            </search>
+            <add>
+            <![CDATA[
+                if (isset($value['image']) and !empty($value['image']) ) {
+                    $pos = strpos($value['image'], HTTP_IMAGE);
+                    if ($pos) {
+                        $value['image'] = substr($value['image'], ($pos+strlen(HTTP_IMAGE)) );
+                        $pos2 = strpos($value['image'], '"');
+                        if ($pos2) {
+                            $value['image'] = substr($value['image'], 0, $pos2);
+                        }
+                    }
+                    ?>
+                    <img src="<?php echo HTTP_IMAGE.$value['image'];?>"/>
+                    <?php
+                    echo '<span style="vertical-align:10px;">'.$value['title'].'</span>';
+                }
+                else {
+                    echo $value['title'];
+                }
+            ]]>
+            </add>
+        </operation>
+
+        <operation error="skip">
+            <search position="replace">
+            <![CDATA[
+                echo $payment_method['title'];
+            ]]>
+            </search>
+            <add>
+            <![CDATA[
+                if (isset($payment_method['image']) and !empty($payment_method['image']) ) {
+                    $pos = strpos($payment_method['image'], HTTP_IMAGE);
+                    if ($pos) {
+                        $payment_method['image'] = substr($payment_method['image'], ($pos+strlen(HTTP_IMAGE)) );
+                        $pos2 = strpos($payment_method['image'], '"');
+                        if ($pos2) {
+                            $payment_method['image'] = substr($payment_method['image'], 0, $pos2);
+                        }
+                    }
+                ?>
+                    <img src="<?php echo HTTP_IMAGE.$payment_method['image'];?>"/>
+                <?php
+                    echo '<span style="vertical-align:10px;">'.$payment_method['title'].'</span>';
+                }
+                else {
+                    echo $payment_method['title'];
+                }
+            ]]>
+            </add>
+        </operation>
+    </file>
+    <!--// SIMPLE -->
+
+    <!-- SuperCheckoutPRO -->
+    <file name="catalog/controller/supercheckoutPro/payment_display.php">
+        <operation error="skip">
+            <search position="replace">
+                <![CDATA[
+                    $this->data['payment'] = $this->getChild('payment/' . $this->session->data['payment_method']['code']);
+                ]]>
+            </search>
+            <add>
+                <![CDATA[
+                    $code = explode('.', $this->session->data['payment_method']['code']);
+                    $this->data['payment'] = $this->getChild('payment/' . $code[0]);
+                ]]>
+            </add>
+        </operation>
+    </file>
+
+    <file name="catalog/controller/supercheckoutPro/payment_method.php">
+        <operation error="skip">
+            <search position="replace">
+                <![CDATA[
+                $method_data[$result['code']] = $method;
+            ]]>
+            </search>
+            <add>
+                <![CDATA[
+                if (isset($method['quote'])) {
+                	foreach ($method['quote'] as $key => $val) {
+                        $method_data[$val['code']] = $val;
+                    }
+                }
+                else {
+                	$method_data[$result['code']] = $method;
+                }
+
+                //print_r($method_data);
+            ]]>
+            </add>
+        </operation>
+
+        <operation error="skip">
+            <search position="replace">
+                <![CDATA[
+                $this->data['show_payment_details'] = $this->getChild('payment/' . $this->session->data['payment_method']['code']);
+            ]]>
+            </search>
+            <add>
+                <![CDATA[
+                $code = explode('.', $this->session->data['payment_method']['code']);
+                $this->data['show_payment_details'] = $this->getChild('payment/' . $code[0]);
+            ]]>
+            </add>
+        </operation>
+    </file>
+
+    <file name="catalog/controller/supercheckoutPro/supercheckout.php">
+        <operation error="skip">
+            <search position="replace">
+                <![CDATA[
+                $method_data[$result['code']] = $method;
+            ]]>
+            </search>
+            <add>
+                <![CDATA[
+                if (isset($method['quote'])) {
+                	foreach ($method['quote'] as $key => $val) {
+                        $method_data[$val['code']] = $val;
+                    }
+                }
+                else {
+                	$method_data[$result['code']] = $method;
+                }
+
+                //print_r($method_data);
+            ]]>
+            </add>
+        </operation>
+    </file>
+
+    <file name="catalog/view/theme/*/template/supercheckoutPro/payment_method.tpl">
+        <operation error="skip">
+            <search position="replace">
+                <![CDATA[
+                echo $payment_method['title'];
+            ]]>
+            </search>
+            <add>
+                <![CDATA[
+                if (isset($payment_method['image']) and !empty($payment_method['image']) ) {
+                    $pos = strpos($payment_method['image'], HTTP_IMAGE);
+                    if ($pos) {
+                        $payment_method['image'] = substr($payment_method['image'], ($pos+strlen(HTTP_IMAGE)) );
+                        $pos2 = strpos($payment_method['image'], '"');
+                        if ($pos2) {
+                            $payment_method['image'] = substr($payment_method['image'], 0, $pos2);
+                        }
+                    }
+                    ?>
+                    <img src="<?php echo HTTP_IMAGE.$payment_method['image'];?>"/>
+                <?php
+                    echo '<span style="vertical-align:10px;">'.$payment_method['title'].'</span>';
+                }
+                else {
+                    echo $payment_method['title'];
+                }
+            ]]>
+            </add>
+        </operation>
+    </file>
+
+    <file name="catalog/view/theme/*/template/supercheckoutPro/supercheckout.tpl">
+        <operation error="skip">
+            <search position="replace">
+                <![CDATA[
+                echo $payment_method['title'];
+            ]]>
+            </search>
+            <add>
+                <![CDATA[
+                if (isset($payment_method['image']) and !empty($payment_method['image']) ) {
+                    $pos = strpos($payment_method['image'], HTTP_IMAGE);
+                    if ($pos) {
+                        $payment_method['image'] = substr($payment_method['image'], ($pos+strlen(HTTP_IMAGE)) );
+                        $pos2 = strpos($payment_method['image'], '"');
+                        if ($pos2) {
+                            $payment_method['image'] = substr($payment_method['image'], 0, $pos2);
+                        }
+                    }
+                    ?>
+                    <img src="<?php echo HTTP_IMAGE.$payment_method['image'];?>"/>
+                <?php
+                    echo '<span style="vertical-align:10px;">'.$payment_method['title'].'</span>';
+                }
+                else {
+                    echo $payment_method['title'];
+                }
+            ]]>
+            </add>
+        </operation>
+    </file>
+    <!--// SuperCheckoutPRO -->
+
+
+    <file name="catalog/controller/checkout/manual.php">
+        <operation error="skip">
+            <search position="before">
+            <![CDATA[
+                if ($this->request->post['payment_country_id'] == '') {
+            ]]>
+            </search>
+            <add>
+            <![CDATA[
+                $this->request->post['payment_country_id'] = $this->request->post['shipping_country_id'];
+                $this->request->post['payment_zone_id'] = $this->request->post['shipping_zone_id'];
+            ]]>
+            </add>
+        </operation>
+
+        <operation error="skip">
+            <search position="replace">
+            <![CDATA[
+                $json['payment_method'][$result['code']] = $method;
+            ]]>
+            </search>
+            <add>
+            <![CDATA[
+                if (isset($method['quote'])) {
+                    foreach ($method['quote'] as $val) {
+                        $json['payment_method'][$val['code']] = $val;
+                    }
+                }
+                else {
+                    $json['payment_method'][$result['code']] = $method;
+                }
+            ]]>
+            </add>
+        </operation>
+    </file>
+
+    <file name="admin/language/russian/russian.php">
+        <operation error="skip">
+            <search position="before">
+                <![CDATA[
+                    $_['text_home']
+                ]]>
+            </search>
+            <add>
+                <![CDATA[
+                    $_['text_browse'] = 'Обзор';
+                    $_['text_clear'] = 'Удалить';
+                ]]>
+            </add>
+        </operation>
+    </file>
+
+    <file name="catalog/model/checkout/order.php">
+        <operation error="skip">
+            <search position="replace">
+                <![CDATA[
+                    $template->data['comment'] = nl2br($comment);
+                ]]>
+            </search>
+            <add>
+                <![CDATA[
+                    $template->data['comment'] = $comment;
+                ]]>
+            </add>
+        </operation>
+    </file>
+
+    <file name="admin/controller/sale/order.php">
+        <operation error="skip">
+            <search position="before">
+                <![CDATA[
+                    if($this->hasAction('payment/' . $order_info['payment_code'] . '/orderAction') == true){
+                ]]>
+            </search>
+            <add>
+                <![CDATA[
+                    $arr_order_code = explode(".", $order_info['payment_code']);
+                    $order_info['payment_code'] = $arr_order_code[0];
+                ]]>
+            </add>
+        </operation>
+    </file>
+
+</modification>
+

@@ -1,0 +1,26 @@
+#alternative .image {
+	display: block;
+	margin-bottom: 0px;
+}
+#alternative .image img {
+	padding: 3px;
+	border: 1px solid #E7E7E7;
+}
+#alternative .name a {
+	color: #38B0E3;
+	font-weight: bold;
+	text-decoration: none;
+	display: block;
+	margin-bottom: 4px;
+}
+#alternative .price-old {
+	color: #F00;
+	text-decoration: line-through;
+}
+#alternative .price-new {
+	font-weight: bold;
+}
+#alternative .rating {
+	display: block;
+	margin-bottom: 4px;
+}

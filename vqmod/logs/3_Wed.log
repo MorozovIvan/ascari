@@ -1,0 +1,52 @@
+---------- Date: 2015-07-01 20:06:39 ~ IP : 127.0.0.1 ----------
+REQUEST URI : /admin/index.php?route=common/home&amp;token=eea101e8452a2f0748d9339a36ca9d0b
+MOD DETAILS:
+   modFile   : /var/www/ascari/vqmod/xml/reviews-stars-v2.1.xml
+   id        : reviews-stars
+   version   : 2.1
+   vqmver    : 2.4.1
+   author    : vivivor
+
+File Name    : admin/model/catalog/review.php(1)
+VQModObject::applyMod - SEARCH NOT FOUND (ABORTING MOD): date_added = NOW()");
+----------------------------------------------------------------------
+
+
+---------- Date: 2015-07-01 21:53:10 ~ IP : 127.0.0.1 ----------
+REQUEST URI : /admin/index.php?route=extension/payment&amp;token=eea101e8452a2f0748d9339a36ca9d0b
+VQMod::_parseMods - FILE "/var/www/ascari/vqmod/xml/subscribe.xml" REQUIRES VQMOD "2.5.0" OR ABOVE AND HAS BEEN SKIPPED
+MOD DETAILS:
+   modFile   : /var/www/ascari/vqmod/xml/transfer_plus.xml
+   id        : Oplata Plus
+   version   : 2.8
+   vqmver    : 2.4.1
+   author    : louise170 (louise@ya.ru)
+VQModObject::parseMods - Could not resolve path for [catalog/controller/checkout/quick_confirm.php] (SKIPPED)
+VQModObject::parseMods - Could not resolve path for [catalog/controller/checkout/quick_payment_method.php] (SKIPPED)
+VQModObject::parseMods - Could not resolve path for [catalog/controller/checkout/payment.php] (SKIPPED)
+VQModObject::parseMods - Could not resolve path for [catalog/controller/supercheckoutPro/payment_display.php] (SKIPPED)
+VQModObject::parseMods - Could not resolve path for [catalog/controller/supercheckoutPro/payment_method.php] (SKIPPED)
+VQModObject::parseMods - Could not resolve path for [catalog/controller/supercheckoutPro/supercheckout.php] (SKIPPED)
+
+----------------------------------------------------------------------
+
+
+---------- Date: 2015-07-01 23:02:35 ~ IP : 127.0.0.1 ----------
+REQUEST URI : /admin/index.php?route=extension/payment&amp;token=eea101e8452a2f0748d9339a36ca9d0b
+VQMod::_parseMods - FILE "/var/www/ascari/vqmod/xml/subscribe.xml" REQUIRES VQMOD "2.5.0" OR ABOVE AND HAS BEEN SKIPPED
+MOD DETAILS:
+   modFile   : /var/www/ascari/vqmod/xml/transfer_plus.xml
+   id        : Oplata Plus
+   version   : 2.8
+   vqmver    : 2.4.1
+   author    : louise170 (louise@ya.ru)
+VQModObject::parseMods - Could not resolve path for [catalog/controller/checkout/quick_confirm.php] (SKIPPED)
+VQModObject::parseMods - Could not resolve path for [catalog/controller/checkout/quick_payment_method.php] (SKIPPED)
+VQModObject::parseMods - Could not resolve path for [catalog/controller/checkout/payment.php] (SKIPPED)
+VQModObject::parseMods - Could not resolve path for [catalog/controller/supercheckoutPro/payment_display.php] (SKIPPED)
+VQModObject::parseMods - Could not resolve path for [catalog/controller/supercheckoutPro/payment_method.php] (SKIPPED)
+VQModObject::parseMods - Could not resolve path for [catalog/controller/supercheckoutPro/supercheckout.php] (SKIPPED)
+
+----------------------------------------------------------------------
+
+

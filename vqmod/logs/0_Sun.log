@@ -1,0 +1,60 @@
+---------- Date: 2015-06-28 18:53:26 ~ IP : 127.0.0.1 ----------
+REQUEST URI : /admin/index.php?route=module/banner&amp;token=25d5ae7763fc40a89565e86fae7dade3
+MOD DETAILS:
+   modFile   : /var/www/ascari/vqmod/xml/banners.xml
+   id        : Banner Modifications
+   version   : 1.1
+   vqmver    : 2.4.1
+   author    : iDiY
+
+File Name    : admin/model/design/banner.php(2)
+VQModObject::applyMod - SEARCH NOT FOUND (ABORTING MOD): $banner_image_query = $this->db->query("SELECT * FROM " . DB_PREFIX . "banner_image WHERE banner_id = '" . (int)$banner_id . "'");
+
+----------------------------------------------------------------------
+
+
+---------- Date: 2015-06-28 18:53:39 ~ IP : 127.0.0.1 ----------
+REQUEST URI : /admin/index.php?route=design/banner&amp;token=25d5ae7763fc40a89565e86fae7dade3
+MOD DETAILS:
+   modFile   : /var/www/ascari/vqmod/xml/banners.xml
+   id        : Banner Modifications
+   version   : 1.1
+   vqmver    : 2.4.1
+   author    : iDiY
+
+File Name    : admin/model/design/banner.php(2)
+VQModObject::applyMod - SEARCH NOT FOUND (ABORTING MOD): $banner_image_query = $this->db->query("SELECT * FROM " . DB_PREFIX . "banner_image WHERE banner_id = '" . (int)$banner_id . "'");
+
+----------------------------------------------------------------------
+
+
+---------- Date: 2015-06-28 18:53:50 ~ IP : 127.0.0.1 ----------
+REQUEST URI : /admin/index.php?route=design/banner/insert&amp;token=25d5ae7763fc40a89565e86fae7dade3
+MOD DETAILS:
+   modFile   : /var/www/ascari/vqmod/xml/banners.xml
+   id        : Banner Modifications
+   version   : 1.1
+   vqmver    : 2.4.1
+   author    : iDiY
+
+File Name    : admin/model/design/banner.php(2)
+VQModObject::applyMod - SEARCH NOT FOUND (ABORTING MOD): $banner_image_query = $this->db->query("SELECT * FROM " . DB_PREFIX . "banner_image WHERE banner_id = '" . (int)$banner_id . "'");
+
+----------------------------------------------------------------------
+
+
+---------- Date: 2015-06-28 18:54:09 ~ IP : 127.0.0.1 ----------
+REQUEST URI : /admin/index.php?route=design/banner&amp;token=25d5ae7763fc40a89565e86fae7dade3
+MOD DETAILS:
+   modFile   : /var/www/ascari/vqmod/xml/banners.xml
+   id        : Banner Modifications
+   version   : 1.1
+   vqmver    : 2.4.1
+   author    : iDiY
+
+File Name    : admin/model/design/banner.php(2)
+VQModObject::applyMod - SEARCH NOT FOUND (ABORTING MOD): $banner_image_query = $this->db->query("SELECT * FROM " . DB_PREFIX . "banner_image WHERE banner_id = '" . (int)$banner_id . "'");
+
+----------------------------------------------------------------------
+
+

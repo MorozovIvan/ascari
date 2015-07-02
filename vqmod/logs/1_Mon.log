@@ -1,0 +1,535 @@
+---------- Date: 2015-06-29 08:44:55 ~ IP : 127.0.0.1 ----------
+REQUEST URI : /admin/index.php?route=tool/vqmod_manager&amp;token=f5724dc4d8ea0f6e147e845f9551f699
+VQMod::_parseMods - FILE "/var/www/ascari/vqmod/xml/subscribe.xml" REQUIRES VQMOD "2.5.0" OR ABOVE AND HAS BEEN SKIPPED
+----------------------------------------------------------------------
+
+
+---------- Date: 2015-06-29 08:45:12 ~ IP : 127.0.0.1 ----------
+REQUEST URI : /admin/index.php?route=tool/vqmod_manager&amp;token=f5724dc4d8ea0f6e147e845f9551f699
+VQMod::_parseMods - FILE "/var/www/ascari/vqmod/xml/subscribe.xml" REQUIRES VQMOD "2.5.0" OR ABOVE AND HAS BEEN SKIPPED
+----------------------------------------------------------------------
+
+
+---------- Date: 2015-06-29 09:38:48 ~ IP : 127.0.0.1 ----------
+REQUEST URI : /admin/index.php?route=catalog/review&amp;token=f5724dc4d8ea0f6e147e845f9551f699
+MOD DETAILS:
+   modFile   : /var/www/ascari/vqmod/xml/reviews-stars-v2.1.xml
+   id        : reviews-stars
+   version   : 2.1
+   vqmver    : 2.4.1
+   author    : vivivor
+
+File Name    : admin/model/catalog/review.php(1)
+VQModObject::applyMod - SEARCH NOT FOUND (ABORTING MOD): date_added = NOW()");
+----------------------------------------------------------------------
+
+
+---------- Date: 2015-06-29 09:38:52 ~ IP : 127.0.0.1 ----------
+REQUEST URI : /admin/index.php?route=catalog/review/insert&amp;token=f5724dc4d8ea0f6e147e845f9551f699
+MOD DETAILS:
+   modFile   : /var/www/ascari/vqmod/xml/reviews-stars-v2.1.xml
+   id        : reviews-stars
+   version   : 2.1
+   vqmver    : 2.4.1
+   author    : vivivor
+
+File Name    : admin/model/catalog/review.php(1)
+VQModObject::applyMod - SEARCH NOT FOUND (ABORTING MOD): date_added = NOW()");
+----------------------------------------------------------------------
+
+
+---------- Date: 2015-06-29 09:39:11 ~ IP : 127.0.0.1 ----------
+REQUEST URI : /admin/index.php?route=catalog/review/insert&amp;token=f5724dc4d8ea0f6e147e845f9551f699
+MOD DETAILS:
+   modFile   : /var/www/ascari/vqmod/xml/reviews-stars-v2.1.xml
+   id        : reviews-stars
+   version   : 2.1
+   vqmver    : 2.4.1
+   author    : vivivor
+
+File Name    : admin/model/catalog/review.php(1)
+VQModObject::applyMod - SEARCH NOT FOUND (ABORTING MOD): date_added = NOW()");
+----------------------------------------------------------------------
+
+
+---------- Date: 2015-06-29 09:39:11 ~ IP : 127.0.0.1 ----------
+REQUEST URI : /admin/index.php?route=catalog/review&amp;token=f5724dc4d8ea0f6e147e845f9551f699
+MOD DETAILS:
+   modFile   : /var/www/ascari/vqmod/xml/reviews-stars-v2.1.xml
+   id        : reviews-stars
+   version   : 2.1
+   vqmver    : 2.4.1
+   author    : vivivor
+
+File Name    : admin/model/catalog/review.php(1)
+VQModObject::applyMod - SEARCH NOT FOUND (ABORTING MOD): date_added = NOW()");
+----------------------------------------------------------------------
+
+
+---------- Date: 2015-06-29 09:40:27 ~ IP : 127.0.0.1 ----------
+REQUEST URI : /admin/index.php?route=catalog/review&amp;token=f5724dc4d8ea0f6e147e845f9551f699
+MOD DETAILS:
+   modFile   : /var/www/ascari/vqmod/xml/reviews-stars-v2.1.xml
+   id        : reviews-stars
+   version   : 2.1
+   vqmver    : 2.4.1
+   author    : vivivor
+
+File Name    : admin/model/catalog/review.php(1)
+VQModObject::applyMod - SEARCH NOT FOUND (ABORTING MOD): date_added = NOW()");
+----------------------------------------------------------------------
+
+
+---------- Date: 2015-06-29 09:40:35 ~ IP : 127.0.0.1 ----------
+REQUEST URI : /admin/index.php?route=catalog/review&amp;token=f5724dc4d8ea0f6e147e845f9551f699
+MOD DETAILS:
+   modFile   : /var/www/ascari/vqmod/xml/reviews-stars-v2.1.xml
+   id        : reviews-stars
+   version   : 2.1
+   vqmver    : 2.4.1
+   author    : vivivor
+
+File Name    : admin/model/catalog/review.php(1)
+VQModObject::applyMod - SEARCH NOT FOUND (ABORTING MOD): date_added = NOW()");
+----------------------------------------------------------------------
+
+
+---------- Date: 2015-06-29 09:41:08 ~ IP : 127.0.0.1 ----------
+REQUEST URI : /admin/index.php?route=tool/vqmod_manager&amp;token=f5724dc4d8ea0f6e147e845f9551f699
+VQMod::_parseMods - FILE "/var/www/ascari/vqmod/xml/subscribe.xml" REQUIRES VQMOD "2.5.0" OR ABOVE AND HAS BEEN SKIPPED
+----------------------------------------------------------------------
+
+
+---------- Date: 2015-06-29 09:41:23 ~ IP : 127.0.0.1 ----------
+REQUEST URI : /admin/index.php?route=catalog/review&amp;token=f5724dc4d8ea0f6e147e845f9551f699
+MOD DETAILS:
+   modFile   : /var/www/ascari/vqmod/xml/reviews-stars-v2.1.xml
+   id        : reviews-stars
+   version   : 2.1
+   vqmver    : 2.4.1
+   author    : vivivor
+
+File Name    : admin/model/catalog/review.php(1)
+VQModObject::applyMod - SEARCH NOT FOUND (ABORTING MOD): date_added = NOW()");
+----------------------------------------------------------------------
+
+
+---------- Date: 2015-06-29 09:43:54 ~ IP : 127.0.0.1 ----------
+REQUEST URI : /admin/index.php?route=tool/vqmod_manager&amp;token=f5724dc4d8ea0f6e147e845f9551f699
+VQMod::_parseMods - FILE "/var/www/ascari/vqmod/xml/subscribe.xml" REQUIRES VQMOD "2.5.0" OR ABOVE AND HAS BEEN SKIPPED
+----------------------------------------------------------------------
+
+
+---------- Date: 2015-06-29 09:44:31 ~ IP : 127.0.0.1 ----------
+REQUEST URI : /admin/index.php?route=catalog/review&amp;token=f5724dc4d8ea0f6e147e845f9551f699
+MOD DETAILS:
+   modFile   : /var/www/ascari/vqmod/xml/reviews-stars-v2.1.xml
+   id        : reviews-stars
+   version   : 2.1
+   vqmver    : 2.4.1
+   author    : vivivor
+
+File Name    : admin/model/catalog/review.php(1)
+VQModObject::applyMod - SEARCH NOT FOUND (ABORTING MOD): date_added = NOW()");
+----------------------------------------------------------------------
+
+
+---------- Date: 2015-06-29 09:44:40 ~ IP : 127.0.0.1 ----------
+REQUEST URI : /admin/index.php?route=catalog/review/update&amp;token=f5724dc4d8ea0f6e147e845f9551f699&amp;review_id=4
+MOD DETAILS:
+   modFile   : /var/www/ascari/vqmod/xml/reviews-stars-v2.1.xml
+   id        : reviews-stars
+   version   : 2.1
+   vqmver    : 2.4.1
+   author    : vivivor
+
+File Name    : admin/model/catalog/review.php(1)
+VQModObject::applyMod - SEARCH NOT FOUND (ABORTING MOD): date_added = NOW()");
+----------------------------------------------------------------------
+
+
+---------- Date: 2015-06-29 09:44:49 ~ IP : 127.0.0.1 ----------
+REQUEST URI : /admin/index.php?route=catalog/review&amp;token=f5724dc4d8ea0f6e147e845f9551f699
+MOD DETAILS:
+   modFile   : /var/www/ascari/vqmod/xml/reviews-stars-v2.1.xml
+   id        : reviews-stars
+   version   : 2.1
+   vqmver    : 2.4.1
+   author    : vivivor
+
+File Name    : admin/model/catalog/review.php(1)
+VQModObject::applyMod - SEARCH NOT FOUND (ABORTING MOD): date_added = NOW()");
+----------------------------------------------------------------------
+
+
+---------- Date: 2015-06-29 13:24:29 ~ IP : 127.0.0.1 ----------
+REQUEST URI : /admin/index.php?route=catalog/review&amp;token=f5724dc4d8ea0f6e147e845f9551f699
+VQMod::_parseMods - FILE "/var/www/ascari/vqmod/xml/subscribe.xml" REQUIRES VQMOD "2.5.0" OR ABOVE AND HAS BEEN SKIPPED
+----------------------------------------------------------------------
+
+
+---------- Date: 2015-06-29 13:24:31 ~ IP : 127.0.0.1 ----------
+REQUEST URI : /admin/index.php?route=catalog/review&amp;token=a68e8a5a9c139074bcf9851195b2b036
+MOD DETAILS:
+   modFile   : /var/www/ascari/vqmod/xml/reviews-stars-v2.1.xml
+   id        : reviews-stars
+   version   : 2.1
+   vqmver    : 2.4.1
+   author    : vivivor
+
+File Name    : admin/model/catalog/review.php(1)
+VQModObject::applyMod - SEARCH NOT FOUND (ABORTING MOD): date_added = NOW()");
+----------------------------------------------------------------------
+
+
+---------- Date: 2015-06-29 14:04:34 ~ IP : 127.0.0.1 ----------
+REQUEST URI : /index.php?route=product/product&amp;path=&amp;product_id=50
+VQMod::_parseMods - FILE "/var/www/ascari/vqmod/xml/subscribe.xml" REQUIRES VQMOD "2.5.0" OR ABOVE AND HAS BEEN SKIPPED
+----------------------------------------------------------------------
+
+
+---------- Date: 2015-06-29 14:06:10 ~ IP : 127.0.0.1 ----------
+REQUEST URI : /admin/index.php?route=tool/vqmod_manager&amp;token=a68e8a5a9c139074bcf9851195b2b036
+VQMod::_parseMods - FILE "/var/www/ascari/vqmod/xml/subscribe.xml" REQUIRES VQMOD "2.5.0" OR ABOVE AND HAS BEEN SKIPPED
+----------------------------------------------------------------------
+
+
+---------- Date: 2015-06-29 14:06:19 ~ IP : 127.0.0.1 ----------
+REQUEST URI : /admin/index.php?route=tool/vqmod_manager&amp;token=a68e8a5a9c139074bcf9851195b2b036
+VQMod::_parseMods - FILE "/var/www/ascari/vqmod/xml/subscribe.xml" REQUIRES VQMOD "2.5.0" OR ABOVE AND HAS BEEN SKIPPED
+----------------------------------------------------------------------
+
+
+---------- Date: 2015-06-29 14:06:29 ~ IP : 127.0.0.1 ----------
+REQUEST URI : /admin/index.php?route=tool/vqmod_manager&amp;token=a68e8a5a9c139074bcf9851195b2b036
+VQMod::_parseMods - FILE "/var/www/ascari/vqmod/xml/subscribe.xml" REQUIRES VQMOD "2.5.0" OR ABOVE AND HAS BEEN SKIPPED
+----------------------------------------------------------------------
+
+
+---------- Date: 2015-06-29 15:44:48 ~ IP : 127.0.0.1 ----------
+REQUEST URI : /admin/index.php?route=module/carousel&amp;token=fcd87687d5427a9a75f082aee620c6da
+MOD DETAILS:
+   modFile   : /var/www/ascari/vqmod/xml/banners.xml
+   id        : Banner Modifications
+   version   : 1.1
+   vqmver    : 2.4.1
+   author    : iDiY
+
+File Name    : admin/model/design/banner.php(2)
+VQModObject::applyMod - SEARCH NOT FOUND (ABORTING MOD): $banner_image_query = $this->db->query("SELECT * FROM " . DB_PREFIX . "banner_image WHERE banner_id = '" . (int)$banner_id . "'");
+
+----------------------------------------------------------------------
+
+
+---------- Date: 2015-06-29 15:47:32 ~ IP : 127.0.0.1 ----------
+REQUEST URI : /admin/index.php?route=design/banner&amp;token=fcd87687d5427a9a75f082aee620c6da
+MOD DETAILS:
+   modFile   : /var/www/ascari/vqmod/xml/banners.xml
+   id        : Banner Modifications
+   version   : 1.1
+   vqmver    : 2.4.1
+   author    : iDiY
+
+File Name    : admin/model/design/banner.php(2)
+VQModObject::applyMod - SEARCH NOT FOUND (ABORTING MOD): $banner_image_query = $this->db->query("SELECT * FROM " . DB_PREFIX . "banner_image WHERE banner_id = '" . (int)$banner_id . "'");
+
+----------------------------------------------------------------------
+
+
+---------- Date: 2015-06-29 15:47:45 ~ IP : 127.0.0.1 ----------
+REQUEST URI : /admin/index.php?route=design/banner&amp;token=fcd87687d5427a9a75f082aee620c6da
+MOD DETAILS:
+   modFile   : /var/www/ascari/vqmod/xml/banners.xml
+   id        : Banner Modifications
+   version   : 1.1
+   vqmver    : 2.4.1
+   author    : iDiY
+
+File Name    : admin/model/design/banner.php(2)
+VQModObject::applyMod - SEARCH NOT FOUND (ABORTING MOD): $banner_image_query = $this->db->query("SELECT * FROM " . DB_PREFIX . "banner_image WHERE banner_id = '" . (int)$banner_id . "'");
+
+----------------------------------------------------------------------
+
+
+---------- Date: 2015-06-29 15:48:49 ~ IP : 127.0.0.1 ----------
+REQUEST URI : /admin/index.php?route=design/banner&amp;token=fcd87687d5427a9a75f082aee620c6da
+MOD DETAILS:
+   modFile   : /var/www/ascari/vqmod/xml/banners.xml
+   id        : Banner Modifications
+   version   : 1.1
+   vqmver    : 2.4.1
+   author    : iDiY
+
+File Name    : admin/model/design/banner.php(2)
+VQModObject::applyMod - SEARCH NOT FOUND (ABORTING MOD): $banner_image_query = $this->db->query("SELECT * FROM " . DB_PREFIX . "banner_image WHERE banner_id = '" . (int)$banner_id . "'");
+
+----------------------------------------------------------------------
+
+
+---------- Date: 2015-06-29 15:49:19 ~ IP : 127.0.0.1 ----------
+REQUEST URI : /admin/index.php?route=design/banner&amp;token=fcd87687d5427a9a75f082aee620c6da
+MOD DETAILS:
+   modFile   : /var/www/ascari/vqmod/xml/banners.xml
+   id        : Banner Modifications
+   version   : 1.1
+   vqmver    : 2.4.1
+   author    : iDiY
+
+File Name    : admin/model/design/banner.php(2)
+VQModObject::applyMod - SEARCH NOT FOUND (ABORTING MOD): $banner_image_query = $this->db->query("SELECT * FROM " . DB_PREFIX . "banner_image WHERE banner_id = '" . (int)$banner_id . "'");
+
+----------------------------------------------------------------------
+
+
+---------- Date: 2015-06-29 15:49:28 ~ IP : 127.0.0.1 ----------
+REQUEST URI : /admin/index.php?route=tool/vqmod_manager&amp;token=fcd87687d5427a9a75f082aee620c6da
+VQMod::_parseMods - FILE "/var/www/ascari/vqmod/xml/subscribe.xml" REQUIRES VQMOD "2.5.0" OR ABOVE AND HAS BEEN SKIPPED
+----------------------------------------------------------------------
+
+
+---------- Date: 2015-06-29 15:55:08 ~ IP : 127.0.0.1 ----------
+REQUEST URI : /admin/index.php?route=tool/vqmod_manager&amp;token=fcd87687d5427a9a75f082aee620c6da
+VQMod::_parseMods - FILE "/var/www/ascari/vqmod/xml/subscribe.xml" REQUIRES VQMOD "2.5.0" OR ABOVE AND HAS BEEN SKIPPED
+----------------------------------------------------------------------
+
+
+---------- Date: 2015-06-29 15:55:26 ~ IP : 127.0.0.1 ----------
+REQUEST URI : /admin/index.php?route=design/banner&amp;token=fcd87687d5427a9a75f082aee620c6da
+MOD DETAILS:
+   modFile   : /var/www/ascari/vqmod/xml/banners.xml
+   id        : Banner Modifications
+   version   : 1.1
+   vqmver    : 2.4.1
+   author    : iDiY
+
+File Name    : admin/model/design/banner.php(2)
+VQModObject::applyMod - SEARCH NOT FOUND (ABORTING MOD): $banner_image_query = $this->db->query("SELECT * FROM " . DB_PREFIX . "banner_image WHERE banner_id = '" . (int)$banner_id . "'");
+
+----------------------------------------------------------------------
+
+
+---------- Date: 2015-06-29 15:55:27 ~ IP : 127.0.0.1 ----------
+REQUEST URI : /admin/index.php?route=design/banner/update&amp;token=fcd87687d5427a9a75f082aee620c6da&amp;banner_id=8
+MOD DETAILS:
+   modFile   : /var/www/ascari/vqmod/xml/banners.xml
+   id        : Banner Modifications
+   version   : 1.1
+   vqmver    : 2.4.1
+   author    : iDiY
+
+File Name    : admin/model/design/banner.php(2)
+VQModObject::applyMod - SEARCH NOT FOUND (ABORTING MOD): $banner_image_query = $this->db->query("SELECT * FROM " . DB_PREFIX . "banner_image WHERE banner_id = '" . (int)$banner_id . "'");
+
+----------------------------------------------------------------------
+
+
+---------- Date: 2015-06-29 15:56:06 ~ IP : 127.0.0.1 ----------
+REQUEST URI : /admin/index.php?route=design/banner/update&amp;token=fcd87687d5427a9a75f082aee620c6da&amp;banner_id=8
+MOD DETAILS:
+   modFile   : /var/www/ascari/vqmod/xml/banners.xml
+   id        : Banner Modifications
+   version   : 1.1
+   vqmver    : 2.4.1
+   author    : iDiY
+
+File Name    : admin/model/design/banner.php(2)
+VQModObject::applyMod - SEARCH NOT FOUND (ABORTING MOD): $banner_image_query = $this->db->query("SELECT * FROM " . DB_PREFIX . "banner_image WHERE banner_id = '" . (int)$banner_id . "'");
+
+----------------------------------------------------------------------
+
+
+---------- Date: 2015-06-29 15:58:07 ~ IP : 127.0.0.1 ----------
+REQUEST URI : /admin/index.php?route=design/banner/update&amp;token=fcd87687d5427a9a75f082aee620c6da&amp;banner_id=8
+VQMod::_parseMods - FILE "/var/www/ascari/vqmod/xml/subscribe.xml" REQUIRES VQMOD "2.5.0" OR ABOVE AND HAS BEEN SKIPPED
+MOD DETAILS:
+   modFile   : /var/www/ascari/vqmod/xml/banners.xml
+   id        : Banner Modifications
+   version   : 1.1
+   vqmver    : 2.4.1
+   author    : iDiY
+
+File Name    : admin/model/design/banner.php(2)
+VQModObject::applyMod - SEARCH NOT FOUND (ABORTING MOD): $banner_image_query = $this->db->query("SELECT * FROM " . DB_PREFIX . "banner_image WHERE banner_id = '" . (int)$banner_id . "'");
+
+----------------------------------------------------------------------
+
+
+---------- Date: 2015-06-29 15:58:53 ~ IP : 127.0.0.1 ----------
+REQUEST URI : /admin/index.php?route=design/banner&amp;token=fcd87687d5427a9a75f082aee620c6da
+MOD DETAILS:
+   modFile   : /var/www/ascari/vqmod/xml/banners.xml
+   id        : Banner Modifications
+   version   : 1.1
+   vqmver    : 2.4.1
+   author    : iDiY
+
+File Name    : admin/model/design/banner.php(2)
+VQModObject::applyMod - SEARCH NOT FOUND (ABORTING MOD): $banner_image_query = $this->db->query("SELECT * FROM " . DB_PREFIX . "banner_image WHERE banner_id = '" . (int)$banner_id . "'");
+
+----------------------------------------------------------------------
+
+
+---------- Date: 2015-06-29 15:58:55 ~ IP : 127.0.0.1 ----------
+REQUEST URI : /admin/index.php?route=design/banner/update&amp;token=fcd87687d5427a9a75f082aee620c6da&amp;banner_id=8
+MOD DETAILS:
+   modFile   : /var/www/ascari/vqmod/xml/banners.xml
+   id        : Banner Modifications
+   version   : 1.1
+   vqmver    : 2.4.1
+   author    : iDiY
+
+File Name    : admin/model/design/banner.php(2)
+VQModObject::applyMod - SEARCH NOT FOUND (ABORTING MOD): $banner_image_query = $this->db->query("SELECT * FROM " . DB_PREFIX . "banner_image WHERE banner_id = '" . (int)$banner_id . "'");
+
+----------------------------------------------------------------------
+
+
+---------- Date: 2015-06-29 16:03:08 ~ IP : 127.0.0.1 ----------
+REQUEST URI : /admin/index.php?route=design/banner/update&amp;token=fcd87687d5427a9a75f082aee620c6da&amp;banner_id=8
+MOD DETAILS:
+   modFile   : /var/www/ascari/vqmod/xml/banners.xml
+   id        : Banner Modifications
+   version   : 1.1
+   vqmver    : 2.4.1
+   author    : iDiY
+
+File Name    : admin/model/design/banner.php(2)
+VQModObject::applyMod - SEARCH NOT FOUND (ABORTING MOD): $banner_image_query = $this->db->query("SELECT * FROM " . DB_PREFIX . "banner_image WHERE banner_id = '" . (int)$banner_id . "'");
+
+----------------------------------------------------------------------
+
+
+---------- Date: 2015-06-29 16:03:08 ~ IP : 127.0.0.1 ----------
+REQUEST URI : /admin/index.php?route=design/banner/update&amp;token=fcd87687d5427a9a75f082aee620c6da&amp;banner_id=8
+MOD DETAILS:
+   modFile   : /var/www/ascari/vqmod/xml/banners.xml
+   id        : Banner Modifications
+   version   : 1.1
+   vqmver    : 2.4.1
+   author    : iDiY
+
+File Name    : admin/model/design/banner.php(2)
+VQModObject::applyMod - SEARCH NOT FOUND (ABORTING MOD): $banner_image_query = $this->db->query("SELECT * FROM " . DB_PREFIX . "banner_image WHERE banner_id = '" . (int)$banner_id . "'");
+
+----------------------------------------------------------------------
+
+
+---------- Date: 2015-06-29 16:03:11 ~ IP : 127.0.0.1 ----------
+REQUEST URI : /admin/index.php?route=design/banner/update&amp;token=fcd87687d5427a9a75f082aee620c6da&amp;banner_id=8
+MOD DETAILS:
+   modFile   : /var/www/ascari/vqmod/xml/banners.xml
+   id        : Banner Modifications
+   version   : 1.1
+   vqmver    : 2.4.1
+   author    : iDiY
+
+File Name    : admin/model/design/banner.php(2)
+VQModObject::applyMod - SEARCH NOT FOUND (ABORTING MOD): $banner_image_query = $this->db->query("SELECT * FROM " . DB_PREFIX . "banner_image WHERE banner_id = '" . (int)$banner_id . "'");
+
+----------------------------------------------------------------------
+
+
+---------- Date: 2015-06-29 16:03:11 ~ IP : 127.0.0.1 ----------
+REQUEST URI : /admin/index.php?route=design/banner/update&amp;token=fcd87687d5427a9a75f082aee620c6da&amp;banner_id=8
+MOD DETAILS:
+   modFile   : /var/www/ascari/vqmod/xml/banners.xml
+   id        : Banner Modifications
+   version   : 1.1
+   vqmver    : 2.4.1
+   author    : iDiY
+
+File Name    : admin/model/design/banner.php(2)
+VQModObject::applyMod - SEARCH NOT FOUND (ABORTING MOD): $banner_image_query = $this->db->query("SELECT * FROM " . DB_PREFIX . "banner_image WHERE banner_id = '" . (int)$banner_id . "'");
+
+----------------------------------------------------------------------
+
+
+---------- Date: 2015-06-29 16:03:43 ~ IP : 127.0.0.1 ----------
+REQUEST URI : /admin/index.php?route=module/carousel&amp;token=fcd87687d5427a9a75f082aee620c6da
+MOD DETAILS:
+   modFile   : /var/www/ascari/vqmod/xml/banners.xml
+   id        : Banner Modifications
+   version   : 1.1
+   vqmver    : 2.4.1
+   author    : iDiY
+
+File Name    : admin/model/design/banner.php(2)
+VQModObject::applyMod - SEARCH NOT FOUND (ABORTING MOD): $banner_image_query = $this->db->query("SELECT * FROM " . DB_PREFIX . "banner_image WHERE banner_id = '" . (int)$banner_id . "'");
+
+----------------------------------------------------------------------
+
+
+---------- Date: 2015-06-29 16:04:09 ~ IP : 127.0.0.1 ----------
+REQUEST URI : /admin/index.php?route=module/carousel&amp;token=fcd87687d5427a9a75f082aee620c6da
+MOD DETAILS:
+   modFile   : /var/www/ascari/vqmod/xml/banners.xml
+   id        : Banner Modifications
+   version   : 1.1
+   vqmver    : 2.4.1
+   author    : iDiY
+
+File Name    : admin/model/design/banner.php(2)
+VQModObject::applyMod - SEARCH NOT FOUND (ABORTING MOD): $banner_image_query = $this->db->query("SELECT * FROM " . DB_PREFIX . "banner_image WHERE banner_id = '" . (int)$banner_id . "'");
+
+----------------------------------------------------------------------
+
+
+---------- Date: 2015-06-29 16:04:52 ~ IP : 127.0.0.1 ----------
+REQUEST URI : /admin/index.php?route=module/carousel&amp;token=fcd87687d5427a9a75f082aee620c6da
+MOD DETAILS:
+   modFile   : /var/www/ascari/vqmod/xml/banners.xml
+   id        : Banner Modifications
+   version   : 1.1
+   vqmver    : 2.4.1
+   author    : iDiY
+
+File Name    : admin/model/design/banner.php(2)
+VQModObject::applyMod - SEARCH NOT FOUND (ABORTING MOD): $banner_image_query = $this->db->query("SELECT * FROM " . DB_PREFIX . "banner_image WHERE banner_id = '" . (int)$banner_id . "'");
+
+----------------------------------------------------------------------
+
+
+---------- Date: 2015-06-29 16:15:36 ~ IP : 127.0.0.1 ----------
+REQUEST URI : /admin/index.php?route=module/carousel&amp;token=fcd87687d5427a9a75f082aee620c6da
+MOD DETAILS:
+   modFile   : /var/www/ascari/vqmod/xml/banners.xml
+   id        : Banner Modifications
+   version   : 1.1
+   vqmver    : 2.4.1
+   author    : iDiY
+
+File Name    : admin/model/design/banner.php(2)
+VQModObject::applyMod - SEARCH NOT FOUND (ABORTING MOD): $banner_image_query = $this->db->query("SELECT * FROM " . DB_PREFIX . "banner_image WHERE banner_id = '" . (int)$banner_id . "'");
+
+----------------------------------------------------------------------
+
+
+---------- Date: 2015-06-29 16:49:02 ~ IP : 127.0.0.1 ----------
+REQUEST URI : /admin/index.php?route=common/home&amp;token=89f10b1df4116f30a4dbe3d0aabcaafc
+MOD DETAILS:
+   modFile   : /var/www/ascari/vqmod/xml/reviews-stars-v2.1.xml
+   id        : reviews-stars
+   version   : 2.1
+   vqmver    : 2.4.1
+   author    : vivivor
+
+File Name    : admin/model/catalog/review.php(1)
+VQModObject::applyMod - SEARCH NOT FOUND (ABORTING MOD): date_added = NOW()");
+----------------------------------------------------------------------
+
+
+---------- Date: 2015-06-29 18:33:28 ~ IP : 127.0.0.1 ----------
+REQUEST URI : /admin/index.php?route=module/carousel&amp;token=89f10b1df4116f30a4dbe3d0aabcaafc
+MOD DETAILS:
+   modFile   : /var/www/ascari/vqmod/xml/banners.xml
+   id        : Banner Modifications
+   version   : 1.1
+   vqmver    : 2.4.1
+   author    : iDiY
+
+File Name    : admin/model/design/banner.php(2)
+VQModObject::applyMod - SEARCH NOT FOUND (ABORTING MOD): $banner_image_query = $this->db->query("SELECT * FROM " . DB_PREFIX . "banner_image WHERE banner_id = '" . (int)$banner_id . "'");
+
+----------------------------------------------------------------------
+
+

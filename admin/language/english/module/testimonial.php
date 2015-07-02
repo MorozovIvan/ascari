@@ -6,6 +6,7 @@ $_['heading_title']           = 'Customer Testimonials';
 $_['text_module']             = 'Modules';
 $_['text_success']     	      = 'Success: You have modified module testimonial!';
 $_['text_content_top']        = 'Content Top';
+$_['text_content_header']     = 'Content Header';
 $_['text_content_bottom']     = 'Content Bottom';
 $_['text_column_left']        = 'Column Left';
 $_['text_column_right']       = 'Column Right';

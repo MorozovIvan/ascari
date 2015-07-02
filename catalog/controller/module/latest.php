@@ -12,6 +12,9 @@ class ControllerModuleLatest extends Controller {
 		$this->load->model('tool/image');
 		
 		$this->data['products'] = array();
+
+        $this->data['button_wishlist'] = $this->language->get('button_wishlist');
+        $this->data['button_compare'] = $this->language->get('button_compare');
 		
 		$data = array(
 			'sort'  => 'p.date_added',

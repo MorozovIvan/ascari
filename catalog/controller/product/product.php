@@ -13,7 +13,9 @@ class ControllerProductProduct extends Controller {
 			'separator' => false
 		);
 
-		$this->load->model('catalog/category');	
+		$this->load->model('catalog/category');
+
+        $this->load->model('catalog/information');
 
 		if (isset($this->request->get['path'])) {
 			$path = '';
@@ -243,7 +245,8 @@ class ControllerProductProduct extends Controller {
 			$this->data['text_select'] = $this->language->get('text_select');
 			$this->data['text_manufacturer'] = $this->language->get('text_manufacturer');
 			$this->data['text_model'] = $this->language->get('text_model');
-			$this->data['text_reward'] = $this->language->get('text_reward');
+            $this->data['text_sku'] = $this->language->get('text_sku');
+            $this->data['text_reward'] = $this->language->get('text_reward');
 			$this->data['text_points'] = $this->language->get('text_points');	
 			$this->data['text_discount'] = $this->language->get('text_discount');
 			$this->data['text_stock'] = $this->language->get('text_stock');
@@ -279,6 +282,8 @@ class ControllerProductProduct extends Controller {
 
 			$this->data['tab_description'] = $this->language->get('tab_description');
 			$this->data['tab_attribute'] = $this->language->get('tab_attribute');
+			$this->data['tab_size'] = $this->language->get('tab_size');
+			$this->data['tab_shipping'] = $this->language->get('tab_shipping');
 			$this->data['tab_review'] = sprintf($this->language->get('tab_review'), $product_info['reviews']);
 			$this->data['tab_related'] = $this->language->get('tab_related');
 			$this->data['tab_related2'] = $this->language->get('tab_related2');
@@ -288,7 +293,8 @@ class ControllerProductProduct extends Controller {
 			$this->data['manufacturer'] = $product_info['manufacturer'];
 			$this->data['manufacturers'] = $this->url->link('product/manufacturer/info', 'manufacturer_id=' . $product_info['manufacturer_id']);
 			$this->data['model'] = $product_info['model'];
-			$this->data['reward'] = $product_info['reward'];
+            $this->data['sku'] = $product_info['sku'];
+            $this->data['reward'] = $product_info['reward'];
 			$this->data['points'] = $product_info['points'];
 
 			if ($product_info['quantity'] <= 0) {
@@ -565,8 +571,10 @@ class ControllerProductProduct extends Controller {
 			$this->data['articles'] = array();
 			
 			$results = $this->model_catalog_product->getArticleRelated($this->request->get['product_id']);
-			
-			
+
+            $information_info = $this->model_catalog_information->getInformation(6);
+
+            $this->data['shipping_description'] = html_entity_decode($information_info['description'], ENT_QUOTES, 'UTF-8');
 			
 			foreach ($results as $result) {
 				if ($result['image']) {

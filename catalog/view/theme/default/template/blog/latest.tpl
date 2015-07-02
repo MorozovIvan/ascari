@@ -7,54 +7,6 @@
   </div>
   <h1><?php echo $heading_title; ?></h1>
   <?php if ($articles) { ?>
-  
-   <!-- ocshop -->
-  <div class="product-filter">
-  <div class="display"><?php echo $text_display; ?> <i class="fa fa-list fa-lg"></i> <a onclick="displaybutton('grid');"><i class="fa fa-th fa-lg"></i></a></div>
-  <div class="limit">
-  <ul>
-  <li><?php echo $text_limit; ?></li>
-  <?php foreach ($limits as $limites) { ?>
-  <li>
-  <?php if ($limites['value'] == $limit) { ?>
-  <span class="active"><?php echo $limites['text']; ?></a></span>
-  <?php } else { ?>
-  <a href="<?php echo $limites['href']; ?>"><?php echo $limites['text']; ?></a>
-  <?php } ?>
-  </li>
-  <?php if ($article_total < (int)$limites['value']) break;  ?>
-  <?php } ?>
-  </ul>
-  </div>
-  <div class="sort">
-  <ul>
-  <li>
-  <?php echo $text_sort_by; ?>
-  </li>
-  <li>
-  <span   <?php if (($sorts[1]['value'] == $sort . '-' . $order) or ($sorts[2]['value'] == $sort . '-' . $order)) { ?><?php  echo 'class="active"'; ?><?php } ?>><a href="<?php if ($sorts[1]['value'] == $sort . '-' . $order) echo $sorts[2]['href']; else echo $sorts[1]['href']; ?>"><?php echo $text_sort_name; ?></a></span>
-  </li>
-  <li>
-  <span   <?php if (($sorts[3]['value'] == $sort . '-' . $order) or ($sorts[4]['value'] == $sort . '-' . $order)) { ?><?php  echo 'class="active"'; ?><?php } ?>><a href="<?php if ($sorts[3]['value'] == $sort . '-' . $order) echo $sorts[4]['href']; else echo $sorts[3]['href']; ?>"><?php echo $text_sort_date; ?></a></span>
-  </li>
-  <?php if ($review_status) { ?>
-  <li>
-  <span   <?php if (($sorts[5]['value'] == $sort . '-' . $order) or ($sorts[6]['value'] == $sort . '-' . $order)) { ?><?php  echo 'class="active"'; ?><?php } ?>><a href="<?php if ($sorts[5]['value'] == $sort . '-' . $order) echo $sorts[6]['href']; else echo $sorts[5]['href']; ?>"><?php echo $text_sort_rated; ?></a></span>
-  </li>
-  <?php } ?>
-  <!-- ocshop popularity-->
-  <li>
-  <?php if ($review_status) { ?>
-  <span   <?php if (($sorts[7]['value'] == $sort . '-' . $order) or ($sorts[8]['value'] == $sort . '-' . $order)) { ?><?php  echo 'class="active"'; ?><?php } ?>><a href="<?php if ($sorts[7]['value'] == $sort . '-' . $order) echo $sorts[8]['href']; else echo $sorts[7]['href']; ?>"><?php echo $text_sort_viewed; ?></a></span>
-  <?php } else { ?>
-  <span   <?php if (($sorts[5]['value'] == $sort . '-' . $order) or ($sorts[6]['value'] == $sort . '-' . $order)) { ?><?php  echo 'class="active"'; ?><?php } ?>><a href="<?php if ($sorts[5]['value'] == $sort . '-' . $order) echo $sorts[6]['href']; else echo $sorts[5]['href']; ?>"><?php echo $text_sort_viewed; ?></a></span>
-  <?php } ?>
-  </li>
-  <!-- ocshop popularity-->
-  </ul>
-  </div>
-  </div>
-  <!-- ocshop -->
   <div class="product-list">
     <?php foreach ($articles as $article) { ?>
     <div>
@@ -77,6 +29,53 @@
     </div>
     <?php } ?>
   </div>
+    <!-- ocshop -->
+    <div class="product-filter">
+        <div class="display"><?php echo $text_display; ?> <i class="fa fa-list fa-lg"></i> <a onclick="displaybutton('grid');"><i class="fa fa-th fa-lg"></i></a></div>
+        <div class="limit">
+            <ul>
+                <li><?php echo $text_limit; ?></li>
+                <?php foreach ($limits as $limites) { ?>
+                <li>
+                    <?php if ($limites['value'] == $limit) { ?>
+                    <span class="active"><?php echo $limites['text']; ?></a></span>
+                    <?php } else { ?>
+                    <a href="<?php echo $limites['href']; ?>"><?php echo $limites['text']; ?></a>
+                    <?php } ?>
+                </li>
+                <?php if ($article_total < (int)$limites['value']) break;  ?>
+                <?php } ?>
+            </ul>
+        </div>
+        <div class="sort">
+            <ul>
+                <li>
+                    <?php echo $text_sort_by; ?>
+                </li>
+                <li>
+                    <span   <?php if (($sorts[1]['value'] == $sort . '-' . $order) or ($sorts[2]['value'] == $sort . '-' . $order)) { ?><?php  echo 'class="active"'; ?><?php } ?>><a href="<?php if ($sorts[1]['value'] == $sort . '-' . $order) echo $sorts[2]['href']; else echo $sorts[1]['href']; ?>"><?php echo $text_sort_name; ?></a></span>
+                </li>
+                <li>
+                    <span   <?php if (($sorts[3]['value'] == $sort . '-' . $order) or ($sorts[4]['value'] == $sort . '-' . $order)) { ?><?php  echo 'class="active"'; ?><?php } ?>><a href="<?php if ($sorts[3]['value'] == $sort . '-' . $order) echo $sorts[4]['href']; else echo $sorts[3]['href']; ?>"><?php echo $text_sort_date; ?></a></span>
+                </li>
+                <?php if ($review_status) { ?>
+                <li>
+                    <span   <?php if (($sorts[5]['value'] == $sort . '-' . $order) or ($sorts[6]['value'] == $sort . '-' . $order)) { ?><?php  echo 'class="active"'; ?><?php } ?>><a href="<?php if ($sorts[5]['value'] == $sort . '-' . $order) echo $sorts[6]['href']; else echo $sorts[5]['href']; ?>"><?php echo $text_sort_rated; ?></a></span>
+                </li>
+                <?php } ?>
+                <!-- ocshop popularity-->
+                <li>
+                    <?php if ($review_status) { ?>
+                    <span   <?php if (($sorts[7]['value'] == $sort . '-' . $order) or ($sorts[8]['value'] == $sort . '-' . $order)) { ?><?php  echo 'class="active"'; ?><?php } ?>><a href="<?php if ($sorts[7]['value'] == $sort . '-' . $order) echo $sorts[8]['href']; else echo $sorts[7]['href']; ?>"><?php echo $text_sort_viewed; ?></a></span>
+                    <?php } else { ?>
+                    <span   <?php if (($sorts[5]['value'] == $sort . '-' . $order) or ($sorts[6]['value'] == $sort . '-' . $order)) { ?><?php  echo 'class="active"'; ?><?php } ?>><a href="<?php if ($sorts[5]['value'] == $sort . '-' . $order) echo $sorts[6]['href']; else echo $sorts[5]['href']; ?>"><?php echo $text_sort_viewed; ?></a></span>
+                    <?php } ?>
+                </li>
+                <!-- ocshop popularity-->
+            </ul>
+        </div>
+    </div>
+    <!-- ocshop -->
   <div class="pagination"><?php echo $pagination; ?></div>
   <?php } ?>
   <?php echo $content_bottom; ?></div>

@@ -1,0 +1,63 @@
+<modification>
+<id>Previous and Next Product</id>
+<version>1.0</version>
+<vqmver>1.1.0</vqmver>
+<author>by palcet - www.maxzon.ru</author>
+
+<file name="catalog/controller/product/product.php">
+<operation>
+<search position="after"><![CDATA[
+$this->data['heading_title'] = $product_info['name'];
+]]></search>
+<add><![CDATA[
+			$rsNext 	= $this->model_catalog_product->getProduct($product_id+1);
+				$rsLast 	= $this->model_catalog_product->getProduct($product_id-1);
+
+				if($rsNext):
+					$this->data['next_url'] = $this->url->link('product/product', 'product_id=' .  $rsNext['product_id']);
+					$this->data['next_text']= $this->language->get('next_text');
+				else:
+					$this->data['next_url'] = '';
+					$this->data['next_text']= '';
+				endif;
+
+				if($rsLast):
+					$this->data['prev_url'] = $this->url->link('product/product', 'product_id=' .  $rsLast['product_id']);
+					$this->data['prev_text']= $this->language->get('prev_text');
+				else:
+					$this->data['prev_url'] = '';
+					$this->data['prev_text']= null;
+				endif;
+]]></add>
+</operation>	
+</file>
+<file name="catalog/language/russian/product/product.php">
+<operation>
+<search position="after"><![CDATA[
+$_['text_error']
+]]></search>
+<add><![CDATA[
+$_['prev_text']			= '&lt;&lt; Предыдущий продукт';
+$_['next_text']			= 'Следующий продукт &gt;&gt;';
+]]></add>
+</operation>	
+</file>
+<file name="catalog/view/theme/default/template/product/product.tpl">
+<operation>
+<search position="before"><![CDATA[
+<div class="product-info">
+]]></search>
+<add><![CDATA[
+	<div>
+	  <table style="width: 100%; border-collapse: collapse;">
+		<tr>
+			<td align="left"><a style="text-decoration:none;" href="<?php echo $prev_url; ?>"><?php echo $prev_text;  ?></a>&nbsp; &nbsp; &nbsp;<a style="text-decoration:none;" href="<?php echo $next_url; ?>"><?php echo $next_text;?></a></td>
+		</tr>
+	  </table>
+	</div>
+	<br />
+]]></add>
+</operation>	
+</file>
+
+</modification>

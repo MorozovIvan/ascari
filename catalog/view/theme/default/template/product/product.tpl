@@ -22,39 +22,57 @@
     </div>
     <?php } ?>
     <div class="right">
+        <?php if ($review_status) { ?>
+        <div class="review">
+            <div>
+                <?php for ($i = 1; $i <= 5; $i++) { ?>
+                <?php if ($rating < $i) { ?>
+                <span class="fa fa-stack"><i class="fa fa-star-o fa-stack-1x"></i></span>
+                <?php } else { ?>
+                <span class="fa fa-stack"><i class="fa fa-star fa-stack-1x"></i><i class="fa fa-star-o fa-stack-1x"></i></span>
+                <?php } ?>
+                <?php } ?>
+                &nbsp;&nbsp;<a onclick="$('a[href=\'#tab-review\']').trigger('click');"><?php echo $reviews; ?></a>&nbsp;&nbsp;|&nbsp;&nbsp;<a onclick="$('a[href=\'#tab-review\']').trigger('click');"><?php echo $text_write; ?></a></div>
+            <div class="pluso" data-background="transparent" data-options="small,round,line,horizontal,nocounter,theme=04" data-services="vkontakte,odnoklassniki,moimir,facebook,twitter,google"></div>
+        </div>
+        <?php } ?>
+        <?php if ($price) { ?>
+        <div class="price"><?php echo $text_price; ?>
+            <?php if (!$special) { ?>
+            <?php echo $price; ?>
+            <?php } else { ?>
+            <span class="price-old"><?php echo $price; ?></span> <span class="price-new"><?php echo $special; ?></span>
+            <?php } ?>
+            <br />
+            <?php if ($tax) { ?>
+            <!--<span class="price-tax"><?php //echo $text_tax; ?> <?php //echo $tax; ?></span><br />-->
+            <?php } ?>
+            <?php if ($points) { ?>
+            <span class="reward"><small><?php echo $text_points; ?> <?php echo $points; ?></small></span><br />
+            <?php } ?>
+            <?php if ($discounts) { ?>
+            <br />
+            <div class="discount">
+                <?php foreach ($discounts as $discount) { ?>
+                <?php echo sprintf($text_discount, $discount['quantity'], $discount['price']); ?><br />
+                <?php } ?>
+            </div>
+            <?php } ?>
+        </div>
+        <?php } ?>
       <div class="description">
         <?php if ($manufacturer) { ?>
         <span><?php echo $text_manufacturer; ?></span> <a href="<?php echo $manufacturers; ?>"><?php echo $manufacturer; ?></a><br />
         <?php } ?>
-        <span><?php echo $text_model; ?></span> <?php echo $model; ?><br />
-        <?php if ($reward) { ?>
+      <!--  <span><?php //echo $text_model; ?></span> <?php //echo $model; ?><br /> -->
+          <?php if ($sku) { ?>
+          <span><?php echo $text_sku; ?></span> <?php echo $sku; ?>
+          <?php } ?>
+          <br/>
+          <?php if ($reward) { ?>
         <span><?php echo $text_reward; ?></span> <?php echo $reward; ?><br />
         <?php } ?>
         <span><?php echo $text_stock; ?></span> <?php echo $stock; ?></div>
-      <?php if ($price) { ?>
-      <div class="price"><?php echo $text_price; ?>
-        <?php if (!$special) { ?>
-        <?php echo $price; ?>
-        <?php } else { ?>
-        <span class="price-old"><?php echo $price; ?></span> <span class="price-new"><?php echo $special; ?></span>
-        <?php } ?>
-        <br />
-        <?php if ($tax) { ?>
-        <span class="price-tax"><?php echo $text_tax; ?> <?php echo $tax; ?></span><br />
-        <?php } ?>
-        <?php if ($points) { ?>
-        <span class="reward"><small><?php echo $text_points; ?> <?php echo $points; ?></small></span><br />
-        <?php } ?>
-        <?php if ($discounts) { ?>
-        <br />
-        <div class="discount">
-          <?php foreach ($discounts as $discount) { ?>
-          <?php echo sprintf($text_discount, $discount['quantity'], $discount['price']); ?><br />
-          <?php } ?>
-        </div>
-        <?php } ?>
-      </div>
-      <?php } ?>
       <?php if ($profiles): ?>
       <div class="option">
           <h2><span class="required">*</span><?php echo $text_payment_profile ?></h2>
@@ -103,13 +121,14 @@
           <?php } ?>
           <b><?php echo $option['name']; ?>:</b><br />
           <?php foreach ($option['option_value'] as $option_value) { ?>
-          <input type="radio" name="option[<?php echo $option['product_option_id']; ?>]" value="<?php echo $option_value['product_option_value_id']; ?>" id="option-value-<?php echo $option_value['product_option_value_id']; ?>" />
-          <label for="option-value-<?php echo $option_value['product_option_value_id']; ?>"><?php echo $option_value['name']; ?>
-            <?php if ($option_value['price']) { ?>
-            (<?php echo $option_value['price_prefix']; ?><?php echo $option_value['price']; ?>)
-            <?php } ?>
-          </label>
-          <br />
+            <div class="option-wrap">
+                <input type="radio" name="option[<?php echo $option['product_option_id']; ?>]" value="<?php echo $option_value['product_option_value_id']; ?>" id="option-value-<?php echo $option_value['product_option_value_id']; ?>" />
+                <label for="option-value-<?php echo $option_value['product_option_value_id']; ?>"><?php echo $option_value['name']; ?>
+                    <?php if ($option_value['price']) { ?>
+                    (<?php echo $option_value['price_prefix']; ?><?php echo $option_value['price']; ?>)
+                    <?php } ?>
+                </label>
+            </div>
           <?php } ?>
         </div>
         <br />
@@ -220,7 +239,7 @@
       <?php } ?>
       <div class="cart">
         <div><?php echo $text_qty; ?>
-          <input type="text" name="quantity" size="2" value="<?php echo $minimum; ?>" />
+          <input type="number" name="quantity" min="0" size="2" value="<?php echo $minimum; ?>" />
           <input type="hidden" name="product_id" size="2" value="<?php echo $product_id; ?>" />
           &nbsp;
           <input type="button" value="<?php echo $button_cart; ?>" id="button-cart" class="button" />
@@ -272,35 +291,25 @@
         <div class="minimum"><?php echo $text_minimum; ?></div>
         <?php } ?>
       </div>
-      <?php if ($review_status) { ?>
-      <div class="review">
-        <div>
-		 <?php for ($i = 1; $i <= 5; $i++) { ?>
-              <?php if ($rating < $i) { ?>
-              <span class="fa fa-stack"><i class="fa fa-star-o fa-stack-1x"></i></span>
-              <?php } else { ?>
-              <span class="fa fa-stack"><i class="fa fa-star fa-stack-1x"></i><i class="fa fa-star-o fa-stack-1x"></i></span>
-              <?php } ?>
-              <?php } ?>
-	   &nbsp;&nbsp;<a onclick="$('a[href=\'#tab-review\']').trigger('click');"><?php echo $reviews; ?></a>&nbsp;&nbsp;|&nbsp;&nbsp;<a onclick="$('a[href=\'#tab-review\']').trigger('click');"><?php echo $text_write; ?></a></div>
-        <div class="pluso" data-background="transparent" data-options="small,round,line,horizontal,nocounter,theme=04" data-services="vkontakte,odnoklassniki,moimir,facebook,twitter,google"></div>
-      </div>
-      <?php } ?>		
     </div>			
   </div>
   <div id="tabs" class="htabs"><a href="#tab-description"><?php echo $tab_description; ?></a>
     <?php if ($attribute_groups) { ?>
     <a href="#tab-attribute"><?php echo $tab_attribute; ?></a>
     <?php } ?>
+      <?php if (true) { ?>
+    <a href="#tab-sizes"><?php echo $tab_size; ?></a>
+    <a href="#tab-shipping" class="tab-shipping"><?php echo $tab_shipping; ?></a>
+    <?php } ?>
     <?php if ($review_status) { ?>
     <a href="#tab-review"><?php echo $tab_review; ?></a>
     <?php } ?>
-    <?php if ($products) { ?>
+   <!-- <?php if ($products) { ?>
     <a href="#tab-related"><?php echo $tab_related; ?> (<?php echo count($products); ?>)</a>
     <?php } ?>
 	<?php if ($products2) { ?>
     <a href="#tab-related2"><?php echo $tab_related2; ?> (<?php echo count($products2); ?>)</a>
-    <?php } ?>
+    <?php } ?> -->
 	<?php if ($articles) { ?>
     <a href="#tab-articles"><?php echo $tab_blog_related; ?> (<?php echo count($articles); ?>)</a>
     <?php } ?>
@@ -336,6 +345,464 @@
     </table>
   </div>
   <?php } ?>
+    <?php if ($attribute_groups) { ?>
+    <div id="tab-sizes" class="tab-content">
+        <div class="product-tabs-content tabs-content std" id="product_tabs_athlete_custom_tab1_contents"><p>&nbsp;</p>
+            <table border="1">
+                <tbody>
+                <tr>
+                    <td rowspan="2">
+                        <p align="center"><span style="font-family: 'book antiqua', palatino; font-size: medium;">Русский размер</span></p>
+                    </td>
+                    <td rowspan="2">
+                        <p align="center"><span style="font-family: 'book antiqua', palatino; font-size: medium;">Английский размер (UK)</span></p>
+                    </td>
+                    <td colspan="2">
+                        <p align="center"><span style="font-family: 'book antiqua', palatino; font-size: medium;">Американский размер (US)</span></p>
+                    </td>
+                    <td rowspan="2">
+                        <p align="center"><span style="font-family: 'book antiqua', palatino; font-size: medium;">Европейский размер (EUR)</span></p>
+                    </td>
+                    <td rowspan="2">
+                        <p align="center"><span style="font-family: 'book antiqua', palatino; font-size: medium;">Длина ступни, в см</span></p>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <p align="center"><span style="font-family: 'book antiqua', palatino; font-size: medium;">Мужские</span></p>
+                    </td>
+                    <td>
+                        <p align="center"><span style="font-family: 'book antiqua', palatino; font-size: medium;">Женские</span></p>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <p align="center"><span style="font-family: 'book antiqua', palatino; font-size: medium;">34,5</span></p>
+                    </td>
+                    <td>
+                        <p align="center"><span style="font-family: 'book antiqua', palatino; font-size: medium;">3,5</span></p>
+                    </td>
+                    <td>
+                        <p align="center"><span style="font-family: 'book antiqua', palatino; font-size: medium;">4</span></p>
+                    </td>
+                    <td>
+                        <p align="center"><span style="font-family: 'book antiqua', palatino; font-size: medium;">5</span></p>
+                    </td>
+                    <td>
+                        <p align="center"><span style="font-family: 'book antiqua', palatino; font-size: medium;">36</span></p>
+                    </td>
+                    <td>
+                        <p align="center"><span style="font-family: 'book antiqua', palatino; font-size: medium;">23</span></p>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <p align="center"><span style="font-family: 'book antiqua', palatino; font-size: medium;">35,5</span></p>
+                    </td>
+                    <td>
+                        <p align="center"><span style="font-family: 'book antiqua', palatino; font-size: medium;">4</span></p>
+                    </td>
+                    <td>
+                        <p align="center"><span style="font-family: 'book antiqua', palatino; font-size: medium;">4,5</span></p>
+                    </td>
+                    <td>
+                        <p align="center"><span style="font-family: 'book antiqua', palatino; font-size: medium;">5,5</span></p>
+                    </td>
+                    <td>
+                        <p align="center"><span style="font-family: 'book antiqua', palatino; font-size: medium;">36 2/3</span></p>
+                    </td>
+                    <td>
+                        <p align="center"><span style="font-family: 'book antiqua', palatino; font-size: medium;">23,0...23,5</span></p>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <p align="center"><span style="font-family: 'book antiqua', palatino; font-size: medium;">36</span></p>
+                    </td>
+                    <td>
+                        <p align="center"><span style="font-family: 'book antiqua', palatino; font-size: medium;">4,5</span></p>
+                    </td>
+                    <td>
+                        <p align="center"><span style="font-family: 'book antiqua', palatino; font-size: medium;">5</span></p>
+                    </td>
+                    <td>
+                        <p align="center"><span style="font-family: 'book antiqua', palatino; font-size: medium;">6</span></p>
+                    </td>
+                    <td>
+                        <p align="center"><span style="font-family: 'book antiqua', palatino; font-size: medium;">37 1/3</span></p>
+                    </td>
+                    <td>
+                        <p align="center"><span style="font-family: 'book antiqua', palatino; font-size: medium;">23,5</span></p>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <p align="center"><span style="font-family: 'book antiqua', palatino; font-size: medium;">36,5</span></p>
+                    </td>
+                    <td>
+                        <p align="center"><span style="font-family: 'book antiqua', palatino; font-size: medium;">5</span></p>
+                    </td>
+                    <td>
+                        <p align="center"><span style="font-family: 'book antiqua', palatino; font-size: medium;">5,5</span></p>
+                    </td>
+                    <td>
+                        <p align="center"><span style="font-family: 'book antiqua', palatino; font-size: medium;">6,5</span></p>
+                    </td>
+                    <td>
+                        <p align="center"><span style="font-family: 'book antiqua', palatino; font-size: medium;">38</span></p>
+                    </td>
+                    <td>
+                        <p align="center"><span style="font-family: 'book antiqua', palatino; font-size: medium;">24</span></p>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <p align="center"><span style="font-family: 'book antiqua', palatino; font-size: medium;">37</span></p>
+                    </td>
+                    <td>
+                        <p align="center"><span style="font-family: 'book antiqua', palatino; font-size: medium;">5,5</span></p>
+                    </td>
+                    <td>
+                        <p align="center"><span style="font-family: 'book antiqua', palatino; font-size: medium;">6</span></p>
+                    </td>
+                    <td>
+                        <p align="center"><span style="font-family: 'book antiqua', palatino; font-size: medium;">7</span></p>
+                    </td>
+                    <td>
+                        <p align="center"><span style="font-family: 'book antiqua', palatino; font-size: medium;">38 2/3</span></p>
+                    </td>
+                    <td>
+                        <p align="center"><span style="font-family: 'book antiqua', palatino; font-size: medium;">24,5</span></p>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <p align="center"><span style="font-family: 'book antiqua', palatino; font-size: medium;">38</span></p>
+                    </td>
+                    <td>
+                        <p align="center"><span style="font-family: 'book antiqua', palatino; font-size: medium;">6</span></p>
+                    </td>
+                    <td>
+                        <p align="center"><span style="font-family: 'book antiqua', palatino; font-size: medium;">6,5</span></p>
+                    </td>
+                    <td>
+                        <p align="center"><span style="font-family: 'book antiqua', palatino; font-size: medium;">7,5</span></p>
+                    </td>
+                    <td>
+                        <p align="center"><span style="font-family: 'book antiqua', palatino; font-size: medium;">39 1/3</span></p>
+                    </td>
+                    <td>
+                        <p align="center"><span style="font-family: 'book antiqua', palatino; font-size: medium;">25</span></p>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <p align="center"><span style="font-family: 'book antiqua', palatino; font-size: medium;">38,5</span></p>
+                    </td>
+                    <td>
+                        <p align="center"><span style="font-family: 'book antiqua', palatino; font-size: medium;">6,5</span></p>
+                    </td>
+                    <td>
+                        <p align="center"><span style="font-family: 'book antiqua', palatino; font-size: medium;">7</span></p>
+                    </td>
+                    <td>
+                        <p align="center"><span style="font-family: 'book antiqua', palatino; font-size: medium;">8</span></p>
+                    </td>
+                    <td>
+                        <p align="center"><span style="font-family: 'book antiqua', palatino; font-size: medium;">40</span></p>
+                    </td>
+                    <td>
+                        <p align="center"><span style="font-family: 'book antiqua', palatino; font-size: medium;">25,5</span></p>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <p align="center"><span style="font-family: 'book antiqua', palatino; font-size: medium;">39</span></p>
+                    </td>
+                    <td>
+                        <p align="center"><span style="font-family: 'book antiqua', palatino; font-size: medium;">7</span></p>
+                    </td>
+                    <td>
+                        <p align="center"><span style="font-family: 'book antiqua', palatino; font-size: medium;">7,5</span></p>
+                    </td>
+                    <td>
+                        <p align="center"><span style="font-family: 'book antiqua', palatino; font-size: medium;">8,5</span></p>
+                    </td>
+                    <td>
+                        <p align="center"><span style="font-family: 'book antiqua', palatino; font-size: medium;">40 2/3</span></p>
+                    </td>
+                    <td>
+                        <p align="center"><span style="font-family: 'book antiqua', palatino; font-size: medium;">25,5...26,0</span></p>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <p align="center"><span style="font-family: 'book antiqua', palatino; font-size: medium;">40</span></p>
+                    </td>
+                    <td>
+                        <p align="center"><span style="font-family: 'book antiqua', palatino; font-size: medium;">7,5</span></p>
+                    </td>
+                    <td>
+                        <p align="center"><span style="font-family: 'book antiqua', palatino; font-size: medium;">8</span></p>
+                    </td>
+                    <td>
+                        <p align="center"><span style="font-family: 'book antiqua', palatino; font-size: medium;">9</span></p>
+                    </td>
+                    <td>
+                        <p align="center"><span style="font-family: 'book antiqua', palatino; font-size: medium;">41 1/3</span></p>
+                    </td>
+                    <td>
+                        <p align="center"><span style="font-family: 'book antiqua', palatino; font-size: medium;">26</span></p>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <p align="center"><span style="font-family: 'book antiqua', palatino; font-size: medium;">40,5</span></p>
+                    </td>
+                    <td>
+                        <p align="center"><span style="font-family: 'book antiqua', palatino; font-size: medium;">8</span></p>
+                    </td>
+                    <td>
+                        <p align="center"><span style="font-family: 'book antiqua', palatino; font-size: medium;">8,5</span></p>
+                    </td>
+                    <td>
+                        <p align="center"><span style="font-family: 'book antiqua', palatino; font-size: medium;">9,5</span></p>
+                    </td>
+                    <td>
+                        <p align="center"><span style="font-family: 'book antiqua', palatino; font-size: medium;">42</span></p>
+                    </td>
+                    <td>
+                        <p align="center"><span style="font-family: 'book antiqua', palatino; font-size: medium;">26,5</span></p>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <p align="center"><span style="font-family: 'book antiqua', palatino; font-size: medium;">41</span></p>
+                    </td>
+                    <td>
+                        <p align="center"><span style="font-family: 'book antiqua', palatino; font-size: medium;">8,5</span></p>
+                    </td>
+                    <td>
+                        <p align="center"><span style="font-family: 'book antiqua', palatino; font-size: medium;">9</span></p>
+                    </td>
+                    <td>
+                        <p align="center"><span style="font-family: 'book antiqua', palatino; font-size: medium;">10</span></p>
+                    </td>
+                    <td>
+                        <p align="center"><span style="font-family: 'book antiqua', palatino; font-size: medium;">42 2/3</span></p>
+                    </td>
+                    <td>
+                        <p align="center"><span style="font-family: 'book antiqua', palatino; font-size: medium;">27</span></p>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <p align="center"><span style="font-family: 'book antiqua', palatino; font-size: medium;">42</span></p>
+                    </td>
+                    <td>
+                        <p align="center"><span style="font-family: 'book antiqua', palatino; font-size: medium;">9</span></p>
+                    </td>
+                    <td>
+                        <p align="center"><span style="font-family: 'book antiqua', palatino; font-size: medium;">9,5</span></p>
+                    </td>
+                    <td>
+                        <p align="center"><span style="font-family: 'book antiqua', palatino; font-size: medium;">10,5</span></p>
+                    </td>
+                    <td>
+                        <p align="center"><span style="font-family: 'book antiqua', palatino; font-size: medium;">43 1/3</span></p>
+                    </td>
+                    <td>
+                        <p align="center"><span style="font-family: 'book antiqua', palatino; font-size: medium;">27,5</span></p>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <p align="center"><span style="font-family: 'book antiqua', palatino; font-size: medium;">43</span></p>
+                    </td>
+                    <td>
+                        <p align="center"><span style="font-family: 'book antiqua', palatino; font-size: medium;">9,5</span></p>
+                    </td>
+                    <td>
+                        <p align="center"><span style="font-family: 'book antiqua', palatino; font-size: medium;">10</span></p>
+                    </td>
+                    <td>
+                        <p align="center"><span style="font-family: 'book antiqua', palatino; font-size: medium;">11</span></p>
+                    </td>
+                    <td>
+                        <p align="center"><span style="font-family: 'book antiqua', palatino; font-size: medium;">44</span></p>
+                    </td>
+                    <td>
+                        <p align="center"><span style="font-family: 'book antiqua', palatino; font-size: medium;">28</span></p>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <p align="center"><span style="font-family: 'book antiqua', palatino; font-size: medium;">43,5</span></p>
+                    </td>
+                    <td>
+                        <p align="center"><span style="font-family: 'book antiqua', palatino; font-size: medium;">10</span></p>
+                    </td>
+                    <td>
+                        <p align="center"><span style="font-family: 'book antiqua', palatino; font-size: medium;">10,5</span></p>
+                    </td>
+                    <td>
+                        <p align="center"><span style="font-family: 'book antiqua', palatino; font-size: medium;">11,5</span></p>
+                    </td>
+                    <td>
+                        <p align="center"><span style="font-family: 'book antiqua', palatino; font-size: medium;">44 2/3</span></p>
+                    </td>
+                    <td>
+                        <p align="center"><span style="font-family: 'book antiqua', palatino; font-size: medium;">28,0...28,5</span></p>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <p align="center"><span style="font-family: 'book antiqua', palatino; font-size: medium;">44</span></p>
+                    </td>
+                    <td>
+                        <p align="center"><span style="font-family: 'book antiqua', palatino; font-size: medium;">10,5</span></p>
+                    </td>
+                    <td>
+                        <p align="center"><span style="font-family: 'book antiqua', palatino; font-size: medium;">11</span></p>
+                    </td>
+                    <td>
+                        <p align="center"><span style="font-family: 'book antiqua', palatino; font-size: medium;">12</span></p>
+                    </td>
+                    <td>
+                        <p align="center"><span style="font-family: 'book antiqua', palatino; font-size: medium;">45 1/3</span></p>
+                    </td>
+                    <td>
+                        <p align="center"><span style="font-family: 'book antiqua', palatino; font-size: medium;">28,5...29,0</span></p>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <p align="center"><span style="font-family: 'book antiqua', palatino; font-size: medium;">44,5</span></p>
+                    </td>
+                    <td>
+                        <p align="center"><span style="font-family: 'book antiqua', palatino; font-size: medium;">11</span></p>
+                    </td>
+                    <td>
+                        <p align="center"><span style="font-family: 'book antiqua', palatino; font-size: medium;">11,5</span></p>
+                    </td>
+                    <td>
+                        <p align="center"><span style="font-family: 'book antiqua', palatino; font-size: medium;">12,5</span></p>
+                    </td>
+                    <td>
+                        <p align="center"><span style="font-family: 'book antiqua', palatino; font-size: medium;">46</span></p>
+                    </td>
+                    <td>
+                        <p align="center"><span style="font-family: 'book antiqua', palatino; font-size: medium;">29</span></p>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <p align="center"><span style="font-family: 'book antiqua', palatino; font-size: medium;">45</span></p>
+                    </td>
+                    <td>
+                        <p align="center"><span style="font-family: 'book antiqua', palatino; font-size: medium;">11,5</span></p>
+                    </td>
+                    <td>
+                        <p align="center"><span style="font-family: 'book antiqua', palatino; font-size: medium;">12</span></p>
+                    </td>
+                    <td>
+                        <p align="center"><span style="font-family: 'book antiqua', palatino; font-size: medium;">13</span></p>
+                    </td>
+                    <td>
+                        <p align="center"><span style="font-family: 'book antiqua', palatino; font-size: medium;">46 2/3</span></p>
+                    </td>
+                    <td>
+                        <p align="center"><span style="font-family: 'book antiqua', palatino; font-size: medium;">29,5</span></p>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <p align="center"><span style="font-family: 'book antiqua', palatino; font-size: medium;">46</span></p>
+                    </td>
+                    <td>
+                        <p align="center"><span style="font-family: 'book antiqua', palatino; font-size: medium;">12</span></p>
+                    </td>
+                    <td>
+                        <p align="center"><span style="font-family: 'book antiqua', palatino; font-size: medium;">12,5</span></p>
+                    </td>
+                    <td>
+                        <p align="center"><span style="font-family: 'book antiqua', palatino; font-size: medium;">13,5</span></p>
+                    </td>
+                    <td>
+                        <p align="center"><span style="font-family: 'book antiqua', palatino; font-size: medium;">47 1/3</span></p>
+                    </td>
+                    <td>
+                        <p align="center"><span style="font-family: 'book antiqua', palatino; font-size: medium;">30</span></p>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <p align="center"><span style="font-family: 'book antiqua', palatino; font-size: medium;">46,5</span></p>
+                    </td>
+                    <td>
+                        <p align="center"><span style="font-family: 'book antiqua', palatino; font-size: medium;">12,5</span></p>
+                    </td>
+                    <td>
+                        <p align="center"><span style="font-family: 'book antiqua', palatino; font-size: medium;">13</span></p>
+                    </td>
+                    <td>
+                        <p align="center"><span style="font-family: 'book antiqua', palatino; font-size: medium;">14</span></p>
+                    </td>
+                    <td>
+                        <p align="center"><span style="font-family: 'book antiqua', palatino; font-size: medium;">48</span></p>
+                    </td>
+                    <td>
+                        <p align="center"><span style="font-family: 'book antiqua', palatino; font-size: medium;">30,5</span></p>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <p align="center"><span style="font-family: 'book antiqua', palatino; font-size: medium;">47</span></p>
+                    </td>
+                    <td>
+                        <p align="center"><span style="font-family: 'book antiqua', palatino; font-size: medium;">13</span></p>
+                    </td>
+                    <td>
+                        <p align="center"><span style="font-family: 'book antiqua', palatino; font-size: medium;">13,5</span></p>
+                    </td>
+                    <td>
+                        <p align="center"><span style="font-family: 'book antiqua', palatino; font-size: medium;">14,5</span></p>
+                    </td>
+                    <td>
+                        <p align="center"><span style="font-family: 'book antiqua', palatino; font-size: medium;">48 2/3</span></p>
+                    </td>
+                    <td>
+                        <p align="center"><span style="font-family: 'book antiqua', palatino; font-size: medium;">31</span></p>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <p align="center"><span style="font-family: 'book antiqua', palatino; font-size: medium;">48</span></p>
+                    </td>
+                    <td>
+                        <p align="center"><span style="font-family: 'book antiqua', palatino; font-size: medium;">13,5</span></p>
+                    </td>
+                    <td>
+                        <p align="center"><span style="font-family: 'book antiqua', palatino; font-size: medium;">14</span></p>
+                    </td>
+                    <td>
+                        <p align="center"><span style="font-family: 'book antiqua', palatino; font-size: medium;">15</span></p>
+                    </td>
+                    <td>
+                        <p align="center"><span style="font-family: 'book antiqua', palatino; font-size: medium;">49 1/3</span></p>
+                    </td>
+                    <td>
+                        <p align="center"><span style="font-family: 'book antiqua', palatino; font-size: medium;">31,5</span></p>
+                    </td>
+                </tr>
+                </tbody>
+            </table>
+            <p>&nbsp;</p></div>
+    </div>
+    <?php } ?>
+    <div id="tab-shipping" class="tab-content">
+        <?php echo $shipping_description; ?>
+    </div>
   <?php if ($review_status) { ?>
   <div id="tab-review" class="tab-content">
     <div id="review"></div>
@@ -370,7 +837,7 @@
     </div>
   </div>
   <?php } ?>
-  <?php if ($products) { ?>
+  <!-- <?php if ($products) { ?>
   <div id="tab-related" class="tab-content">
     <div class="box-product">
       <?php foreach ($products as $product) { ?>
@@ -401,8 +868,8 @@
       <?php } ?>
     </div>
   </div>
-  <?php } ?>
-  <?php if ($products2) { ?>
+  <?php } ?> -->
+  <!-- <?php if ($products2) { ?>
   <div id="tab-related2" class="tab-content">
     <div class="box-product">
       <?php foreach ($products2 as $product) { ?>
@@ -433,7 +900,7 @@
       <?php } ?>
     </div>
   </div>
-  <?php } ?>
+  <?php } ?> -->
   <?php if ($articles) { ?>
   <div id="tab-articles" class="tab-content">
     <div class="box-product box-article">
@@ -502,7 +969,7 @@ $('select[name="profile_id"], input[name="quantity"]').change(function(){
 	});
 });
     
-$('#button-cart').bind('click', function() {
+$(document).on('click', '#button-cart', function() {
 	$.ajax({
 		url: 'index.php?route=checkout/cart/add',
 		type: 'post',
@@ -524,13 +991,13 @@ $('#button-cart').bind('click', function() {
 			} 
 			
 			if (json['success']) {
-				$('#notification').html('<div class="success" style="display: none;">' + json['success'] + '<img src="catalog/view/theme/default/image/close.png" alt="" class="close" /></div>');
-					
-				$('.success').fadeIn('slow');
-					
-				$('#cart-total').html(json['total']);
-				
-				$('html, body').animate({ scrollTop: 0 }, 'slow'); 
+                $('#cartModal #modal-inner').html(json['success']);
+                $('#cartModal').reveal({
+                    animation: 'fadeAndPop',                   //fade, fadeAndPop, none
+                    animationspeed: 300,                       //how fast animtions are
+                    closeonbackgroundclick: true,              //if you click background will modal close?
+                    dismissmodalclass: 'close-reveal-modal'    //the class of a button or element that will close an open modal
+                });
 			}	
 		}
 	});
@@ -644,4 +1111,5 @@ $(document).ready(function() {
     var h=d[g]('body')[0];
     h.appendChild(s);
   }})();</script>
+
 <?php echo $footer; ?>

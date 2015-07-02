@@ -15,15 +15,14 @@
 
                     <p class="description"><?php echo $category['info']['description']; ?></p>
                     <?php if($category['info']['name']): ?>
-                    <button class="to-category" onclick="window.location='<?php echo $category[" href
-                    "]; ?>'">
+                    <button class="to-category" onclick="window.location='<?php echo $category['href']; ?>'">
                     <?php echo $category['info']['name']; ?>
                     </button>
                     <hr/>
                     <?php endif; ?>
 
                     <?php for ($i = 0; $i < count($category['children']);) { ?>
-                    <ul>
+                    <ul class="subcategories">
                         <?php $j = $i + ceil(count($category['children']) / $category['column']); ?>
                         <?php for (; $i < $j; $i++) { ?>
                         <?php if (isset($category['children'][$i])) { ?>
@@ -36,8 +35,8 @@
                     <?php } ?>
                 </div>
                 <div class="right-col">
-                    <div class="modulcarousel acarousel">
-                        <ul class="jcarousel-skin-opencart">
+                    <div class="acarousel">
+                        <ul class="bxslider">
                                 <?php foreach ($category['products'] as $product) { ?>
                                 <li>
                                     <div>
@@ -57,10 +56,10 @@
                                                     href="<?php echo $product['href']; ?>"><?php echo $product['name']; ?></a>
                                         </div>
                                         <div class="description">
-                                            <?php if (!$product['description_mini']) { ?>
-                                            <?php echo $product['description']; ?>
+                                            <?php if ($product['description_mini']) { ?>
+                                            <?php //echo $product['description']; ?>
                                             <?php } else { ?>
-                                            <?php echo $product['description_mini']; ?>
+                                            <?php //echo $product['description_mini']; ?>
                                             <?php } ?>
                                         </div>
                                         <?php if ($product['price']) { ?>
@@ -71,12 +70,13 @@
                                             <span class="price-old"><?php echo $product['price']; ?></span><br/><span
                                                     class="price-new"><?php echo $product['special']; ?></span>
                                             <?php } ?>
-                                            <?php if ($product['tax']) { ?>
+                                            <?php if (false) { ?>
                                             <br/>
                                             <span class="price-tax"><?php echo $text_tax; ?> <?php echo $product['tax']; ?></span>
                                             <?php } ?>
                                         </div>
                                         <?php } ?>
+                                        <div class="add-quick-view" data-id="<?php echo $product['product_id']; ?>"></div>
                                         <div class="cart">
                                             <input type="button" value="<?php echo $button_cart; ?>"
                                                    onclick="addToCart('<?php echo $product['product_id']; ?>');"
@@ -101,7 +101,7 @@
                                             <?php } ?>
                                             <?php } ?>
                                         </div>
-                                        <?php if ($product['benefits']) { ?>
+                                        <?php if (false) { ?>
                                         <div class="benefit-text"><?php echo $text_benefits; ?></div>
                                         <div class="benefits">
                                             <ul class="benefit">
@@ -118,7 +118,7 @@
                                                                     src="<?php echo $benefit['thumb']; ?>"
                                                                     alt="<?php echo $benefit['name']; ?>"/></span></a>
                                                     <?php } ?>
-                                                    <?php if ($benefit['description']) { ?>
+                                                    <?php if (false) { ?>
                                                     <div class="benefit_description"><?php echo $benefit['description']; ?></div>
                                                     <?php } ?>
                                                 </li>
@@ -180,15 +180,22 @@
 </div>
 <?php } ?>
 <script type="text/javascript"><!--
-    $('.acarousel ul').jcarousel({
-        vertical: false,
-        visible: 2,
-        scroll: 1
-    });
+//    $('.acarousel ul').jcarousel({
+//        vertical: false,
+//        visible: 2,
+//        scroll: 1
+//    });
 
     $( document ).ready(function() {
-        $('.acarousel .jcarousel-prev').html('<i class="fa fa-chevron-circle-left fa-2x"></i>');
-        $('.acarousel .jcarousel-next').html('<i class="fa fa-chevron-circle-right fa-2x"></i>');
-        $('.acarousel .jcarousel-list').css('width', 500);
+
+    });
+    $(document).on('mouseenter', '#menu li', function(){
+        $curentSlider = $(this).find('.bxslider');
+        $curentSlider.bxSlider({
+            minSlides: 2,
+            maxSlides: 2,
+            slideWidth: 360,
+            slideMargin: 10
+        });
     });
     //--></script>

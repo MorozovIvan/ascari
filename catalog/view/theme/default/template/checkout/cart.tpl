@@ -63,7 +63,7 @@
               <small><?php echo $product['reward']; ?></small>
               <?php } ?></td>
             <td class="model"><?php echo $product['model']; ?></td>
-            <td class="quantity"><input type="text" name="quantity[<?php echo $product['key']; ?>]" value="<?php echo $product['quantity']; ?>" size="1" />
+            <td class="quantity"><input type="number" min="0" name="quantity[<?php echo $product['key']; ?>]" value="<?php echo $product['quantity']; ?>" size="1" />
               &nbsp;
               <input type="image" src="catalog/view/theme/default/image/update.png" alt="<?php echo $button_update; ?>" title="<?php echo $button_update; ?>" />
               &nbsp;<a href="<?php echo $product['remove']; ?>"><img src="catalog/view/theme/default/image/remove.png" alt="<?php echo $button_remove; ?>" title="<?php echo $button_remove; ?>" /></a></td>
@@ -101,7 +101,7 @@
         <td><label for="use_coupon"><?php echo $text_use_coupon; ?></label></td>
       </tr>
       <?php } ?>
-      <?php if ($voucher_status) { ?>
+      <!--<?php if ($voucher_status) { ?>
       <tr class="highlight">
         <td><?php if ($next == 'voucher') { ?>
           <input type="radio" name="next" value="voucher" id="use_voucher" checked="checked" />
@@ -110,7 +110,7 @@
           <?php } ?></td>
         <td><label for="use_voucher"><?php echo $text_use_voucher; ?></label></td>
       </tr>
-      <?php } ?>
+      <?php } ?> -->
       <?php if ($reward_status) { ?>
       <tr class="highlight">
         <td><?php if ($next == 'reward') { ?>

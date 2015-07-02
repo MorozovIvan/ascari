@@ -5,7 +5,8 @@ $_['heading_title']       	= 'Модуль HTML';
 // Text
 $_['text_module']         	= 'Модули';
 $_['text_success']        	= 'Модуль HTML успешно обновлен!';
-$_['text_content_top']    	= 'Содержание шапки';
+$_['text_content_top']    	= 'Содержание у шапки';
+$_['text_content_header']   = 'Содержание шапки';
 $_['text_content_bottom'] 	= 'Содержание подвала';
 $_['text_column_left']    	= 'Левая колонка';
 $_['text_column_right']   	= 'Правая колонка';

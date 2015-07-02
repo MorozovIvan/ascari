@@ -1,0 +1,27 @@
+#zatvor {position:fixed;width:100%;height:100%;background:#000;opacity:0.5;filter: alpha(opacity=50);z-index:100;top:0;left:0;display:none;}
+.active_za {background:#000 url(../image/loader-2.gif) no-repeat center center!important;}
+#popup {display:none;position:absolute;top:200px;left:50%;width:800px;margin:0 0 0 -400px;z-index:101;}
+#popup h1 {padding:0;font-size:18px;font-weight:normal;color:#636E75;text-transform:none;}
+#popup .box_popup {border-radius:7px;border:1px solid #fff;background:#fff;min-height:530px;}
+#popup .pop_up_content {padding:20px;overflow:auto;}
+.left_popup {width:320px;float:left;}
+.right_popup {float:right;}
+#popup .big_img img,#popup .ul_img_mini a img {border:5px solid #fff;}
+#popup .big_img img:hover,#popup .ul_img_mini a:hover img, #popup .ul_img_mini a.selected img {border-color:#ccc;}
+.pop_up_content .cart {padding:25px 5px 0px 0px;overflow:hidden;color: #000;overflow: auto;}
+.pop_up_content .cart div {float: left;}
+.pop_up_content .cart div > span {padding-top: 7px;color: #999;}
+.extra-button{position:relative; margin-top:0px;}
+.pop_up_content .cart .minimum {padding-bottom:10px;font-size: 11px;color: #999;clear: both;}
+.pop_up_content .link_more {margin-top:15px;text-align:right;}
+.pop_up_content .link_more .details {width:150px;text-align:center;color:#000;}
+.pop_up_content .link_more .details span {color:#000;}
+.pop_up_content .text-price {font-size:16px;font-weight:bold;color:#636E75;}
+.pop_up_content .price {margin:15px 0 0;}
+.pop_up_content .price .price-old {color:#FF0000;text-decoration:line-through;}
+.pop_up_content .price .price-new {font-weight:bold;}
+.pop_up_content .options h2 {margin:0 0 20px;}
+.pop_up_content .title_desc {font-size:14px;font-weight:bold;margin:10px 0;color:#636E75;}
+.pop_up_content .ul_img_mini ul {padding:0;margin:0;list-style:none;*overflow:auto;}
+.pop_up_content .ul_img_mini ul li {display:inline-block;*display:block;*float:left;}
+#close_popup {background:url(../image/close_popup.png) no-repeat;width:48px;height:48px;display:block;position:absolute;top:0px;right:0px;}

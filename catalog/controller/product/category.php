@@ -157,6 +157,8 @@ class ControllerProductCategory extends Controller {
 			$this->data['text_sort'] = $this->language->get('text_sort');
 			$this->data['text_limit'] = $this->language->get('text_limit');
 			$this->data['text_benefits'] = $this->language->get('text_benefits');
+            $this->data['button_quick_view'] = $this->language->get('button_quick_view');
+            $this->data['button_detail'] = $this->language->get('button_detail');
 
 			$this->data['button_cart'] = $this->language->get('button_cart');
 			$this->data['button_wishlist'] = $this->language->get('button_wishlist');

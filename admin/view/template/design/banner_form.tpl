@@ -11,7 +11,7 @@
   <div class="box">
     <div class="heading">
       <h1><img src="view/image/banner.png" alt="" /> <?php echo $heading_title; ?></h1>
-      <div class="buttons"><a onclick="$('#form').submit();" class="button"><?php echo $button_save; ?></a><a href="<?php echo $cancel; ?>" class="button"><?php echo $button_cancel; ?></a></div>
+      <div class="buttons"><a onclick="$('#form').submit();" class="button"><?php echo $button_save; ?></a><a onclick="location = '<?php echo $cancel; ?>';" class="button"><?php echo $button_cancel; ?></a></div>
     </div>
     <div class="content">
       <form action="<?php echo $action; ?>" method="post" enctype="multipart/form-data" id="form">
@@ -42,6 +42,7 @@
               <td class="left"><?php echo $entry_title; ?></td>
               <td class="left"><?php echo $entry_link; ?></td>
               <td class="left"><?php echo $entry_image; ?></td>
+              <td class="left">Categories</td>
               <td></td>
             </tr>
           </thead>
@@ -61,7 +62,28 @@
                   <input type="hidden" name="banner_image[<?php echo $image_row; ?>][image]" value="<?php echo $banner_image['image']; ?>" id="image<?php echo $image_row; ?>"  />
                   <br />
                   <a onclick="image_upload('image<?php echo $image_row; ?>', 'thumb<?php echo $image_row; ?>');"><?php echo $text_browse; ?></a>&nbsp;&nbsp;|&nbsp;&nbsp;<a onclick="$('#thumb<?php echo $image_row; ?>').attr('src', '<?php echo $no_image; ?>'); $('#image<?php echo $image_row; ?>').attr('value', '');"><?php echo $text_clear; ?></a></div></td>
+                 
+                  <td>
+                  <input type="hidden"  name="banner_image[<?php echo $image_row; ?>][banner_image_id]" value="<?php echo $banner_image['banner_image_id']; ?>"  />
+                  <div class="scrollbox">
+                  <?php $class = 'odd'; ?>
+                  <?php foreach ($categories as $category) { ?>
+                  <?php $class = ($class == 'even' ? 'odd' : 'even'); ?>
+                  <div class="<?php echo $class; ?>">
+                    <?php if (in_array($category['category_id'], $banner_category[$banner_image['banner_image_id']])) { ?>
+                    <input type="checkbox" name="product_category[<?php echo $image_row; ?>][]" value="<?php echo $category['category_id']; ?>" checked="checked" />
+                    <?php echo $category['name']; ?>
+                    <?php } else { ?>
+                    <input type="checkbox" name="product_category[<?php echo $image_row; ?>][]" value="<?php echo $category['category_id']; ?>" />
+                    <?php echo $category['name']; ?>
+                    <?php } ?>
+                  </div>
+                  <?php } ?>
+                </div>
+                <a onclick="$(this).parent().find(':checkbox').attr('checked', true);">Select All</a> / <a onclick="$(this).parent().find(':checkbox').attr('checked', false);">Unselect All</a>
+                </td>
               <td class="left"><a onclick="$('#image-row<?php echo $image_row; ?>').remove();" class="button"><?php echo $button_remove; ?></a></td>
+              
             </tr>
           </tbody>
           <?php $image_row++; ?>
@@ -69,15 +91,11 @@
           <tfoot>
             <tr>
               <td colspan="3"></td>
-              <td class="left"><a onclick="addImage();" class="button"><?php echo $button_add_banner; ?></a></td>
+              <td class="left"><span id='addbt' <?php if($image_row>=5) {echo ' style="display:none" ';} ?> ><a onclick="addImage();" class="button"><?php echo $button_add_banner; ?></a></span></td>
             </tr>
           </tfoot>
         </table>
       </form>
-    </div>
-	<div class="bottom">
-      <h1><img src="view/image/banner.png" alt="" /> <?php echo $heading_title; ?></h1>
-      <div class="buttons"><a onclick="$('#form').submit();" class="button"><?php echo $button_save; ?></a><a href="<?php echo $cancel; ?>" class="button"><?php echo $button_cancel; ?></a></div>
     </div>
   </div>
 </div>
@@ -94,11 +112,19 @@ function addImage() {
 	html += '</td>';	
 	html += '<td class="left"><input type="text" name="banner_image[' + image_row + '][link]" value="" /></td>';	
 	html += '<td class="left"><div class="image"><img src="<?php echo $no_image; ?>" alt="" id="thumb' + image_row + '" /><input type="hidden" name="banner_image[' + image_row + '][image]" value="" id="image' + image_row + '" /><br /><a onclick="image_upload(\'image' + image_row + '\', \'thumb' + image_row + '\');"><?php echo $text_browse; ?></a>&nbsp;&nbsp;|&nbsp;&nbsp;<a onclick="$(\'#thumb' + image_row + '\').attr(\'src\', \'<?php echo $no_image; ?>\'); $(\'#image' + image_row + '\').attr(\'value\', \'\');"><?php echo $text_clear; ?></a></div></td>';
+	html += '<td class="left"> You can select categories after save<input type="hidden" name="banner_image[' + image_row + '][banner_image_id]" value=""  /></td>';
+	
 	html += '<td class="left"><a onclick="$(\'#image-row' + image_row  + '\').remove();" class="button"><?php echo $button_remove; ?></a></td>';
+	
+	
+	
+	
 	html += '</tr>';
 	html += '</tbody>'; 
 	
 	$('#images tfoot').before(html);
+	
+	if(image_row>1){$('#addbt').html('');}
 	
 	image_row++;
 }
@@ -123,12 +149,10 @@ function image_upload(field, thumb) {
 			}
 		},	
 		bgiframe: false,
-		modal: false,
-		width: 960,
-		height: 520,
+		width: 700,
+		height: 400,
 		resizable: false,
-		modal: false,
-		dialogClass: 'dlg'
+		modal: false
 	});
 };
 //--></script> 

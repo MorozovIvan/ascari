@@ -15,6 +15,7 @@ class ControllerCommonFooter extends Controller {
 		$this->data['text_voucher'] = $this->language->get('text_voucher');
 		$this->data['text_affiliate'] = $this->language->get('text_affiliate');
 		$this->data['text_special'] = $this->language->get('text_special');
+		$this->data['text_social'] = $this->language->get('text_social');
 		$this->data['text_bestseller'] = $this->language->get('text_bestseller');
 		$this->data['text_mostviewed'] = $this->language->get('text_mostviewed');
 		$this->data['text_latest'] = $this->language->get('text_latest');
@@ -22,6 +23,9 @@ class ControllerCommonFooter extends Controller {
 		$this->data['text_order'] = $this->language->get('text_order');
 		$this->data['text_wishlist'] = $this->language->get('text_wishlist');
 		$this->data['text_newsletter'] = $this->language->get('text_newsletter');
+        $this->data['text_blog'] = $this->language->get('text_blog');
+
+        $this->data['blog'] = $this->url->link('blog/latest', '', 'SSL');
 
 		$this->load->model('catalog/information');
 

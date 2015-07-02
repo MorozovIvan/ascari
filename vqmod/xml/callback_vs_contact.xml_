@@ -1,0 +1,419 @@
+<modification>
+	<id><![CDATA[callback_new]]></id>
+	<version><![CDATA[1.0]]></version>
+	<vqmver><![CDATA[]]></vqmver>
+	<author>Alex. Konushin</author>
+	<file name="catalog/view/theme/*/template/common/header.tpl">
+		<operation>
+			<search position="before" error="log"><![CDATA[</head>]]></search>
+			<add><![CDATA[
+
+			]]></add>
+		</operation>
+	</file>
+	<file name="catalog/view/theme/*/template/common/header.tpl">
+		<operation>
+			<search position="before" error="log"><![CDATA[</head>]]></search>
+			<add><![CDATA[
+<link rel="stylesheet" type="text/css" href="catalog/view/theme/default/stylesheet/callback.css" />
+<script src="catalog/view/javascript/jquery/colorbox/jquery.colorbox-min.js" type="text/javascript"></script>
+<link media="screen" href="catalog/view/javascript/jquery/colorbox/colorbox.css" type="text/css" rel="stylesheet">
+<div id="callback" class="callback-view"  ><div><i style="width:30px; font-size:24px;" class="fa fa-phone-square"></i><?php echo $text_callback; ?></div></div>
+
+<script type="text/javascript">
+//$(document).ready(function() {
+$('.callback-view').bind('click', function(){
+void jQuery.colorbox({closeButton:false,scrolling:false,href:'index.php?route=module/callback'});
+
+});
+</script>
+			]]></add>
+		</operation>
+	</file>
+	<file name="catalog/controller/common/header.php">
+		<operation>
+			<search position="after" error="log"><![CDATA[$this->data['home']]]></search>
+			<add><![CDATA[
+			$this->data['text_callback'] = $this->language->get('text_callback');//!
+			]]></add>
+		</operation>
+	</file>
+	<file name="catalog/language/russian/common/header.php">
+		<operation>
+			<search position="before" error="log"><![CDATA[$_['text_checkout']]]></search>
+			<add><![CDATA[
+			$_['text_callback']           = 'Обратный звонок';
+			]]></add>
+		</operation>
+	</file>
+	<file name="admin/controller/common/header.php">
+		<operation>
+			<search position="after" error="log"><![CDATA[$this->data['order']]]></search>
+			<add><![CDATA[
+			$this->data['callback'] = $this->url->link('sale/callback', 'token=' . $this->session->data['token'], 'SSL');//!
+			$this->data['text_callback'] = $this->language->get('text_callback');//!
+			]]></add>
+		</operation>
+	</file>
+	<file name="admin/view/template/common/header.tpl">
+		<operation>
+			<search position="after" error="log"><![CDATA[<?php echo $text_order; ?>]]></search>
+			<add><![CDATA[
+          <li><a href="<?php echo $callback; ?>"><?php echo $text_callback; ?></a></li>
+			]]></add>
+		</operation>
+	</file>
+	<file name="admin/language/russian/common/header.php">
+		<operation>
+			<search position="after" error="log"><![CDATA[$_['text_order']]]></search>
+			<add><![CDATA[
+	$_['text_callback']            = 'Обратный звонок';
+			]]></add>
+		</operation>
+	</file>
+<file name="admin/controller/setting/setting.php">
+			<operation>
+				<search position="before"><![CDATA[$this->data['entry_telephone'] = $this->language->get('entry_telephone');]]></search>
+				<add>
+				<![CDATA[
+				$this->data['entry_title_mob'] = $this->language->get('entry_title_mob');
+				$this->data['entry_mob'] = $this->language->get('entry_mob');
+				$this->data['entry_mob2'] = $this->language->get('entry_mob2');
+				$this->data['entry_mob3'] = $this->language->get('entry_mob3');
+				$this->data['entry_skype'] = $this->language->get('entry_skype');
+				$this->data['entry_email'] = $this->language->get('entry_email');
+				$this->data['entry_title_schedule'] = $this->language->get('entry_title_schedule');
+				$this->data['entry_daily'] = $this->language->get('entry_daily');
+				$this->data['entry_weekend'] = $this->language->get('entry_weekend');
+				$this->data['entry_img_phone_contact'] = $this->language->get('entry_img_phone_contact');
+				$this->data['entry_img_schedule_header'] = $this->language->get('entry_img_schedule_header');
+				$this->data['tab_phone_header'] = $this->language->get('tab_phone_header');
+				]]>
+				</add>
+			</operation>
+			<operation>
+				<search position="before"><![CDATA[if (isset($this->error['telephone'])) {]]></search>
+				<add>
+				<![CDATA[
+
+					if (isset($this->request->post['config_daily'])) {
+						$this->data['config_daily'] = $this->request->post['config_daily'];
+					} else {
+						$this->data['config_daily'] = $this->config->get('config_daily');
+					}
+					
+					if (isset($this->request->post['config_weekend'])) {
+						$this->data['config_weekend'] = $this->request->post['config_weekend'];
+					} else {
+						$this->data['config_weekend'] = $this->config->get('config_weekend');
+					}
+					
+				]]>
+				</add>
+			</operation>
+			<operation>
+				<search position="before"><![CDATA[if (isset($this->request->post['config_icon'])) {]]></search>
+				<add>
+				<![CDATA[
+					
+					if (isset($this->request->post['config_img_phone_contact'])) {
+						$this->data['config_img_phone_contact'] = $this->request->post['config_img_phone_contact'];
+					} else {
+						$this->data['config_img_phone_contact'] = $this->config->get('config_img_phone_contact');			
+					}
+					if ($this->config->get('config_img_phone_contact') && file_exists(DIR_IMAGE . $this->config->get('config_img_phone_contact')) && is_file(DIR_IMAGE . $this->config->get('config_img_phone_contact'))) {
+						$this->data['img_phone_contact'] = $this->model_tool_image->resize($this->config->get('config_img_phone_contact'), 100, 100);		
+					} else {
+						$this->data['img_phone_contact'] = $this->model_tool_image->resize('no_image.jpg', 100, 100);
+					}
+					
+					if (isset($this->request->post['config_img_schedule_header'])) {
+						$this->data['config_img_schedule_header'] = $this->request->post['config_img_schedule_header'];
+					} else {
+						$this->data['config_img_schedule_header'] = $this->config->get('config_img_schedule_header');			
+					}
+					if ($this->config->get('config_img_schedule_header') && file_exists(DIR_IMAGE . $this->config->get('config_img_schedule_header')) && is_file(DIR_IMAGE . $this->config->get('config_img_schedule_header'))) {
+						$this->data['img_schedule_header'] = $this->model_tool_image->resize($this->config->get('config_img_schedule_header'), 100, 100);		
+					} else {
+						$this->data['img_schedule_header'] = $this->model_tool_image->resize('no_image.jpg', 100, 100);
+					}
+				]]>
+				</add>
+			</operation>
+			<operation>
+				<search position="before"><![CDATA[if (isset($this->request->post['config_telephone'])) {]]></search>
+				<add>
+				<![CDATA[
+				if (isset($this->request->post['config_mob'])) {
+					$this->data['config_mob'] = $this->request->post['config_mob'];
+				} else {
+					$this->data['config_mob'] = $this->config->get('config_mob');
+				}
+				if (isset($this->request->post['config_mob2'])) {
+					$this->data['config_mob2'] = $this->request->post['config_mob2'];
+				} else {
+					$this->data['config_mob2'] = $this->config->get('config_mob2');
+				}
+				if (isset($this->request->post['config_mob3'])) {
+					$this->data['config_mob3'] = $this->request->post['config_mob3'];
+				} else {
+					$this->data['config_mob3'] = $this->config->get('config_mob3');
+				}
+				if (isset($this->request->post['config_skype'])) {
+					$this->data['config_skype'] = $this->request->post['config_skype'];
+				} else {
+					$this->data['config_skype'] = $this->config->get('config_skype');
+				}
+				if (isset($this->request->post['config_email_1'])) {
+					$this->data['config_email_1'] = $this->request->post['config_email_1'];
+				} else {
+					$this->data['config_email_1'] = $this->config->get('config_email_1');
+				}
+				if (isset($this->request->post['block_name_phone'])) {
+					$this->data['block_name_phone'] = $this->request->post['block_name_phone'];
+				} else {
+					$this->data['block_name_phone'] = $this->config->get('block_name_phone');
+				}
+
+				if (isset($this->request->post['config_title_schedule'])) {
+					$this->data['config_title_schedule'] = $this->request->post['config_title_schedule'];
+				} else {
+					$this->data['config_title_schedule'] = $this->config->get('config_title_schedule');
+				}
+				]]>
+				</add>
+			</operation>
+		</file>
+		
+		<file name="admin/language/english/setting/setting.php">
+			<operation>
+				<search position="after"><![CDATA[// Entry]]></search>
+				<add>
+
+				<![CDATA[$_['entry_title_mob']            = 'Block name';]]>
+				<![CDATA[$_['entry_mob']            = 'Mobile  №1:';]]>
+				<![CDATA[$_['entry_mob2']            = 'Mobile  №2:';]]>
+				<![CDATA[$_['entry_mob3']            = 'Phone header №3:';]]>
+				<![CDATA[$_['entry_skype']            = 'Skype';]]>
+				<![CDATA[$_['entry_email']            = 'Email';]]>
+				<![CDATA[$_['entry_title_schedule']  = 'Title Block Schedule:';]]>
+				<![CDATA[$_['entry_daily']          = 'schedule work daily:';]]>
+				<![CDATA[$_['entry_weekend']        = 'schedule work weekend:';]]>
+				<![CDATA[$_['entry_img_phone_contact'] = 'Image phone contact :';]]>
+				<![CDATA[$_['entry_img_schedule_header'] = 'Image schedule header:';]]>
+				</add>
+			</operation>
+		</file>
+		<file name="admin/language/english/english.php">
+			<operation>
+				<search position="after"><![CDATA[$_['tab_server']]]></search>
+				<add>
+				<![CDATA[$_['tab_phone_header']              = 'Phone Header';]]>
+				</add>
+			</operation>
+		</file>
+		<file name="admin/language/russian/russian.php">
+			<operation>
+				<search position="after"><![CDATA[$_['tab_server']]]></search>
+				<add>
+				<![CDATA[$_['tab_phone_header']              = 'Обратный Звонок (Настройка)';]]>
+				</add>
+			</operation>
+		</file>
+		<file name="admin/language/russian/setting/setting.php">
+			<operation>
+				<search position="after"><![CDATA[$_['entry_email']]]></search>
+				<add>
+
+				<![CDATA[$_['entry_title_mob']      = 'Город, ул. и т.д:';]]>
+				<![CDATA[$_['entry_mob']            = 'Телефон №1:';]]>
+				<![CDATA[$_['entry_mob2']            = 'Телефон №2:';]]>
+				<![CDATA[$_['entry_mob3']            = 'Телефон №3:';]]>
+				<![CDATA[$_['entry_skype']            = 'Skype';]]>
+				<![CDATA[$_['entry_email']            = 'Email';]]>
+				<![CDATA[$_['entry_title_schedule']  = 'Название Блока График работы:';]]>
+				<![CDATA[$_['entry_daily']          = 'Ежедневно:';]]>
+				<![CDATA[$_['entry_weekend']        = 'Выходные:';]]>
+				<![CDATA[$_['entry_img_phone_contact'] = 'Картинка блока контакты:';]]>
+				<![CDATA[$_['entry_img_schedule_header'] = 'Картинка блока график работы:';]]>
+				
+				</add>
+			</operation>
+		</file>
+
+		<file name="admin/view/template/setting/setting.tpl">
+			<operation>
+				<search position="replace"><![CDATA[<a href="#tab-server"><?php echo $tab_server; ?></a>]]></search>
+				<add>
+				<![CDATA[
+					<a href="#tab-server"><?php echo $tab_server; ?></a><a href="#tab-phone-header"><?php echo $tab_phone_header; ?></a>
+				]]>
+				</add>
+			</operation>
+			<operation>
+				<search position="before"><![CDATA[<div id="tab-ftp">]]></search>
+				<add>
+				<![CDATA[
+					<div id="tab-phone-header">
+						<table class="form">
+							<tr>
+								<td><?php echo $entry_title_mob; ?></td>
+								<td><?php foreach ($languages as $language) { ?>
+									<input type="text" name="block_name_phone[<?php echo $language['language_id']; ?>][block_name_phone]" value="<?php echo isset($block_name_phone[$language['language_id']]) ? $block_name_phone[$language['language_id']]['block_name_phone'] : ''; ?>"size="50" />
+									<img src="view/image/flags/<?php echo $language['image']; ?>" title="<?php echo $language['name']; ?>" /><br>
+									<?php } ?></td>
+							</tr>
+							<tr>
+								<td><?php echo $entry_mob; ?></td>
+								<td class="input-config-mob"><input type="text" name="config_mob" value="<?php echo $config_mob; ?>" size="50"/></td>
+							</tr>
+							<tr>
+								<td><?php echo $entry_mob2; ?></td>
+								<td class="input-config-mob2"><input type="text" name="config_mob2" value="<?php echo $config_mob2; ?>" size="50"/></td>
+							</tr>
+							<tr>
+								<td><?php echo $entry_mob3; ?></td>
+								<td class="input-config-mob3"><input type="text" name="config_mob3" value="<?php echo $config_mob3; ?>" size="50" /></td>
+							</tr>
+							<tr>
+								<td><?php echo $entry_email; ?></td>
+								<td class="input-config-email"><input type="text" name="config_email_1" value="<?php echo $config_email_1; ?>" size="50" /></td>
+							</tr>
+							<tr>
+								<td><?php echo $entry_skype; ?></td>
+								<td class="input-config-skype"><input type="text" name="config_skype" value="<?php echo $config_skype; ?>" size="50" /></td>
+							</tr>
+							
+							<tr>
+								<td><?php echo $entry_title_schedule; ?></td>
+								<td><?php foreach ($languages as $language) { ?>
+									<input type="text" name="config_title_schedule[<?php echo $language['language_id']; ?>][config_title_schedule]" value="<?php echo isset($config_title_schedule[$language['language_id']]) ? $config_title_schedule[$language['language_id']]['config_title_schedule'] : ''; ?>"size="50" />
+									<img src="view/image/flags/<?php echo $language['image']; ?>" title="<?php echo $language['name']; ?>" /><br>
+									<?php } ?>
+								</td>
+							</tr>
+							<tr>
+								<td><?php echo $entry_daily; ?></td>
+								<td><?php foreach ($languages as $language) { ?>
+									<input type="text" name="config_daily[<?php echo $language['language_id']; ?>][config_daily]" value="<?php echo isset($config_daily[$language['language_id']]) ? $config_daily[$language['language_id']]['config_daily'] : ''; ?>"size="50" />
+									<img src="view/image/flags/<?php echo $language['image']; ?>" title="<?php echo $language['name']; ?>" /><br>
+									<?php } ?>
+								</td>
+							</tr>
+							<tr>
+								<td><?php echo $entry_weekend; ?></td>
+								<td><?php foreach ($languages as $language) { ?>
+									<input type="text" name="config_weekend[<?php echo $language['language_id']; ?>][config_weekend]" value="<?php echo isset($config_weekend[$language['language_id']]) ? $config_weekend[$language['language_id']]['config_weekend'] : ''; ?>" size="50"/>
+									<img src="view/image/flags/<?php echo $language['image']; ?>" title="<?php echo $language['name']; ?>" /><br>
+									<?php } ?>
+								</td>
+							</tr>
+							
+						</table>
+					</div>
+					
+				]]>
+				</add>
+			</operation>
+		</file>
+		<file name="admin/view/template/common/header.tpl">
+    <operation errors="skip">                           
+      <search position="after"><![CDATA[$logged; ?></div>]]></search>
+      <add>
+        <![CDATA[
+        <?php
+        ////////////////////////////////////////////////////
+        // 0 - отключить показ иконки
+        // 1 - включить показ иконки
+        // 2 - показывать иконку только при наличии события 
+        $AZ_callback = 2;    //  Обратный Звонок
+
+        ////////////////////////////////////////////////////
+        ?>
+        <style>
+          .az-divInfo{
+            float:right;
+            position: relative;
+            margin-right:20px;
+          }
+          .az-divInfo a{text-decoration: none;}
+          .az-nav-ic{
+           float: right;
+			height: 35px;
+			margin: 10px;
+			position: relative;
+			width: 45px;
+          }
+          .az-nav-ic:hover{opacity: 0.5;
+          }
+          .az-ic-comm{
+            background: url('view/image/az_info/az_icon.png') 0 0;
+          }
+          .az-ic-buy{
+            background: url('view/image/az_info/az_icon.png') -32px 0;
+          }
+          .callback_icon{
+           background: url("view/image/callback/callback_icon.png") no-repeat scroll -12px center rgba(0, 0, 0, 0);
+          }
+          .az-ic-ret{
+            background: url('view/image/az_info/az_icon.png') -160px 0;
+          }
+          .az-divInfo .az-nav-ic span { 
+            background-color: #FC6B0C;
+            -webkit-border-radius:10px;
+            -moz-border-radius:10px;
+            border-radius:10px;
+            color: #FFFFFF;
+            display: block;
+            font-size: 11px;
+            height: 14px;
+            line-height: 14px;
+            position: absolute;
+            right: -8px;
+            text-align: center;
+            top: -8px;
+            min-width: 14px;
+            margin:4px;
+            padding:2px;
+          }
+        </style>
+
+        <?php
+		  /*********************************************************************************/
+		  function AZCallback($query, $j, $p, $n) {
+			$p = "Звонки";
+            $otvet = $query->row['countcallback'];
+            if($n == 1 || ($n == 2 && $otvet)){
+              echo "<a href=".$j." title=".$p."><div class=\"az-nav-ic callback_icon\">";
+              if($otvet){
+                echo "<span>".$otvet."</span>";
+              }
+              echo"</div></a>";
+            }
+          }
+		  /*********************************************************************************/
+		  
+        ?>
+
+        <div class="az-divInfo">
+
+          <?php
+		  
+		  
+		$query = $this->db->query("CREATE TABLE IF NOT EXISTS  " . DB_PREFIX . "callback (call_id int(11) NOT NULL primary key AUTO_INCREMENT,name varchar(30) CHARACTER SET utf8 COLLATE utf8_general_ci NOT NULL,telephone varchar(30) NOT NULL,date_added datetime NOT NULL,date_modified datetime NOT NULL,status_id int(11) NOT NULL,comment text CHARACTER SET utf8 COLLATE utf8_general_ci NOT NULL,comment_buyer text CHARACTER SET utf8 COLLATE utf8_general_ci NOT NULL, email_buyer text CHARACTER SET utf8 COLLATE utf8_general_ci NOT NULL, username text CHARACTER SET utf8 COLLATE utf8_general_ci NOT NULL)");
+
+      	
+
+		  /*///////*/
+		  if($AZ_callback){
+          AZCallback($this->db->query("SELECT COUNT(status_id) AS countcallback FROM `".DB_PREFIX."callback` WHERE status_id = '0'"),$callback ,$text_callback, $AZ_callback);
+          }
+		  /*/////////*/
+          ?>
+
+        </div> 
+        ]]>
+      </add>
+    </operation>
+  </file>
+</modification>

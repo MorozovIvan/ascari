@@ -1,0 +1,73 @@
+<modification>
+	<id>Get More Valuable Reviews</id>
+	<version>1</version>
+	<vqmver>2.1.6</vqmver>
+	<author>Khaled djokage</author>
+	<file name="catalog/controller/product/product.php">
+		<operation>
+			<search position="replace"><![CDATA[$this->data['tab_description'] = $this->language->get('tab_description');]]></search>
+			<add><![CDATA[
+                        if ($this->customer->isLogged() and ($this->model_catalog_review->checkProductCustomerReview($this->customer->session->data['customer_id'], $this->request->get['product_id']) < $this->model_catalog_review->checkProductCustomerOrder($this->customer->session->data['customer_id'], $this->request->get['product_id']) ))
+                                $this->data['allow_post_review'] = 1;
+                        else
+                                $this->data['allow_post_review']=0;
+
+$this->data['tab_description'] = $this->language->get('tab_description');
+]]></add>
+		</operation>
+
+		<operation>
+                        <search position="after"><![CDATA[if ($this->request->server['REQUEST_METHOD'] == 'POST') {]]></search>
+                        <add><![CDATA[
+if (!($this->customer->isLogged() and ($this->model_catalog_review->checkProductCustomerReview($this->customer->session->data['customer_id'], $this->request->get['product_id']) < $this->model_catalog_review->checkProductCustomerOrder($this->customer->session->data['customer_id'], $this->request->get['product_id']) )))
+                                $json['error'] = $this->language->get('error_review_permission');]]></add>
+                </operation>
+	</file>
+	<file name="catalog/model/catalog/review.php">
+		<operation>
+			<search position="before"><![CDATA[public function getTotalReviewsByProductId($product_id) {]]></search>
+			<add><![CDATA[
+
+        public function checkProductCustomerOrder($customer_id, $product_id){
+                $query = $this->db->query("SELECT COUNT(*) AS total FROM " . DB_PREFIX . "`order_product` op LEFT JOIN " . DB_PREFIX . "`order` o ON (op.order_id = o.order_id) WHERE o.customer_id = '" . (int)$customer_id . "' AND op.product_id = '" . (int)$product_id . "'" . "AND o.order_status_id = '5'");
+
+                return (int)$query->row['total'];
+        }
+
+        public function checkProductCustomerReview($customer_id, $product_id){
+                $query = $this->db->query("SELECT COUNT(*) AS total FROM " . DB_PREFIX . "review WHERE customer_id = '" . (int)$customer_id . "' AND product_id = '" . (int)$product_id . "'");
+                return (int)$query->row['total'];
+        }
+					
+]]></add>
+		</operation>
+	</file>
+
+        <file name="catalog/view/theme/*/template/product/product.tpl">
+                <operation>
+                        <search position="before"><![CDATA[<h2 id="review-title"><?php echo $text_write; ?></h2>]]></search>
+                        <add><![CDATA[
+<?php if ($allow_post_review) { ?>
+                                        
+]]></add>
+                </operation>
+                <operation>
+			<search position="replace" offset="1" ><![CDATA[<div class="right"><a id="button-review" class="button"><?php echo $button_continue; ?></a></div>]]></search>
+                        <add><![CDATA[      <div class="right"><a id="button-review" class="button"><?php echo $button_continue; ?></a></div>
+    </div>
+<?php } ?>
+ 
+]]></add>
+                </operation>
+
+	</file>
+	
+  <file name="catalog/language/english/product/product.php">
+          <operation>
+                  <search position="after"><![CDATA[$_['error_filetype']    = 'Invalid file type!';]]></search>
+                  <add><![CDATA[$_['error_review_permission']		= 'You can not add more comments';]]></add>
+          </operation>
+  </file>
+
+
+</modification>

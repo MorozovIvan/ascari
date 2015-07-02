@@ -1,0 +1,6 @@
+AddDefaultCharset utf-8
+
+php_value memory_limit 512M
+php_value max_execution_time -1
+php_value max_input_time -1
+php_value upload_max_filesize 10M

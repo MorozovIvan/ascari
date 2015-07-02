@@ -1,0 +1,127 @@
+<modification>
+    <id>Oplata Plus for Simple</id>
+	<version>2.6</version>
+    <vqmver>2.4.1</vqmver>
+    <author>louise170 (louise@ya.ru)</author>
+
+    <file name="admin/view/template/module/simple.tpl">
+        <operation error="skip">
+            <search position="replace">
+            <![CDATA[
+                <?php echo selectbox_html('simple_links_2['.$shipping_code.']', isset($simple_links_2[$shipping_code]) ? $simple_links_2[$shipping_code] : "", $payment_extensions, 'hidden', '') ?>
+            ]]>
+            </search>
+            <add>
+            <![CDATA[
+                <?php echo selectbox_html('simple_links_2['.$shipping_code.']', isset($simple_links_2[$shipping_code]) ? $simple_links_2[$shipping_code] : "", $payment_extensions, 'text', $text_example_for_links_2) ?>
+            ]]>
+            </add>
+        </operation>
+    </file>
+	
+    <file name="admin/language/russian/module/simple.php">
+        <operation>
+            <search position="before">
+            <![CDATA[
+                ?>
+            ]]>
+            </search>
+            <add><![CDATA[
+                $_['text_example_for_links_2'] = 'Пример: transfer_plus - для всех вариантов модуля transfer_plus, transfer_plus.1 - только для первого варианта модуля transfer_plus';
+            ]]>
+            </add>
+        </operation>
+    </file>
+
+    <file name="admin/controller/module/simple.php">
+        <operation>
+            <search position="before">
+            <![CDATA[
+                $this->data['entry_use_geo_selector']
+            ]]>
+            </search>
+            <add><![CDATA[
+                $this->data['text_example_for_links_2'] = $this->language->get('text_example_for_links_2');
+            ]]>
+            </add>
+        </operation>
+    </file>
+
+    <file name="catalog/controller/checkout/simplecheckout_payment.php">
+        <operation>
+            <search position="before">
+            <![CDATA[
+                $shipping_method_code = false;
+            ]]>
+            </search>
+            <add><![CDATA[
+                $simple_links_2 = $this->config->get('simple_links_2');
+            ]]>
+            </add>
+        </operation>
+
+        <operation>
+            <search position="before" index="2">
+            <![CDATA[
+                $sort_order = array();
+            ]]>
+            </search>
+            <add><![CDATA[
+                $local_shipping_code = $shipping_method_code[0].'.'.$shipping_method_code[1];
+
+                $new_simple_links_2 = array();
+                $arr_keys = array();
+                $arr_new_keys = array();
+
+                foreach($simple_links_2 as $key => $val) {
+                    $arr_keys[] = $key;
+                }
+
+                foreach($arr_keys as $key => $val) {
+                    $find = false;
+                    foreach($arr_keys as $k => $v) {
+                        if ($key != $k and strstr($v,$val.'.') and !in_array($v,$arr_new_keys)) {
+                            $arr_new_keys[] = $v;
+                            $find = true;
+                        }
+                    }
+
+                    if ($find == false and !in_array($val,$arr_new_keys)) {
+                        $arr_new_keys[] = $val;
+                    }
+                }
+
+                foreach ($arr_new_keys as $value) {
+                    $new_simple_links_2[$value] = $simple_links_2[$value];
+                }
+
+                $simple_links_2 = $new_simple_links_2;
+
+                if (isset($simple_links_2[$local_shipping_code])) {
+                    $arr_filter_payments = explode(',',$simple_links_2[$local_shipping_code]);
+                }
+                elseif (isset($simple_links_2[$shipping_method_code[0]])) {
+                    $arr_filter_payments = explode(',',$simple_links_2[$shipping_method_code[0]]);
+                }
+
+                if (isset($arr_filter_payments) and count($arr_filter_payments)>0) {
+                    $new_method_data = array();
+
+                    foreach ($method_data as $key => $value) {
+                        if ($value and (count($arr_filter_payments) == 0 or in_array($key, $arr_filter_payments))) {
+                            $new_method_data[$key] = $value;
+                        }
+                    }
+
+                    if (!empty($new_method_data)) {
+                        $method_data = $new_method_data;
+			        }
+
+                }
+            ]]>
+            </add>
+        </operation>
+    </file>
+
+</modification>
+
