@@ -1,7 +1,70 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ceaa1954-5aab-4e34-98cb-ad6c3f1707f4" name="Default" comment="" />
+    <list default="true" id="ceaa1954-5aab-4e34-98cb-ad6c3f1707f4" name="Default" comment="2.07.2015">
+      <change type="DELETED" beforePath="$PROJECT_DIR$/system/cache/cache.article.total.1.0.1.13377733a43daf0c5160b1ced8edea39.1435603001" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/system/cache/cache.article.total.1.0.1.5042be095a6c1b4d45bc0803b662f7a8.1435602945" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/system/cache/cache.article.total.1.0.1.cdbe6df7ddb012c3530113459d118144.1435602945" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/system/cache/cache.category.all.1.0.1435521588" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/system/cache/cache.category_tree.1.1435798069" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/system/cache/cache.country.status.1435794279" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/system/cache/cache.currency.1435869763" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/system/cache/cache.get_children_categorie.70efdf2ec9b086079795c442636b55fb.1.1435697537" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/system/cache/cache.get_children_categorie.98f13708210194c475687be6106a3b84.1.1435795560" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/system/cache/cache.get_manufacter_items_names.53d9f4927a5a66303451cce0c289adf7.1.1435697537" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/system/cache/cache.get_manufacter_items_names.8588dd1342a6c0681c0d9152e8243d3d.1.1435795560" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/system/cache/cache.information.1.1435791422" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/system/cache/cache.language.1435869763" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/system/cache/cache.length_class.1.1435785517" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/system/cache/cache.option.1.1.1435795560" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/system/cache/cache.poll.1.0.1435795560" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/system/cache/cache.poll_response.1.0.1.1435795560" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/system/cache/cache.product.bestseller.1.0.1.5.1435869763" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/system/cache/cache.stock_status.1.1435785517" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/system/cache/cache.store.1435795357" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/system/cache/cache.weight_class.1.1435785517" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/system/cache/cache.zone.220.1435794279" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/image/data/payment_icons/alfabank.png" afterPath="$PROJECT_DIR$/image/data/payment_icons/alfabank.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/system/cache/cache.get_children_categorie.72b32a1f754ba1c09b3695e0cb6cde7f.1.1435798069" afterPath="$PROJECT_DIR$/system/cache/cache.get_children_categorie.72b32a1f754ba1c09b3695e0cb6cde7f.1.1435798069" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/system/cache/cache.get_manufacter_items_names.72b32a1f754ba1c09b3695e0cb6cde7f.1.1435798069" afterPath="$PROJECT_DIR$/system/cache/cache.get_manufacter_items_names.72b32a1f754ba1c09b3695e0cb6cde7f.1.1435798069" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/image/data/payment_icons/elecsnet.png" afterPath="$PROJECT_DIR$/image/data/payment_icons/elecsnet.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/image/cache/data/demo/htc_touch_hd_1-47x47.jpg" afterPath="$PROJECT_DIR$/image/cache/data/demo/htc_touch_hd_1-47x47.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/image/data/payment_icons/qiwi.png" afterPath="$PROJECT_DIR$/image/data/payment_icons/qiwi.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/image/cache/data/demo/samsung_tab_1-47x47.jpg" afterPath="$PROJECT_DIR$/image/cache/data/demo/samsung_tab_1-47x47.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/image/data/payment_icons/sberbank.png" afterPath="$PROJECT_DIR$/image/data/payment_icons/sberbank.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/image/data/payment_icons/telemoney.png" afterPath="$PROJECT_DIR$/image/data/payment_icons/telemoney.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin/view/image/payment/transfer_plus.png" afterPath="$PROJECT_DIR$/admin/view/image/payment/transfer_plus.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/image/data/payment_icons/visa.png" afterPath="$PROJECT_DIR$/image/data/payment_icons/visa.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/image/data/payment_icons/webmoney.png" afterPath="$PROJECT_DIR$/image/data/payment_icons/webmoney.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/image/data/payment_icons/yandexmoney.png" afterPath="$PROJECT_DIR$/image/data/payment_icons/yandexmoney.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/catalog/language/russian/module/alternative.php" afterPath="$PROJECT_DIR$/catalog/language/russian/module/alternative.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/catalog/language/russian/module/blog_category.php" afterPath="$PROJECT_DIR$/catalog/language/russian/module/blog_category.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/system/logs/error.txt" afterPath="$PROJECT_DIR$/system/logs/error.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/catalog/language/russian/module/latest.php" afterPath="$PROJECT_DIR$/catalog/language/russian/module/latest.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/catalog/view/theme/default/template/product/product.tpl" afterPath="$PROJECT_DIR$/catalog/view/theme/default/template/product/product.tpl" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/catalog/view/theme/default/template/product/search.tpl" afterPath="$PROJECT_DIR$/catalog/view/theme/default/template/product/search.tpl" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vqmod/xml/simple_plus.xml" afterPath="$PROJECT_DIR$/vqmod/xml/simple_plus.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/catalog/view/theme/default/template/checkout/simplecheckout_payment.tpl" afterPath="$PROJECT_DIR$/catalog/view/theme/default/template/checkout/simplecheckout_payment.tpl" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/catalog/controller/module/subscribe.php" afterPath="$PROJECT_DIR$/catalog/controller/module/subscribe.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/catalog/language/russian/module/subscribe.php" afterPath="$PROJECT_DIR$/catalog/language/russian/module/subscribe.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/catalog/view/theme/default/template/module/subscribe.tpl" afterPath="$PROJECT_DIR$/catalog/view/theme/default/template/module/subscribe.tpl" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin/controller/payment/transfer_plus.php" afterPath="$PROJECT_DIR$/admin/controller/payment/transfer_plus.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin/language/english/payment/transfer_plus.php" afterPath="$PROJECT_DIR$/admin/language/english/payment/transfer_plus.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin/language/russian/payment/transfer_plus.php" afterPath="$PROJECT_DIR$/admin/language/russian/payment/transfer_plus.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/catalog/controller/payment/transfer_plus.php" afterPath="$PROJECT_DIR$/catalog/controller/payment/transfer_plus.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/catalog/language/english/payment/transfer_plus.php" afterPath="$PROJECT_DIR$/catalog/language/english/payment/transfer_plus.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/catalog/language/russian/payment/transfer_plus.php" afterPath="$PROJECT_DIR$/catalog/language/russian/payment/transfer_plus.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/catalog/model/payment/transfer_plus.php" afterPath="$PROJECT_DIR$/catalog/model/payment/transfer_plus.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin/view/template/payment/transfer_plus.tpl" afterPath="$PROJECT_DIR$/admin/view/template/payment/transfer_plus.tpl" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/catalog/view/theme/default/template/payment/transfer_plus.tpl" afterPath="$PROJECT_DIR$/catalog/view/theme/default/template/payment/transfer_plus.tpl" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vqmod/xml/transfer_plus.xml" afterPath="$PROJECT_DIR$/vqmod/xml/transfer_plus.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/catalog/language/russian/module/viewed.php" afterPath="$PROJECT_DIR$/catalog/language/russian/module/viewed.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vqmod/vqcache/vq2-catalog_controller_checkout_payment_method.php" afterPath="$PROJECT_DIR$/vqmod/vqcache/vq2-catalog_controller_checkout_payment_method.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vqmod/vqcache/vq2-catalog_view_theme_default_template_checkout_payment_method.tpl" afterPath="$PROJECT_DIR$/vqmod/vqcache/vq2-catalog_view_theme_default_template_checkout_payment_method.tpl" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vqmod/vqcache/vq2-catalog_view_theme_default_template_checkout_simplecheckout_payment.tpl" afterPath="$PROJECT_DIR$/vqmod/vqcache/vq2-catalog_view_theme_default_template_checkout_simplecheckout_payment.tpl" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vqmod/vqcache/vq2-catalog_view_theme_default_template_product_product.tpl" afterPath="$PROJECT_DIR$/vqmod/vqcache/vq2-catalog_view_theme_default_template_product_product.tpl" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+    </list>
     <ignored path="ascari.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path=".idea/dataSources.local.xml" />
@@ -25,14 +88,12 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="product.tpl" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/catalog/view/theme/default/template/product/product.tpl">
+      <file leaf-file-name="alternative.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/catalog/language/russian/module/alternative.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-3.2545455" vertical-offset="1207" max-vertical-offset="20160">
-              <caret line="77" column="32" selection-start-line="77" selection-start-column="29" selection-end-line="77" selection-end-column="32" />
-              <folding>
-                <marker date="1435794373456" expanded="true" signature="51507:51525" placeholder="..." />
-              </folding>
+            <state vertical-scroll-proportion="-1.3333334" vertical-offset="0" max-vertical-offset="180">
+              <caret line="2" column="43" selection-start-line="2" selection-start-column="43" selection-end-line="2" selection-end-column="43" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -40,51 +101,38 @@
       <file leaf-file-name="category.tpl" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/catalog/view/theme/default/template/product/category.tpl">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-3.2545455" vertical-offset="1675" max-vertical-offset="6048">
-              <caret line="103" column="8" selection-start-line="103" selection-start-column="8" selection-end-line="103" selection-end-column="90" />
+            <state vertical-scroll-proportion="-3.2363636" vertical-offset="4556" max-vertical-offset="6048">
+              <caret line="263" column="23" selection-start-line="263" selection-start-column="8" selection-end-line="263" selection-end-column="23" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="product.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/catalog/controller/product/product.php">
+      <file leaf-file-name="blog_category.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/catalog/language/russian/module/blog_category.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="4180" max-vertical-offset="17838">
-              <caret line="241" column="0" selection-start-line="241" selection-start-column="0" selection-end-line="243" selection-end-column="0" />
+            <state vertical-scroll-proportion="-1.3333334" vertical-offset="0" max-vertical-offset="162">
+              <caret line="2" column="30" selection-start-line="2" selection-start-column="30" selection-end-line="2" selection-end-column="30" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="header.tpl" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/catalog/view/theme/default/template/common/header.tpl">
+      <file leaf-file-name="subscribe.tpl" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/catalog/view/theme/default/template/module/subscribe.tpl">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-11.333333" vertical-offset="450" max-vertical-offset="2286">
-              <caret line="42" column="97" selection-start-line="42" selection-start-column="97" selection-end-line="42" selection-end-column="97" />
-              <folding>
-                <marker date="1435792108772" expanded="true" signature="3272:3314" placeholder="..." />
-                <marker date="1435792108772" expanded="true" signature="3521:3535" placeholder="..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="amenu.tpl" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/catalog/view/theme/default/template/common/amenu.tpl">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.73480666" vertical-offset="3165" max-vertical-offset="3708">
-              <caret line="198" column="11" selection-start-line="198" selection-start-column="11" selection-end-line="198" selection-end-column="11" />
+            <state vertical-scroll-proportion="-2.6666667" vertical-offset="0" max-vertical-offset="306">
+              <caret line="4" column="93" selection-start-line="4" selection-start-column="93" selection-end-line="4" selection-end-column="93" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="simplecheckout_cart.tpl" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/catalog/view/theme/default/template/checkout/simplecheckout_cart.tpl">
+      <file leaf-file-name="viewed.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/catalog/language/russian/module/viewed.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="1965" max-vertical-offset="4896">
-              <caret line="125" column="13" selection-start-line="125" selection-start-column="13" selection-end-line="125" selection-end-column="13" />
+            <state vertical-scroll-proportion="-1.3333334" vertical-offset="0" max-vertical-offset="216">
+              <caret line="2" column="42" selection-start-line="2" selection-start-column="42" selection-end-line="2" selection-end-column="42" />
               <folding />
             </state>
           </provider>
@@ -93,46 +141,55 @@
       <file leaf-file-name="simplecheckout_payment.tpl" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/catalog/view/theme/default/template/checkout/simplecheckout_payment.tpl">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="472" max-vertical-offset="1530">
-              <caret line="36" column="262" selection-start-line="36" selection-start-column="258" selection-end-line="36" selection-end-column="262" />
+            <state vertical-scroll-proportion="-28.037037" vertical-offset="665" max-vertical-offset="1530">
+              <caret line="79" column="9" selection-start-line="79" selection-start-column="9" selection-end-line="79" selection-end-column="9" />
               <folding>
-                <marker date="1435789445524" expanded="true" signature="3506:3735" placeholder="..." />
-                <marker date="1435789445524" expanded="true" signature="3768:3803" placeholder="..." />
-                <marker date="1435789445524" expanded="true" signature="3897:4029" placeholder="..." />
-                <marker date="1435789445524" expanded="true" signature="4061:4087" placeholder="..." />
+                <marker date="1435876275512" expanded="true" signature="3508:3737" placeholder="..." />
+                <marker date="1435876275512" expanded="true" signature="3770:3805" placeholder="..." />
+                <marker date="1435876275512" expanded="true" signature="3899:4031" placeholder="..." />
+                <marker date="1435876275512" expanded="true" signature="4063:4089" placeholder="..." />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="simplecheckout_payment.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/catalog/controller/checkout/simplecheckout_payment.php">
+      <file leaf-file-name="transfer_plus.tpl" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/admin/view/template/payment/transfer_plus.tpl">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="2794" max-vertical-offset="4752">
-              <caret line="169" column="36" selection-start-line="169" selection-start-column="21" selection-end-line="169" selection-end-column="36" />
+            <state vertical-scroll-proportion="-0.37634408" vertical-offset="858" max-vertical-offset="6354">
+              <caret line="36" column="45" selection-start-line="36" selection-start-column="45" selection-end-line="36" selection-end-column="45" />
+              <folding>
+                <marker date="1396793422000" expanded="true" signature="18022:18047" placeholder="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="subscribe.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/catalog/language/russian/module/subscribe.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-3.3333333" vertical-offset="108" max-vertical-offset="738">
+              <caret line="11" column="88" selection-start-line="11" selection-start-column="88" selection-end-line="11" selection-end-column="88" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="common.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/catalog/view/javascript/common.js">
+      <file leaf-file-name="amenu.tpl" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/catalog/view/theme/default/template/common/amenu.tpl">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="3880" max-vertical-offset="5310">
-              <caret line="242" column="19" selection-start-line="242" selection-start-column="19" selection-end-line="242" selection-end-column="19" />
-              <folding>
-                <marker date="1435794468038" expanded="true" signature="8249:8263" placeholder="..." />
-                <marker date="1435794468038" expanded="true" signature="8889:8903" placeholder="..." />
-              </folding>
+            <state vertical-scroll-proportion="-3.3272727" vertical-offset="1221" max-vertical-offset="3708">
+              <caret line="78" column="40" selection-start-line="78" selection-start-column="40" selection-end-line="78" selection-end-column="122" />
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="cart.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/catalog/controller/checkout/cart.php">
+      <file leaf-file-name="search.tpl" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/catalog/view/theme/default/template/product/search.tpl">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="35.37037" vertical-offset="10891" max-vertical-offset="14706">
-              <caret line="552" column="27" selection-start-line="552" selection-start-column="27" selection-end-line="552" selection-end-column="27" />
+            <state vertical-scroll-proportion="-4.5636363" vertical-offset="4897" max-vertical-offset="6480">
+              <caret line="286" column="23" selection-start-line="286" selection-start-column="23" selection-end-line="286" selection-end-column="23" />
               <folding />
             </state>
           </provider>
@@ -146,14 +203,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/admin/controller/module/blockhtml.php" />
-        <option value="$PROJECT_DIR$/vqmod/xml/callback_vs_contact.xml" />
-        <option value="$PROJECT_DIR$/catalog/controller/common/footer.php" />
-        <option value="$PROJECT_DIR$/catalog/language/russian/common/footer.php" />
-        <option value="$PROJECT_DIR$/admin/language/russian/module/coin_slider.php" />
-        <option value="$PROJECT_DIR$/admin/controller/module/coin_slider.php" />
-        <option value="$PROJECT_DIR$/admin/view/template/module/coin_slider.tpl" />
-        <option value="$PROJECT_DIR$/catalog/controller/module/coin_slider.php" />
         <option value="$PROJECT_DIR$/catalog/view/theme/default/template/module/coin_slider.tpl" />
         <option value="$PROJECT_DIR$/catalog/language/russian/checkout/simplecheckout.php" />
         <option value="$PROJECT_DIR$/catalog/view/javascript/modal/jquery.reveal.css" />
@@ -192,11 +241,19 @@
         <option value="$PROJECT_DIR$/catalog/view/theme/default/template/checkout/simplecheckout_cart.tpl" />
         <option value="$PROJECT_DIR$/catalog/language/russian/payment/cod.php" />
         <option value="$PROJECT_DIR$/catalog/controller/checkout/simplecheckout_payment.php" />
-        <option value="$PROJECT_DIR$/catalog/view/theme/default/template/checkout/simplecheckout_payment.tpl" />
         <option value="$PROJECT_DIR$/catalog/view/theme/default/template/common/header.tpl" />
-        <option value="$PROJECT_DIR$/catalog/view/theme/default/template/product/product.tpl" />
         <option value="$PROJECT_DIR$/catalog/view/javascript/common.js" />
         <option value="$PROJECT_DIR$/catalog/view/theme/default/template/common/amenu.tpl" />
+        <option value="$PROJECT_DIR$/catalog/language/russian/module/latest.php" />
+        <option value="$PROJECT_DIR$/catalog/controller/module/subscribe.php" />
+        <option value="$PROJECT_DIR$/catalog/language/russian/module/subscribe.php" />
+        <option value="$PROJECT_DIR$/catalog/view/theme/default/template/module/subscribe.tpl" />
+        <option value="$PROJECT_DIR$/catalog/language/russian/module/viewed.php" />
+        <option value="$PROJECT_DIR$/catalog/view/theme/default/template/product/product.tpl" />
+        <option value="$PROJECT_DIR$/catalog/language/russian/module/alternative.php" />
+        <option value="$PROJECT_DIR$/catalog/language/russian/module/blog_category.php" />
+        <option value="$PROJECT_DIR$/catalog/view/theme/default/template/product/search.tpl" />
+        <option value="$PROJECT_DIR$/catalog/view/theme/default/template/checkout/simplecheckout_payment.tpl" />
       </list>
     </option>
   </component>
@@ -358,22 +415,6 @@
               <option name="myItemId" value="view" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="theme" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="default" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="template" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="common" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -386,86 +427,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="catalog" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="view" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="javascript" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ascari" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ascari" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="catalog" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="view" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ascari" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ascari" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="catalog" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ascari" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ascari" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="catalog" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="controller" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ascari" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ascari" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="catalog" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="controller" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="checkout" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -538,23 +499,23 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="25" width="1848" height="1030" extended-state="0" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32939914" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32939914" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32296136" sideWeight="0.41316074" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32081544" sideWeight="0.58683926" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32939914" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24972914" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32081544" sideWeight="0.58683926" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32081544" sideWeight="0.41316074" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -586,79 +547,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/catalog/controller/module/categorywall.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="2264" max-vertical-offset="3114">
-          <caret line="142" column="47" selection-start-line="142" selection-start-column="47" selection-end-line="142" selection-end-column="47" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/catalog/view/theme/default/template/module/latest.tpl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="77" max-vertical-offset="1080">
-          <caret line="31" column="37" selection-start-line="31" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/catalog/view/theme/default/template/module/alternative.tpl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="136" max-vertical-offset="1062">
-          <caret line="32" column="0" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/catalog/controller/product/category.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="2484" max-vertical-offset="11016">
-          <caret line="163" column="0" selection-start-line="163" selection-start-column="0" selection-end-line="164" selection-end-column="83" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/catalog/view/theme/default/template/information/information.tpl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="144" max-vertical-offset="342">
-          <caret line="8" column="2" selection-start-line="8" selection-start-column="2" selection-end-line="8" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/catalog/controller/information/information.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="90" max-vertical-offset="2484">
-          <caret line="5" column="8" selection-start-line="5" selection-start-column="8" selection-end-line="5" selection-end-column="50" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/catalog/language/russian/product/product.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="460" max-vertical-offset="1350">
-          <caret line="43" column="44" selection-start-line="43" selection-start-column="44" selection-end-line="43" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/admin/controller/catalog/review.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-66.781815" vertical-offset="179" max-vertical-offset="10314">
-          <caret line="214" column="0" selection-start-line="214" selection-start-column="0" selection-end-line="214" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vqmod/xml/khaled_djokage_valuable_reviews.xml_">
-      <provider editor-type-id="com.intellij.database.editor.CsvTableFileEditorProvider">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="10.035088" vertical-offset="878" max-vertical-offset="1422">
-          <caret line="17" column="0" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vqmod/xml/reviews-stars-v2.1.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="2541" max-vertical-offset="16848">
-          <caret line="160" column="63" selection-start-line="160" selection-start-column="63" selection-end-line="160" selection-end-column="63" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/catalog/view/theme/default/template/module/blog_category.tpl">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="666">
@@ -738,6 +626,12 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="35473" max-vertical-offset="42012">
           <caret line="1981" column="4151" selection-start-line="1981" selection-start-column="4151" selection-end-line="1981" selection-end-column="4151" />
+          <folding>
+            <element signature="e#10109#13930#2" expanded="false" />
+            <element signature="e#14315#18136#2" expanded="false" />
+            <element signature="e#18492#22313#2" expanded="false" />
+            <element signature="e#48510#52623#1" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -780,6 +674,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-8.037037" vertical-offset="269" max-vertical-offset="1224">
           <caret line="27" column="48" selection-start-line="27" selection-start-column="48" selection-end-line="27" selection-end-column="48" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -787,6 +682,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-7.909091" vertical-offset="1167" max-vertical-offset="1710">
           <caret line="89" column="2" selection-start-line="89" selection-start-column="2" selection-end-line="89" selection-end-column="2" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -815,6 +711,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="20.0" vertical-offset="540" max-vertical-offset="1980">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -836,6 +733,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-2.9454546" vertical-offset="0" max-vertical-offset="900">
           <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -884,19 +782,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/catalog/view/theme/default/template/checkout/simplecheckout_payment.tpl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="472" max-vertical-offset="1530">
-          <caret line="36" column="262" selection-start-line="36" selection-start-column="258" selection-end-line="36" selection-end-column="262" />
-          <folding>
-            <marker date="1435789445524" expanded="true" signature="3506:3735" placeholder="..." />
-            <marker date="1435789445524" expanded="true" signature="3768:3803" placeholder="..." />
-            <marker date="1435789445524" expanded="true" signature="3897:4029" placeholder="..." />
-            <marker date="1435789445524" expanded="true" signature="4061:4087" placeholder="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/catalog/controller/product/product.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="4180" max-vertical-offset="17838">
@@ -918,8 +803,8 @@
         <state vertical-scroll-proportion="0.0" vertical-offset="3880" max-vertical-offset="5310">
           <caret line="242" column="19" selection-start-line="242" selection-start-column="19" selection-end-line="242" selection-end-column="19" />
           <folding>
-            <marker date="1435794468038" expanded="true" signature="8249:8263" placeholder="..." />
-            <marker date="1435794468038" expanded="true" signature="8889:8903" placeholder="..." />
+            <marker date="1435794468038" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1435794468038" expanded="true" signature="-1:-1" placeholder="..." />
           </folding>
         </state>
       </provider>
@@ -932,40 +817,138 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/catalog/view/theme/default/template/product/product.tpl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-3.2545455" vertical-offset="1207" max-vertical-offset="20160">
-          <caret line="77" column="32" selection-start-line="77" selection-start-column="29" selection-end-line="77" selection-end-column="32" />
-          <folding>
-            <marker date="1435794373456" expanded="true" signature="51507:51525" placeholder="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/catalog/view/theme/default/template/product/category.tpl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-3.2545455" vertical-offset="1675" max-vertical-offset="6048">
-          <caret line="103" column="8" selection-start-line="103" selection-start-column="8" selection-end-line="103" selection-end-column="90" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/catalog/view/theme/default/template/common/header.tpl">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-11.333333" vertical-offset="450" max-vertical-offset="2286">
           <caret line="42" column="97" selection-start-line="42" selection-start-column="97" selection-end-line="42" selection-end-column="97" />
           <folding>
-            <marker date="1435792108772" expanded="true" signature="3272:3314" placeholder="..." />
-            <marker date="1435792108772" expanded="true" signature="3521:3535" placeholder="..." />
+            <marker date="1435792108772" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1435792108772" expanded="true" signature="-1:-1" placeholder="..." />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vqmod/xml/quick_view.xml_">
+      <provider editor-type-id="com.intellij.database.editor.CsvTableFileEditorProvider">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-6.4827585" vertical-offset="7804" max-vertical-offset="15408">
+          <caret line="444" column="81" selection-start-line="444" selection-start-column="81" selection-end-line="444" selection-end-column="98" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/catalog/language/russian/module/latest.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-1.3333334" vertical-offset="0" max-vertical-offset="216">
+          <caret line="2" column="30" selection-start-line="2" selection-start-column="30" selection-end-line="2" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/catalog/controller/module/subscribe.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-11.333333" vertical-offset="54" max-vertical-offset="5724">
+          <caret line="20" column="92" selection-start-line="20" selection-start-column="92" selection-end-line="20" selection-end-column="92" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/catalog/language/russian/module/subscribe.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-3.3333333" vertical-offset="108" max-vertical-offset="738">
+          <caret line="11" column="88" selection-start-line="11" selection-start-column="88" selection-end-line="11" selection-end-column="88" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/catalog/view/theme/default/template/module/subscribe.tpl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-2.6666667" vertical-offset="0" max-vertical-offset="306">
+          <caret line="4" column="93" selection-start-line="4" selection-start-column="93" selection-end-line="4" selection-end-column="93" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/catalog/language/russian/module/viewed.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-1.3333334" vertical-offset="0" max-vertical-offset="216">
+          <caret line="2" column="42" selection-start-line="2" selection-start-column="42" selection-end-line="2" selection-end-column="42" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/catalog/language/russian/module/blog_category.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-1.3333334" vertical-offset="0" max-vertical-offset="162">
+          <caret line="2" column="30" selection-start-line="2" selection-start-column="30" selection-end-line="2" selection-end-column="30" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/catalog/view/theme/default/template/common/amenu.tpl">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.73480666" vertical-offset="3165" max-vertical-offset="3708">
-          <caret line="198" column="11" selection-start-line="198" selection-start-column="11" selection-end-line="198" selection-end-column="11" />
+        <state vertical-scroll-proportion="-3.3272727" vertical-offset="1221" max-vertical-offset="3708">
+          <caret line="78" column="40" selection-start-line="78" selection-start-column="40" selection-end-line="78" selection-end-column="122" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/catalog/view/theme/default/template/product/product.tpl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-22.899628" vertical-offset="18584" max-vertical-offset="20160">
+          <caret line="348" column="8" selection-start-line="348" selection-start-column="8" selection-end-line="348" selection-end-column="8" />
+          <folding>
+            <marker date="1435874035606" expanded="true" signature="-1:-1" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/catalog/language/russian/module/alternative.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-1.3333334" vertical-offset="0" max-vertical-offset="180">
+          <caret line="2" column="43" selection-start-line="2" selection-start-column="43" selection-end-line="2" selection-end-column="43" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/catalog/view/theme/default/template/product/category.tpl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-3.2363636" vertical-offset="4556" max-vertical-offset="6048">
+          <caret line="263" column="23" selection-start-line="263" selection-start-column="8" selection-end-line="263" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/catalog/view/theme/default/template/product/search.tpl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-4.5636363" vertical-offset="4897" max-vertical-offset="6480">
+          <caret line="286" column="23" selection-start-line="286" selection-start-column="23" selection-end-line="286" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/catalog/view/theme/default/template/checkout/simplecheckout_payment.tpl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-28.037037" vertical-offset="665" max-vertical-offset="1530">
+          <caret line="79" column="9" selection-start-line="79" selection-start-column="9" selection-end-line="79" selection-end-column="9" />
+          <folding>
+            <marker date="1435876275512" expanded="true" signature="3508:3737" placeholder="..." />
+            <marker date="1435876275512" expanded="true" signature="3770:3805" placeholder="..." />
+            <marker date="1435876275512" expanded="true" signature="3899:4031" placeholder="..." />
+            <marker date="1435876275512" expanded="true" signature="4063:4089" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/view/template/payment/transfer_plus.tpl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.37634408" vertical-offset="858" max-vertical-offset="6354">
+          <caret line="36" column="45" selection-start-line="36" selection-start-column="45" selection-end-line="36" selection-end-column="45" />
+          <folding>
+            <marker date="1396793422000" expanded="true" signature="18022:18047" placeholder="..." />
+          </folding>
         </state>
       </provider>
     </entry>

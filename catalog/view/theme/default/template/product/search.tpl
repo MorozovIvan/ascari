@@ -115,6 +115,7 @@
         <?php } ?>
       </div>
       <?php } ?>
+        <div class="add-quick-view" data-id="<?php echo $product['product_id']; ?>"></div>
       <div class="cart"><input type="button" value="<?php echo $button_cart; ?>" onclick="addToCart('<?php echo $product['product_id']; ?>');" class="button" /></div>
       <div class="wishlist"><a onclick="addToWishList('<?php echo $product['product_id']; ?>');"><i class="fa fa-heart-o"></i><?php echo $button_wishlist; ?></a></div>
       <div class="compare"><a onclick="addToCompare('<?php echo $product['product_id']; ?>');"><i class="fa fa-files-o"></i><?php echo $button_compare; ?></a></div>
@@ -239,8 +240,9 @@ function display(view) {
 			if (price != null) {
 				html += '<div class="price">' + price  + '</div>';
 			}
-			
-			html += '  <div class="cart">' + $(element).find('.cart').html() + '</div>';
+
+            html += '  <div class="add-quick-view" data-id="'+$(element).find('.add-quick-view').data('id')+'">' + $(element).find('.add-quick-view').html() + '</div>';
+            html += '  <div class="cart">' + $(element).find('.cart').html() + '</div>';
 			html += '  <div class="wishlist">' + $(element).find('.wishlist').html() + '</div>';
 			html += '  <div class="compare">' + $(element).find('.compare').html() + '</div>';
 			var rating = $(element).find('.rating').html();
@@ -281,8 +283,8 @@ function display(view) {
 			html += '</div>';
 						
 			$(element).html(html);
-		});		
-		
+		});
+        nodeToButton();
 		$('.display').html('<?php echo $text_display; ?> <i class="fa fa-list fa-lg"></i> <a onclick="displaybutton(\'grid\');"><i class="fa fa-th fa-lg"></i></a>');
 		
 		$.totalStorage('display', 'list'); 
@@ -327,14 +329,15 @@ function display(view) {
 			if (price != null) {
 				html += '<div class="price">' + price  + '</div>';
 			}
-						
-			html += '<div class="cart">' + $(element).find('.cart').html() + '</div>';
+
+            html += '<div class="add-quick-view" data-id="'+$(element).find('.add-quick-view').data('id')+'">' + $(element).find('.add-quick-view').html() + '</div>';
+            html += '<div class="cart">' + $(element).find('.cart').html() + '</div>';
 			html += '<div class="wishlist">' + $(element).find('.wishlist').html() + '</div>';
 			html += '<div class="compare">' + $(element).find('.compare').html() + '</div>';
 			
 			$(element).html(html);
-		});	
-					
+		});
+        nodeToButton();
 		$('.display').html('<?php echo $text_display; ?> <a onclick="displaybutton(\'list\');"><i class="fa fa-list fa-lg"></i></a> <i class="fa fa-th fa-lg"></i>');
 		
 		$.totalStorage('display', 'grid');

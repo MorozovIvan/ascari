@@ -18,6 +18,7 @@ class ControllerModuleSubscribe extends Controller {
 		$this->data['heading_title'] = $this->language->get('heading_title');
 		$this->data['button_subscribe'] = $this->language->get('button_subscribe');
 		$this->data['text_enter_email'] = $this->language->get('text_enter_email');
+		$this->data['text_enter_description'] = $this->language->get('text_enter_description');
 
 		if (isset($this->error['email'])) {
 			$this->data['error_email'] = $this->error['email'];

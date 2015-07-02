@@ -103,7 +103,7 @@
 </div>
 <?php if ($simple_debug) print_r($address); ?>
 <script>
-    $(document).on('click', 'input[value=transfer_plus.2]', function(){
+/*    $(document).on('click', 'input[value=transfer_plus.2]', function(){
         // Временный костыль, надеюсь :)
         html = '<ul class="form-list checkout-agreements" id="payment_form_banktransfer" style="margin: 0px 0px 2px 20px; padding-right: 0px; padding-left: 0px; list-style: none; width: 216px; color: rgb(0, 0, 0); font-family: arial, helvetica, sans-serif; font-size: 11px; font-weight: bold; line-height: 17.0499992370605px;">'
                 +'<li style="margin: 0px 0px 12px; padding: 0px;">'
@@ -116,5 +116,5 @@
             $(this).closest('.code').next().append(html);
         }
 
-    });
+    });*/
 </script>

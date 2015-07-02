@@ -355,7 +355,7 @@
     </table>
   </div>
   <?php } ?>
-    <?php if ($attribute_groups) { ?>
+    <?php if (true) { ?>
     <div id="tab-sizes" class="tab-content">
         <div class="product-tabs-content tabs-content std" id="product_tabs_athlete_custom_tab1_contents"><p>&nbsp;</p>
             <table border="1">

@@ -631,3 +631,6 @@
 2015-07-01 21:24:22 - PHP Notice:  Undefined index: id in /var/www/ascari/admin/view/template/module/poll_list.tpl on line 103
 2015-07-01 21:24:54 - PHP Notice:  Undefined index: active in /var/www/ascari/admin/controller/module/poll.php on line 232
 2015-07-01 21:24:54 - PHP Notice:  Undefined index: name in /var/www/ascari/admin/controller/module/poll.php on line 233
+2015-07-02 21:49:49 - PHP Warning:  fopen(/var/www/ascari/image/test): failed to open stream: Permission denied in /var/www/ascari/admin/controller/common/home.php on line 48
+2015-07-02 21:49:49 - PHP Warning:  fwrite() expects parameter 1 to be resource, boolean given in /var/www/ascari/admin/controller/common/home.php on line 50
+2015-07-02 21:49:49 - PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in /var/www/ascari/admin/controller/common/home.php on line 52
